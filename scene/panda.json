@@ -1,0 +1,544 @@
+{
+ "source": "ManiSkill panda_v2.urdf (website_deprecated/assets/robots/franka_panda)",
+ "links": [
+  {
+   "name": "panda_link0",
+   "mesh": "link0.glb",
+   "origin": {
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rpy": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "panda_link1",
+   "mesh": "link1.glb",
+   "origin": {
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rpy": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "panda_link2",
+   "mesh": "link2.glb",
+   "origin": {
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rpy": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "panda_link3",
+   "mesh": "link3.glb",
+   "origin": {
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rpy": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "panda_link4",
+   "mesh": "link4.glb",
+   "origin": {
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rpy": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "panda_link5",
+   "mesh": "link5.glb",
+   "origin": {
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rpy": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "panda_link6",
+   "mesh": "link6.glb",
+   "origin": {
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rpy": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "panda_link7",
+   "mesh": "link7.glb",
+   "origin": {
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rpy": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "panda_link8"
+  },
+  {
+   "name": "panda_hand",
+   "mesh": "hand.glb",
+   "origin": {
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rpy": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "panda_hand_tcp"
+  },
+  {
+   "name": "panda_leftfinger_pad"
+  },
+  {
+   "name": "panda_rightfinger_pad"
+  },
+  {
+   "name": "panda_leftfinger",
+   "mesh": "finger.glb",
+   "origin": {
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rpy": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "name": "panda_rightfinger",
+   "mesh": "finger.glb",
+   "origin": {
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rpy": [
+     0.0,
+     0.0,
+     3.141592653589793
+    ]
+   }
+  }
+ ],
+ "joints": [
+  {
+   "name": "panda_joint1",
+   "type": "revolute",
+   "parent": "panda_link0",
+   "child": "panda_link1",
+   "xyz": [
+    0.0,
+    0.0,
+    0.333
+   ],
+   "rpy": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": -2.8973,
+   "upper": 2.8973,
+   "mimic": null
+  },
+  {
+   "name": "panda_joint2",
+   "type": "revolute",
+   "parent": "panda_link1",
+   "child": "panda_link2",
+   "xyz": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rpy": [
+    -1.5707963267948966,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": -1.7628,
+   "upper": 1.7628,
+   "mimic": null
+  },
+  {
+   "name": "panda_joint3",
+   "type": "revolute",
+   "parent": "panda_link2",
+   "child": "panda_link3",
+   "xyz": [
+    0.0,
+    -0.316,
+    0.0
+   ],
+   "rpy": [
+    1.5707963267948966,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": -2.8973,
+   "upper": 2.8973,
+   "mimic": null
+  },
+  {
+   "name": "panda_joint4",
+   "type": "revolute",
+   "parent": "panda_link3",
+   "child": "panda_link4",
+   "xyz": [
+    0.0825,
+    0.0,
+    0.0
+   ],
+   "rpy": [
+    1.5707963267948966,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": -3.0718,
+   "upper": -0.0698,
+   "mimic": null
+  },
+  {
+   "name": "panda_joint5",
+   "type": "revolute",
+   "parent": "panda_link4",
+   "child": "panda_link5",
+   "xyz": [
+    -0.0825,
+    0.384,
+    0.0
+   ],
+   "rpy": [
+    -1.5707963267948966,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": -2.8973,
+   "upper": 2.8973,
+   "mimic": null
+  },
+  {
+   "name": "panda_joint6",
+   "type": "revolute",
+   "parent": "panda_link5",
+   "child": "panda_link6",
+   "xyz": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rpy": [
+    1.5707963267948966,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": -0.0175,
+   "upper": 3.7525,
+   "mimic": null
+  },
+  {
+   "name": "panda_joint7",
+   "type": "revolute",
+   "parent": "panda_link6",
+   "child": "panda_link7",
+   "xyz": [
+    0.088,
+    0.0,
+    0.0
+   ],
+   "rpy": [
+    1.5707963267948966,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": -2.8973,
+   "upper": 2.8973,
+   "mimic": null
+  },
+  {
+   "name": "panda_joint8",
+   "type": "fixed",
+   "parent": "panda_link7",
+   "child": "panda_link8",
+   "xyz": [
+    0.0,
+    0.0,
+    0.107
+   ],
+   "rpy": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": null,
+   "upper": null,
+   "mimic": null
+  },
+  {
+   "name": "panda_hand_joint",
+   "type": "fixed",
+   "parent": "panda_link8",
+   "child": "panda_hand",
+   "xyz": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rpy": [
+    0.0,
+    0.0,
+    -0.7853981633974483
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": null,
+   "upper": null,
+   "mimic": null
+  },
+  {
+   "name": "panda_hand_tcp_joint",
+   "type": "fixed",
+   "parent": "panda_hand",
+   "child": "panda_hand_tcp",
+   "xyz": [
+    0.0,
+    0.0,
+    0.1034
+   ],
+   "rpy": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": null,
+   "upper": null,
+   "mimic": null
+  },
+  {
+   "name": "panda_leftfinger_pad_joint",
+   "type": "fixed",
+   "parent": "panda_leftfinger",
+   "child": "panda_leftfinger_pad",
+   "xyz": [
+    0.0,
+    0.0,
+    0.0455
+   ],
+   "rpy": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": null,
+   "upper": null,
+   "mimic": null
+  },
+  {
+   "name": "panda_rightfinger_pad_joint",
+   "type": "fixed",
+   "parent": "panda_rightfinger",
+   "child": "panda_rightfinger_pad",
+   "xyz": [
+    0.0,
+    0.0,
+    0.0455
+   ],
+   "rpy": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "lower": null,
+   "upper": null,
+   "mimic": null
+  },
+  {
+   "name": "panda_finger_joint1",
+   "type": "prismatic",
+   "parent": "panda_hand",
+   "child": "panda_leftfinger",
+   "xyz": [
+    0.0,
+    0.0,
+    0.0584
+   ],
+   "rpy": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "lower": 0.0,
+   "upper": 0.04,
+   "mimic": null
+  },
+  {
+   "name": "panda_finger_joint2",
+   "type": "prismatic",
+   "parent": "panda_hand",
+   "child": "panda_rightfinger",
+   "xyz": [
+    0.0,
+    0.0,
+    0.0584
+   ],
+   "rpy": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "axis": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "lower": 0.0,
+   "upper": 0.04,
+   "mimic": "panda_finger_joint1"
+  }
+ ],
+ "arm": [
+  "panda_joint1",
+  "panda_joint2",
+  "panda_joint3",
+  "panda_joint4",
+  "panda_joint5",
+  "panda_joint6",
+  "panda_joint7"
+ ],
+ "gripper": [
+  "panda_finger_joint1",
+  "panda_finger_joint2"
+ ]
+}

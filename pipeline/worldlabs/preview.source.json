@@ -1,0 +1,6 @@
+{
+  "source": "REDUCED=0 GPU=1 scripts/shoot_pipeline_preview.mjs worldlabs 3 11, cropped to #pipeline-scene-viewer and resized to 960x540",
+  "moment": "the loaded dish held clear of the island, ~11 s into the replayed clip",
+  "run": "sharpa_cleanup_20260913/cleanup_stacked_v1",
+  "shot": "2026-09-13"
+}

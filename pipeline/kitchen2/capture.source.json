@@ -1,0 +1,41 @@
+{
+  "object_id": "25",
+  "source": "data_processed/kitchen2_v3/3dgs/kitchen2_v2_full_scene.ply",
+  "source_sha256": "615be98fa60783f54f3d4d80a3b5ce48949bee20453f77ae9ea179ab98f9b3e5",
+  "segment": "data_processed/kitchen2_v3/assets/objects/25/segmented_gaussian.ply",
+  "segment_sha256": "23351a57335b00bef37cc89a9d6af1574111bdb49e143d96966c54d40f3ef015",
+  "metric_scale": 2.535419331127387,
+  "camera": {
+    "position_xyz": [
+      0.22235536575317383,
+      -0.022734258323907852,
+      1.5536717176437378
+    ],
+    "target_xyz": [
+      -0.23339590430259705,
+      0.5469548106193542,
+      1.2118582725524902
+    ],
+    "fov_deg": 42
+  },
+  "foreground_count": 14565,
+  "foreground_bounds_xyz": [
+    [
+      -0.35357957720756533,
+      0.3976462912559509,
+      1.1423522186279298
+    ],
+    [
+      -0.1132122388482094,
+      0.696263382434845,
+      1.2813643360137938
+    ]
+  ],
+  "display_aspect": 1.1,
+  "max_frame_fraction": 0.6,
+  "image_size": [
+    1600,
+    1200
+  ],
+  "image_sha256": "fb9599b3fe050c59f711aa6b485cf1452fe65c004715e7563a9ccaae3dcdb6ac"
+}

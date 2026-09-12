@@ -1,0 +1,141 @@
+{
+ "jar": {
+  "object_id": "14",
+  "name": "spice jar",
+  "faces": 28000,
+  "parts": [
+   "body",
+   "label",
+   "base",
+   "label_adhesive",
+   "cap",
+   "cap_top",
+   "cap_seal",
+   "label_glue"
+  ],
+  "rigidity": [
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.95
+  ],
+  "flagged": [
+   "cap_top",
+   "label_glue"
+  ],
+  "query": "cap",
+  "top": [
+   "cap",
+   "cap_top"
+  ]
+ },
+ "apple": {
+  "object_id": "2",
+  "name": "apple",
+  "faces": 28000,
+  "parts": [
+   "apple_body",
+   "apple_stem_cavity",
+   "apple_stem",
+   "apple_stem_base",
+   "apple_stem_base",
+   "apple_stem_base",
+   "apple_stem_base",
+   "apple_stem_base"
+  ],
+  "rigidity": [
+   0.2,
+   0.2,
+   0.2,
+   0.2,
+   0.2,
+   0.2,
+   0.2,
+   0.2
+  ],
+  "flagged": [
+   "apple_stem_cavity",
+   "apple_stem",
+   "apple_stem_base",
+   "apple_stem_base",
+   "apple_stem_base",
+   "apple_stem_base"
+  ],
+  "query": "stem",
+  "top": [
+   "apple_stem",
+   "apple_stem_base"
+  ]
+ },
+ "mug": {
+  "object_id": "1",
+  "name": "mug",
+  "faces": 28000,
+  "parts": [
+   "body",
+   "handle",
+   "interior_surface",
+   "base",
+   "interior_base",
+   "handle_top",
+   "handle_base",
+   "rim"
+  ],
+  "rigidity": [
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.95
+  ],
+  "flagged": [
+   "body"
+  ],
+  "query": "handle",
+  "top": [
+   "handle",
+   "handle_top"
+  ]
+ },
+ "bottle": {
+  "object_id": "6",
+  "name": "hot sauce bottle",
+  "faces": 28000,
+  "parts": [
+   "bottle_base",
+   "bottle_body",
+   "bottle_neck",
+   "bottle_lip",
+   "cork_stopper",
+   "neck_label",
+   "body_label",
+   "bottle_bottom"
+  ],
+  "rigidity": [
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.95
+  ],
+  "flagged": [
+   "bottle_neck",
+   "bottle_lip"
+  ],
+  "query": "cork",
+  "top": [
+   "cork_stopper",
+   "bottle_neck"
+  ]
+ }
+}

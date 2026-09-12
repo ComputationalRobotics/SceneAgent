@@ -1,0 +1,43 @@
+{
+ "package": "data/kitchen2",
+ "frame": "metric_z_up",
+ "metric_scale": 2.4736921646568235,
+ "splat_scale": 1.0,
+ "splats": {
+  "full": "kitchen-3dgs-full.spz",
+  "background": "kitchen-3dgs-background.spz"
+ },
+ "objects": "kitchen-objects.glb",
+ "panda": "panda.json",
+ "rollout": "kitchen-rollout.json",
+ "camera": {
+  "position": [
+   0.155,
+   -0.62,
+   2.353
+  ],
+  "target": [
+   -0.48,
+   0.327,
+   1.16
+  ],
+  "capture_frame": 60
+ },
+ "stages": [
+  {
+   "id": "capture",
+   "title": "3DGS capture",
+   "sub": "the reconstruction as captured"
+  },
+  {
+   "id": "converted",
+   "title": "Converted scene",
+   "sub": "object records as assets over the completed background"
+  },
+  {
+   "id": "rollout",
+   "title": "Policy rollout",
+   "sub": "the Panda picks the ceramic bottle and sets it down"
+  }
+ ]
+}

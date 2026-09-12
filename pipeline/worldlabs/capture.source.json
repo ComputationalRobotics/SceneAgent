@@ -1,0 +1,41 @@
+{
+  "object_id": "66",
+  "source": "data_processed/worldlabs_messy_kitchen/3dgs/worldlabs_messy_kitchen_full_scene.ply",
+  "source_sha256": "a9719e2977e3beb7709bdf0f1c4115e4a2b5e60b7053b39c518f6ef61e2c3ba6",
+  "segment": "data/synthetic/worldlabs_messy_kitchen/isaac_lab_scene/segmented_gaussian_outputs/66/splat.ply",
+  "segment_sha256": "2f6318c539e06cfaad0bd8404524937d51b58772f0dc4918b8a40133c18d88af",
+  "metric_scale": 0.9976496387183394,
+  "camera": {
+    "position_xyz": [
+      0.01543433964252472,
+      0.2364996373653412,
+      1.1193711757659912
+    ],
+    "target_xyz": [
+      -0.09989707171916962,
+      1.0602954626083374,
+      0.7733769416809082
+    ],
+    "fov_deg": 42
+  },
+  "foreground_count": 15576,
+  "foreground_bounds_xyz": [
+    [
+      -0.27858488261699677,
+      0.8963894844055176,
+      0.7443265616893768
+    ],
+    [
+      0.07879073172807693,
+      1.2242014408111572,
+      0.8024273812770844
+    ]
+  ],
+  "display_aspect": 1.1,
+  "max_frame_fraction": 0.62,
+  "image_size": [
+    1600,
+    1200
+  ],
+  "image_sha256": "b729b0964707fd20115ae332d77641222bb217e8597da6dfc428e4ffbf897590"
+}

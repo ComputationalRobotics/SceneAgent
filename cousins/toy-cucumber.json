@@ -1,0 +1,98 @@
+{
+  "object": "toy cucumber",
+  "scene": "Serve_Vegetable_RL2v1",
+  "budget": 9,
+  "accepted": 63,
+  "objects": 7,
+  "families": [
+    "anisotropic_scale",
+    "bend",
+    "bulge",
+    "surface_noise",
+    "taper",
+    "twist"
+  ],
+  "cousins": [
+    {
+      "id": "5_mesh_cousin_00",
+      "file": "5_mesh_cousin_00.glb",
+      "component": "anisotropic_scale",
+      "description": "stretched up to 9% unevenly",
+      "material": "deformability up 38%",
+      "texture": "hue 127\u00b0",
+      "family": "anisotropic_scale"
+    },
+    {
+      "id": "5_mesh_cousin_01",
+      "file": "5_mesh_cousin_01.glb",
+      "component": "taper",
+      "description": "tapered 11% along z",
+      "material": "fragility up 19%",
+      "texture": "hue 100\u00b0",
+      "family": "taper"
+    },
+    {
+      "id": "5_mesh_cousin_02",
+      "file": "5_mesh_cousin_02.glb",
+      "component": "bulge",
+      "description": "bulged 13% around its middle",
+      "material": "poisson ratio down 16%",
+      "texture": "hue 70\u00b0",
+      "family": "bulge"
+    },
+    {
+      "id": "5_mesh_cousin_03",
+      "file": "5_mesh_cousin_03.glb",
+      "component": "twist",
+      "description": "twisted 15% about z",
+      "material": "mass kg up 22%",
+      "texture": "lighter",
+      "family": "twist"
+    },
+    {
+      "id": "5_mesh_cousin_04",
+      "file": "5_mesh_cousin_04.glb",
+      "component": "bend",
+      "description": "bent 18% about z",
+      "material": "mass kg up 26%",
+      "texture": "more vivid",
+      "family": "bend"
+    },
+    {
+      "id": "5_mesh_cousin_05",
+      "file": "5_mesh_cousin_05.glb",
+      "component": "surface_noise",
+      "description": "surface displaced up to 20% with low-frequency noise",
+      "material": "specular down 27%",
+      "texture": "hue 39\u00b0",
+      "family": "surface_noise"
+    },
+    {
+      "id": "5_mesh_cousin_06",
+      "file": "5_mesh_cousin_06.glb",
+      "component": "anisotropic_scale",
+      "description": "stretched up to 22% unevenly",
+      "material": "mass kg down 42%",
+      "texture": "hue 74\u00b0",
+      "family": "anisotropic_scale"
+    },
+    {
+      "id": "5_mesh_cousin_07",
+      "file": "5_mesh_cousin_07.glb",
+      "component": "taper",
+      "description": "tapered 24% along z",
+      "material": "mass kg up 26%",
+      "texture": "hue 103\u00b0",
+      "family": "taper"
+    },
+    {
+      "id": "5_mesh_cousin_08",
+      "file": "5_mesh_cousin_08.glb",
+      "component": "bulge",
+      "description": "bulged 26% around its middle",
+      "material": "density kg m3 down 25%",
+      "texture": "hue 135\u00b0",
+      "family": "bulge"
+    }
+  ]
+}
