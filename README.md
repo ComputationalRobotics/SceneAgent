@@ -39,5 +39,5 @@ export into this folder, leaving `.git`, this README, `.gitignore`,
 git add -A && git commit -m "Update site" && git push
 ```
 
-The export is about 410 MB, mostly videos and the kitchen scene splats. GitHub
+The export is about 530 MB, mostly videos and the pipeline scene splats. GitHub
 Pages sites are limited to 1 GB, so keep the repository to this folder only.

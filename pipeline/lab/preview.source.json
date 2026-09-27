@@ -1,0 +1,6 @@
+{
+  "source": "REDUCED=1 STRIP=1 SURFACE=1 scripts/shoot_pipeline_preview.mjs lab 1 16, cropped to #pipeline-scene-viewer less its 1 px frame and resized to 960x540",
+  "moment": "held at stillTime, 6 s into the cabinets' saved cycles: cabinet 1087's left door open",
+  "run": "foreground_articulation_movie01/execution01 on loadable_hybrid_checkpoint01",
+  "shot": "2026-09-27"
+}

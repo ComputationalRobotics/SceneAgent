@@ -1,0 +1,40 @@
+{
+  "object_id": "1087",
+  "source": "data/hcrg_full/real2sim/gaussians/point_cloud.ply",
+  "source_sha256": "c30a0a6d2ab244da73746f754ac3756e41a988752020041954ad2066793e6be6",
+  "segment": "cabinet 1087 as the converted scene places it (usd_dump.npz)",
+  "metric_scale": 6.360569763987192,
+  "camera": {
+    "position_xyz": [
+      -1.7328581809997559,
+      -0.6743618845939636,
+      1.6531436443328857
+    ],
+    "target_xyz": [
+      -4.1068196296691895,
+      1.1508605480194092,
+      0.4699591398239136
+    ],
+    "fov_deg": 48.908
+  },
+  "camera_eye": "capture frame 765 (camera_00765_train.png, real2sim_z_up_ground_z0), the film's anchor for this cabinet",
+  "foreground_bounds_xyz": [
+    [
+      -4.598758697509766,
+      0.7686960697174072,
+      0.031122051179409027
+    ],
+    [
+      -3.6148808002471924,
+      1.5330250263214111,
+      0.9087962508201599
+    ]
+  ],
+  "display_aspect": 1.1,
+  "max_frame_fraction": 0.5,
+  "image_size": [
+    1600,
+    1200
+  ],
+  "image_sha256": "952b013e9fa64967834f5381a5156dadbb589d2c867efa528e94e8820f7495e6"
+}

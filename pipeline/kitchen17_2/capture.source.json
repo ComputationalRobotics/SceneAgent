@@ -1,0 +1,41 @@
+{
+  "object_id": "18",
+  "source": "data/kitchens_sample_17_2_clean/real2sim/gaussians/point_cloud.ply",
+  "source_sha256": "d212e5a6392340d7366c65a56c1676296f4c9e0d0a1021161663b4decf434618",
+  "segment": "data/kitchens_sample_17_2_clean/real2sim/objects_material_reviewed.json object 18 point_indices (13995 Gaussians)",
+  "metric_scale": 1.0308243248276439,
+  "camera": {
+    "position_xyz": [
+      -0.19555765390396118,
+      0.8266143798828125,
+      1.324773907661438
+    ],
+    "target_xyz": [
+      -0.768282413482666,
+      1.9953211545944214,
+      1.1380276679992676
+    ],
+    "fov_deg": 40.782
+  },
+  "camera_eye": "capture frame 95 (camera_00095_train.png, real2sim_z_up_ground_z0), best of 40 that see it",
+  "foreground_count": 5958,
+  "foreground_bounds_xyz": [
+    [
+      -0.8573733782768249,
+      1.8416970491409301,
+      0.9443324887752533
+    ],
+    [
+      -0.6791914105415344,
+      2.1489452028274534,
+      1.3317227458953858
+    ]
+  ],
+  "display_aspect": 1.1,
+  "max_frame_fraction": 0.5,
+  "image_size": [
+    1600,
+    1200
+  ],
+  "image_sha256": "366b0dd3d735699115843becf6fbfaf00659a913408f2d1e6f2e15f0315cbdc3"
+}
