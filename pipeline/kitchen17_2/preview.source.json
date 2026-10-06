@@ -1,6 +1,6 @@
 {
-  "source": "REDUCED=1 scripts/shoot_pipeline_preview.mjs kitchen17_2 0 14 (STRIP=1 SURFACE=1), cropped to #pipeline-scene-viewer less its 1 px frame and resized to 960x540",
-  "moment": "held at stillTime, 3 s into the replay: every cabinet door and drawer open",
-  "run": "hybrid_background_v1/articulated_motion_v2",
-  "shot": "2026-09-27"
+  "source": "REDUCED=1 scripts/shoot_pipeline_preview.mjs kitchen17_2 0 14 (STRIP=1 SURFACE=1 GPU=1), cropped to #pipeline-scene-viewer less its 1 px frame and resized to 960x540",
+  "moment": "held at stillTime, 10.5 s into the tour: the DexMate holding the dishwasher open on its loaded racks",
+  "run": "kitchen_to_process3 predictive_kitchen_interiors_v1, authored DexMate tour",
+  "shot": "2026-10-06"
 }
