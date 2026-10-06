@@ -1,6 +1,6 @@
-:HL["./_next/static/chunks/0h5q2shr05yje.css","style"]
+:HL["./_next/static/chunks/2hylapjf3feyc.css","style"]
 :HL["./_next/static/media/PlexMono_Regular-s.p.2x6m9-apme3b_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["./_next/static/media/Silkscreen_Regular-s.p.3es8zrs5x_4vu.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["./_next/static/chunks/2ab3aqeyo4jgz.css","style"]
+:HL["./_next/static/chunks/1eq2kadtz05ur.css","style"]
 :HL["./branding/computational-robotics.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"6Jze8awfLUw3l-H0SdENR"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"NeCcPNYhCvTdVvlLUgxYC"}
