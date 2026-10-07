@@ -3,4 +3,4 @@
 :HL["./_next/static/media/Silkscreen_Regular-s.p.3es8zrs5x_4vu.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["./_next/static/chunks/1eq2kadtz05ur.css","style"]
 :HL["./branding/computational-robotics.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"p5iO-d76iVP86LOoj1RX9"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"VZVP9YZWmyzgsRoe8muep"}
