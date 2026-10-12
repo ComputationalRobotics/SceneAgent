@@ -1,0 +1,1802 @@
+{
+  "schema": "sceneagent.hcrg_clamp_web_surfaces.v1",
+  "archive": {
+    "bytes": 262180610,
+    "sha256": "3b7b7699b9d8a15b0c52e858d82fc67380758ffea35a903fd2c51b5abfb7cfbf"
+  },
+  "trace": {
+    "bytes": 94547738,
+    "sha256": "b0009f7530f4af127adb7e7ced88a8c42c445a29ca02bd00aebf88aadcd6ce83"
+  },
+  "exporter": {
+    "bytes": 7033,
+    "sha256": "ab16e01f99a90599b61a500f6e9b99e4e56ca4d4075aa34f46d8cf8ae8234469"
+  },
+  "bindings": [
+    {
+      "node": "native_body_000",
+      "kind": "body",
+      "source_name": "base_link",
+      "trace_index": 0
+    },
+    {
+      "node": "native_body_001",
+      "kind": "body",
+      "source_name": "wheel1_wheel_link",
+      "trace_index": 1
+    },
+    {
+      "node": "native_body_002",
+      "kind": "body",
+      "source_name": "wheel2_wheel_link",
+      "trace_index": 2
+    },
+    {
+      "node": "native_body_003",
+      "kind": "body",
+      "source_name": "wheel3_wheel_link",
+      "trace_index": 3
+    },
+    {
+      "node": "native_body_004",
+      "kind": "body",
+      "source_name": "lift_carriage_link",
+      "trace_index": 4
+    },
+    {
+      "node": "native_body_005",
+      "kind": "body",
+      "source_name": "body_link",
+      "trace_index": 5
+    },
+    {
+      "node": "native_body_006",
+      "kind": "body",
+      "source_name": "eye_Link",
+      "trace_index": 6
+    },
+    {
+      "node": "native_body_007",
+      "kind": "body",
+      "source_name": "armL1_link",
+      "trace_index": 7
+    },
+    {
+      "node": "native_body_008",
+      "kind": "body",
+      "source_name": "armL2_link",
+      "trace_index": 8
+    },
+    {
+      "node": "native_body_009",
+      "kind": "body",
+      "source_name": "armL3_link",
+      "trace_index": 9
+    },
+    {
+      "node": "native_body_010",
+      "kind": "body",
+      "source_name": "armL4_link",
+      "trace_index": 10
+    },
+    {
+      "node": "native_body_011",
+      "kind": "body",
+      "source_name": "armL5_link",
+      "trace_index": 11
+    },
+    {
+      "node": "native_body_012",
+      "kind": "body",
+      "source_name": "armL6_link",
+      "trace_index": 12
+    },
+    {
+      "node": "native_body_013",
+      "kind": "body",
+      "source_name": "armR1_link",
+      "trace_index": 13
+    },
+    {
+      "node": "native_body_014",
+      "kind": "body",
+      "source_name": "armR2_link",
+      "trace_index": 14
+    },
+    {
+      "node": "native_body_015",
+      "kind": "body",
+      "source_name": "armR3_link",
+      "trace_index": 15
+    },
+    {
+      "node": "native_body_016",
+      "kind": "body",
+      "source_name": "armR4_link",
+      "trace_index": 16
+    },
+    {
+      "node": "native_body_017",
+      "kind": "body",
+      "source_name": "armR5_link",
+      "trace_index": 17
+    },
+    {
+      "node": "native_body_018",
+      "kind": "body",
+      "source_name": "armR6_link",
+      "trace_index": 18
+    },
+    {
+      "node": "native_body_019",
+      "kind": "body",
+      "source_name": "armL7_flange",
+      "trace_index": 19
+    },
+    {
+      "node": "native_body_020",
+      "kind": "body",
+      "source_name": "left_hand_flange",
+      "trace_index": 20
+    },
+    {
+      "node": "native_body_021",
+      "kind": "body",
+      "source_name": "left_hand_wrist",
+      "trace_index": 21
+    },
+    {
+      "node": "native_body_022",
+      "kind": "body",
+      "source_name": "left_hand_C_MC",
+      "trace_index": 22
+    },
+    {
+      "node": "native_body_023",
+      "kind": "body",
+      "source_name": "left_thumb_CMC_VL",
+      "trace_index": 23
+    },
+    {
+      "node": "native_body_024",
+      "kind": "body",
+      "source_name": "left_thumb_MC",
+      "trace_index": 24
+    },
+    {
+      "node": "native_body_025",
+      "kind": "body",
+      "source_name": "left_thumb_MCP_VL",
+      "trace_index": 25
+    },
+    {
+      "node": "native_body_026",
+      "kind": "body",
+      "source_name": "left_thumb_PP",
+      "trace_index": 26
+    },
+    {
+      "node": "native_body_027",
+      "kind": "body",
+      "source_name": "left_thumb_DP",
+      "trace_index": 27
+    },
+    {
+      "node": "native_body_028",
+      "kind": "body",
+      "source_name": "left_thumb_elastomer",
+      "trace_index": 28
+    },
+    {
+      "node": "native_body_029",
+      "kind": "body",
+      "source_name": "left_thumb_fingertip",
+      "trace_index": 29
+    },
+    {
+      "node": "native_body_030",
+      "kind": "body",
+      "source_name": "left_index_MCP_VL",
+      "trace_index": 30
+    },
+    {
+      "node": "native_body_031",
+      "kind": "body",
+      "source_name": "left_index_PP",
+      "trace_index": 31
+    },
+    {
+      "node": "native_body_032",
+      "kind": "body",
+      "source_name": "left_index_MP",
+      "trace_index": 32
+    },
+    {
+      "node": "native_body_033",
+      "kind": "body",
+      "source_name": "left_index_DP",
+      "trace_index": 33
+    },
+    {
+      "node": "native_body_034",
+      "kind": "body",
+      "source_name": "left_index_elastomer",
+      "trace_index": 34
+    },
+    {
+      "node": "native_body_035",
+      "kind": "body",
+      "source_name": "left_index_fingertip",
+      "trace_index": 35
+    },
+    {
+      "node": "native_body_036",
+      "kind": "body",
+      "source_name": "left_middle_MCP_VL",
+      "trace_index": 36
+    },
+    {
+      "node": "native_body_037",
+      "kind": "body",
+      "source_name": "left_middle_PP",
+      "trace_index": 37
+    },
+    {
+      "node": "native_body_038",
+      "kind": "body",
+      "source_name": "left_middle_MP",
+      "trace_index": 38
+    },
+    {
+      "node": "native_body_039",
+      "kind": "body",
+      "source_name": "left_middle_DP",
+      "trace_index": 39
+    },
+    {
+      "node": "native_body_040",
+      "kind": "body",
+      "source_name": "left_middle_elastomer",
+      "trace_index": 40
+    },
+    {
+      "node": "native_body_041",
+      "kind": "body",
+      "source_name": "left_middle_fingertip",
+      "trace_index": 41
+    },
+    {
+      "node": "native_body_042",
+      "kind": "body",
+      "source_name": "left_ring_MCP_VL",
+      "trace_index": 42
+    },
+    {
+      "node": "native_body_043",
+      "kind": "body",
+      "source_name": "left_ring_PP",
+      "trace_index": 43
+    },
+    {
+      "node": "native_body_044",
+      "kind": "body",
+      "source_name": "left_ring_MP",
+      "trace_index": 44
+    },
+    {
+      "node": "native_body_045",
+      "kind": "body",
+      "source_name": "left_ring_DP",
+      "trace_index": 45
+    },
+    {
+      "node": "native_body_046",
+      "kind": "body",
+      "source_name": "left_ring_elastomer",
+      "trace_index": 46
+    },
+    {
+      "node": "native_body_047",
+      "kind": "body",
+      "source_name": "left_ring_fingertip",
+      "trace_index": 47
+    },
+    {
+      "node": "native_body_048",
+      "kind": "body",
+      "source_name": "left_pinky_MC",
+      "trace_index": 48
+    },
+    {
+      "node": "native_body_049",
+      "kind": "body",
+      "source_name": "left_pinky_MCP_VL",
+      "trace_index": 49
+    },
+    {
+      "node": "native_body_050",
+      "kind": "body",
+      "source_name": "left_pinky_PP",
+      "trace_index": 50
+    },
+    {
+      "node": "native_body_051",
+      "kind": "body",
+      "source_name": "left_pinky_MP",
+      "trace_index": 51
+    },
+    {
+      "node": "native_body_052",
+      "kind": "body",
+      "source_name": "left_pinky_DP",
+      "trace_index": 52
+    },
+    {
+      "node": "native_body_053",
+      "kind": "body",
+      "source_name": "left_pinky_elastomer",
+      "trace_index": 53
+    },
+    {
+      "node": "native_body_054",
+      "kind": "body",
+      "source_name": "left_pinky_fingertip",
+      "trace_index": 54
+    },
+    {
+      "node": "native_body_055",
+      "kind": "body",
+      "source_name": "armR7_flange",
+      "trace_index": 55
+    },
+    {
+      "node": "native_body_056",
+      "kind": "body",
+      "source_name": "right_hand_flange",
+      "trace_index": 56
+    },
+    {
+      "node": "native_body_057",
+      "kind": "body",
+      "source_name": "right_hand_wrist",
+      "trace_index": 57
+    },
+    {
+      "node": "native_body_058",
+      "kind": "body",
+      "source_name": "right_hand_C_MC",
+      "trace_index": 58
+    },
+    {
+      "node": "native_body_059",
+      "kind": "body",
+      "source_name": "right_thumb_CMC_VL",
+      "trace_index": 59
+    },
+    {
+      "node": "native_body_060",
+      "kind": "body",
+      "source_name": "right_thumb_MC",
+      "trace_index": 60
+    },
+    {
+      "node": "native_body_061",
+      "kind": "body",
+      "source_name": "right_thumb_MCP_VL",
+      "trace_index": 61
+    },
+    {
+      "node": "native_body_062",
+      "kind": "body",
+      "source_name": "right_thumb_PP",
+      "trace_index": 62
+    },
+    {
+      "node": "native_body_063",
+      "kind": "body",
+      "source_name": "right_thumb_DP",
+      "trace_index": 63
+    },
+    {
+      "node": "native_body_064",
+      "kind": "body",
+      "source_name": "right_thumb_elastomer",
+      "trace_index": 64
+    },
+    {
+      "node": "native_body_065",
+      "kind": "body",
+      "source_name": "right_thumb_fingertip",
+      "trace_index": 65
+    },
+    {
+      "node": "native_body_066",
+      "kind": "body",
+      "source_name": "right_index_MCP_VL",
+      "trace_index": 66
+    },
+    {
+      "node": "native_body_067",
+      "kind": "body",
+      "source_name": "right_index_PP",
+      "trace_index": 67
+    },
+    {
+      "node": "native_body_068",
+      "kind": "body",
+      "source_name": "right_index_MP",
+      "trace_index": 68
+    },
+    {
+      "node": "native_body_069",
+      "kind": "body",
+      "source_name": "right_index_DP",
+      "trace_index": 69
+    },
+    {
+      "node": "native_body_070",
+      "kind": "body",
+      "source_name": "right_index_elastomer",
+      "trace_index": 70
+    },
+    {
+      "node": "native_body_071",
+      "kind": "body",
+      "source_name": "right_index_fingertip",
+      "trace_index": 71
+    },
+    {
+      "node": "native_body_072",
+      "kind": "body",
+      "source_name": "right_middle_MCP_VL",
+      "trace_index": 72
+    },
+    {
+      "node": "native_body_073",
+      "kind": "body",
+      "source_name": "right_middle_PP",
+      "trace_index": 73
+    },
+    {
+      "node": "native_body_074",
+      "kind": "body",
+      "source_name": "right_middle_MP",
+      "trace_index": 74
+    },
+    {
+      "node": "native_body_075",
+      "kind": "body",
+      "source_name": "right_middle_DP",
+      "trace_index": 75
+    },
+    {
+      "node": "native_body_076",
+      "kind": "body",
+      "source_name": "right_middle_elastomer",
+      "trace_index": 76
+    },
+    {
+      "node": "native_body_077",
+      "kind": "body",
+      "source_name": "right_middle_fingertip",
+      "trace_index": 77
+    },
+    {
+      "node": "native_body_078",
+      "kind": "body",
+      "source_name": "right_ring_MCP_VL",
+      "trace_index": 78
+    },
+    {
+      "node": "native_body_079",
+      "kind": "body",
+      "source_name": "right_ring_PP",
+      "trace_index": 79
+    },
+    {
+      "node": "native_body_080",
+      "kind": "body",
+      "source_name": "right_ring_MP",
+      "trace_index": 80
+    },
+    {
+      "node": "native_body_081",
+      "kind": "body",
+      "source_name": "right_ring_DP",
+      "trace_index": 81
+    },
+    {
+      "node": "native_body_082",
+      "kind": "body",
+      "source_name": "right_ring_elastomer",
+      "trace_index": 82
+    },
+    {
+      "node": "native_body_083",
+      "kind": "body",
+      "source_name": "right_ring_fingertip",
+      "trace_index": 83
+    },
+    {
+      "node": "native_body_084",
+      "kind": "body",
+      "source_name": "right_pinky_MC",
+      "trace_index": 84
+    },
+    {
+      "node": "native_body_085",
+      "kind": "body",
+      "source_name": "right_pinky_MCP_VL",
+      "trace_index": 85
+    },
+    {
+      "node": "native_body_086",
+      "kind": "body",
+      "source_name": "right_pinky_PP",
+      "trace_index": 86
+    },
+    {
+      "node": "native_body_087",
+      "kind": "body",
+      "source_name": "right_pinky_MP",
+      "trace_index": 87
+    },
+    {
+      "node": "native_body_088",
+      "kind": "body",
+      "source_name": "right_pinky_DP",
+      "trace_index": 88
+    },
+    {
+      "node": "native_body_089",
+      "kind": "body",
+      "source_name": "right_pinky_elastomer",
+      "trace_index": 89
+    },
+    {
+      "node": "native_body_090",
+      "kind": "body",
+      "source_name": "right_pinky_fingertip",
+      "trace_index": 90
+    },
+    {
+      "node": "native_clamp_000",
+      "kind": "clamp",
+      "source_name": "1244:fixed_frame",
+      "trace_index": 0
+    },
+    {
+      "node": "native_clamp_001",
+      "kind": "clamp",
+      "source_name": "1244:frame_elastic_jaw",
+      "trace_index": 7
+    },
+    {
+      "node": "native_clamp_002",
+      "kind": "clamp",
+      "source_name": "1244:sliding_jaw",
+      "trace_index": 1
+    },
+    {
+      "node": "native_clamp_003",
+      "kind": "clamp",
+      "source_name": "1244:screw_handle",
+      "trace_index": 2
+    },
+    {
+      "node": "native_clamp_004",
+      "kind": "clamp",
+      "source_name": "1244:swivel_pad",
+      "trace_index": 3
+    },
+    {
+      "node": "native_object_000",
+      "kind": "object",
+      "source_name": "wood_coupon_1",
+      "trace_index": 0
+    },
+    {
+      "node": "native_object_001",
+      "kind": "object",
+      "source_name": "wood_coupon_2",
+      "trace_index": 1
+    }
+  ],
+  "source_triangles": 3521350,
+  "web_triangles": 686228,
+  "meshes": [
+    {
+      "name": "1244_fixed_frame_fixed_frame",
+      "source_triangles": 22256,
+      "web_triangles": 22256,
+      "robot_visual": false
+    },
+    {
+      "name": "1244_fixed_frame_frame_elastic_jaw",
+      "source_triangles": 63056,
+      "web_triangles": 63056,
+      "robot_visual": false
+    },
+    {
+      "name": "1244_hidden_rail_core",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    },
+    {
+      "name": "1244_hidden_spindle_core",
+      "source_triangles": 192,
+      "web_triangles": 192,
+      "robot_visual": false
+    },
+    {
+      "name": "1244_screw_handle_screw_handle",
+      "source_triangles": 36553,
+      "web_triangles": 36553,
+      "robot_visual": false
+    },
+    {
+      "name": "1244_sliding_jaw_sliding_jaw",
+      "source_triangles": 59851,
+      "web_triangles": 59851,
+      "robot_visual": false
+    },
+    {
+      "name": "1244_swivel_pad_swivel_pad",
+      "source_triangles": 9704,
+      "web_triangles": 9704,
+      "robot_visual": false
+    },
+    {
+      "name": "armL1_link_visual_0_armL1_link.001",
+      "source_triangles": 172790,
+      "web_triangles": 14000,
+      "robot_visual": true
+    },
+    {
+      "name": "armL2_link_visual_0_armL2_link.001",
+      "source_triangles": 30422,
+      "web_triangles": 14000,
+      "robot_visual": true
+    },
+    {
+      "name": "armL3_link_visual_0_armL3_link.001",
+      "source_triangles": 192371,
+      "web_triangles": 14000,
+      "robot_visual": true
+    },
+    {
+      "name": "armL4_link_visual_0_armL4_link.001",
+      "source_triangles": 35698,
+      "web_triangles": 14000,
+      "robot_visual": true
+    },
+    {
+      "name": "armL5_link_visual_0_armL5_link.001",
+      "source_triangles": 210902,
+      "web_triangles": 13999,
+      "robot_visual": true
+    },
+    {
+      "name": "armL6_link_visual_0_armL6_link.001",
+      "source_triangles": 147692,
+      "web_triangles": 14000,
+      "robot_visual": true
+    },
+    {
+      "name": "armL7_flange_visual_0_Cylinder",
+      "source_triangles": 188,
+      "web_triangles": 188,
+      "robot_visual": true
+    },
+    {
+      "name": "armR1_link_visual_0_armR1_link.001",
+      "source_triangles": 182948,
+      "web_triangles": 13998,
+      "robot_visual": true
+    },
+    {
+      "name": "armR2_link_visual_0_armR2_link.001",
+      "source_triangles": 30456,
+      "web_triangles": 14000,
+      "robot_visual": true
+    },
+    {
+      "name": "armR3_link_visual_0_armR3_link.001",
+      "source_triangles": 192372,
+      "web_triangles": 14000,
+      "robot_visual": true
+    },
+    {
+      "name": "armR4_link_visual_0_armR4_link.001",
+      "source_triangles": 35584,
+      "web_triangles": 13999,
+      "robot_visual": true
+    },
+    {
+      "name": "armR5_link_visual_0_armR5_link.001",
+      "source_triangles": 210994,
+      "web_triangles": 13999,
+      "robot_visual": true
+    },
+    {
+      "name": "armR6_link_visual_0_armR6_link.001",
+      "source_triangles": 150034,
+      "web_triangles": 14000,
+      "robot_visual": true
+    },
+    {
+      "name": "armR7_flange_visual_0_Cylinder",
+      "source_triangles": 188,
+      "web_triangles": 188,
+      "robot_visual": true
+    },
+    {
+      "name": "base_link_visual_0_base_link.001",
+      "source_triangles": 236120,
+      "web_triangles": 13999,
+      "robot_visual": true
+    },
+    {
+      "name": "body_link_visual_0_body_link.001",
+      "source_triangles": 197675,
+      "web_triangles": 13999,
+      "robot_visual": true
+    },
+    {
+      "name": "eye_Link_visual_0_eye_Link.001",
+      "source_triangles": 207497,
+      "web_triangles": 14000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_hand_C_MC_visual_0_left_hand_C_MC_visual",
+      "source_triangles": 13786,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_hand_flange_visual_0_flange_B",
+      "source_triangles": 4994,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_hand_wrist_visual_0_wrist_B",
+      "source_triangles": 10260,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_index_DP_visual_0_DP_visual_HB1_4F",
+      "source_triangles": 7974,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_index_MCP_VL_visual_0_left_MCP_VL_visual",
+      "source_triangles": 6450,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_index_MP_visual_0_left_MP_visual",
+      "source_triangles": 7386,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_index_PP_visual_0_left_PP_visual",
+      "source_triangles": 11196,
+      "web_triangles": 3999,
+      "robot_visual": true
+    },
+    {
+      "name": "left_index_elastomer_visual_0_elastomer_HB1_4F",
+      "source_triangles": 2996,
+      "web_triangles": 2996,
+      "robot_visual": true
+    },
+    {
+      "name": "left_middle_DP_visual_0_DP_visual_HB1_4F",
+      "source_triangles": 7974,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_middle_MCP_VL_visual_0_left_MCP_VL_visual",
+      "source_triangles": 6450,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_middle_MP_visual_0_left_MP_visual",
+      "source_triangles": 7386,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_middle_PP_visual_0_left_PP_visual",
+      "source_triangles": 11196,
+      "web_triangles": 3999,
+      "robot_visual": true
+    },
+    {
+      "name": "left_middle_elastomer_visual_0_elastomer_HB1_4F",
+      "source_triangles": 2996,
+      "web_triangles": 2996,
+      "robot_visual": true
+    },
+    {
+      "name": "left_pinky_DP_visual_0_DP_visual_HB1_4F",
+      "source_triangles": 7974,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_pinky_MCP_VL_visual_0_left_MCP_VL_visual",
+      "source_triangles": 6450,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_pinky_MC_visual_0_left_pinky_MC_visual",
+      "source_triangles": 3872,
+      "web_triangles": 3872,
+      "robot_visual": true
+    },
+    {
+      "name": "left_pinky_MP_visual_0_left_MP_visual",
+      "source_triangles": 7386,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_pinky_PP_visual_0_left_PP_visual",
+      "source_triangles": 11196,
+      "web_triangles": 3999,
+      "robot_visual": true
+    },
+    {
+      "name": "left_pinky_elastomer_visual_0_elastomer_HB1_4F",
+      "source_triangles": 2996,
+      "web_triangles": 2996,
+      "robot_visual": true
+    },
+    {
+      "name": "left_ring_DP_visual_0_DP_visual_HB1_4F",
+      "source_triangles": 7974,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_ring_MCP_VL_visual_0_left_MCP_VL_visual",
+      "source_triangles": 6450,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_ring_MP_visual_0_left_MP_visual",
+      "source_triangles": 7386,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_ring_PP_visual_0_left_PP_visual",
+      "source_triangles": 11196,
+      "web_triangles": 3999,
+      "robot_visual": true
+    },
+    {
+      "name": "left_ring_elastomer_visual_0_elastomer_HB1_4F",
+      "source_triangles": 2996,
+      "web_triangles": 2996,
+      "robot_visual": true
+    },
+    {
+      "name": "left_thumb_CMC_VL_visual_0_left_thumb_CMC_VL.001",
+      "source_triangles": 6358,
+      "web_triangles": 3998,
+      "robot_visual": true
+    },
+    {
+      "name": "left_thumb_DP_visual_0_DP_Visual_HB1_TH",
+      "source_triangles": 6722,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_thumb_MCP_VL_visual_0_left_thumb_MCP_VL_visual",
+      "source_triangles": 6014,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_thumb_MC_visual_0_left_thumb_MC_visual",
+      "source_triangles": 11600,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "left_thumb_PP_visual_0_left_thumb_PP_visual",
+      "source_triangles": 15442,
+      "web_triangles": 3999,
+      "robot_visual": true
+    },
+    {
+      "name": "left_thumb_elastomer_visual_0_elastomer_HB1_TH",
+      "source_triangles": 4226,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "lift_carriage_link_visual_0_lift_carriage_link.001",
+      "source_triangles": 10269,
+      "web_triangles": 10269,
+      "robot_visual": true
+    },
+    {
+      "name": "right_hand_C_MC_visual_0_right_hand_C_MC_visual",
+      "source_triangles": 13842,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_hand_flange_visual_0_flange_B",
+      "source_triangles": 4994,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_hand_wrist_visual_0_wrist_B",
+      "source_triangles": 10260,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_index_DP_visual_0_DP_visual_HB1_4F",
+      "source_triangles": 7974,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_index_MCP_VL_visual_0_right_MCP_VL_visual",
+      "source_triangles": 6450,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_index_MP_visual_0_right_MP_visual",
+      "source_triangles": 7386,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_index_PP_visual_0_right_PP_visual",
+      "source_triangles": 11212,
+      "web_triangles": 3999,
+      "robot_visual": true
+    },
+    {
+      "name": "right_index_elastomer_visual_0_elastomer_HB1_4F",
+      "source_triangles": 2996,
+      "web_triangles": 2996,
+      "robot_visual": true
+    },
+    {
+      "name": "right_middle_DP_visual_0_DP_visual_HB1_4F",
+      "source_triangles": 7974,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_middle_MCP_VL_visual_0_right_MCP_VL_visual",
+      "source_triangles": 6450,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_middle_MP_visual_0_right_MP_visual",
+      "source_triangles": 7386,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_middle_PP_visual_0_right_PP_visual",
+      "source_triangles": 11212,
+      "web_triangles": 3999,
+      "robot_visual": true
+    },
+    {
+      "name": "right_middle_elastomer_visual_0_elastomer_HB1_4F",
+      "source_triangles": 2996,
+      "web_triangles": 2996,
+      "robot_visual": true
+    },
+    {
+      "name": "right_pinky_DP_visual_0_DP_visual_HB1_4F",
+      "source_triangles": 7974,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_pinky_MCP_VL_visual_0_right_MCP_VL_visual",
+      "source_triangles": 6450,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_pinky_MC_visual_0_right_pinky_MC_visual",
+      "source_triangles": 4364,
+      "web_triangles": 3999,
+      "robot_visual": true
+    },
+    {
+      "name": "right_pinky_MP_visual_0_right_MP_visual",
+      "source_triangles": 7386,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_pinky_PP_visual_0_right_PP_visual",
+      "source_triangles": 11212,
+      "web_triangles": 3999,
+      "robot_visual": true
+    },
+    {
+      "name": "right_pinky_elastomer_visual_0_elastomer_HB1_4F",
+      "source_triangles": 2996,
+      "web_triangles": 2996,
+      "robot_visual": true
+    },
+    {
+      "name": "right_ring_DP_visual_0_DP_visual_HB1_4F",
+      "source_triangles": 7974,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_ring_MCP_VL_visual_0_right_MCP_VL_visual",
+      "source_triangles": 6450,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_ring_MP_visual_0_right_MP_visual",
+      "source_triangles": 7386,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_ring_PP_visual_0_right_PP_visual",
+      "source_triangles": 11212,
+      "web_triangles": 3999,
+      "robot_visual": true
+    },
+    {
+      "name": "right_ring_elastomer_visual_0_elastomer_HB1_4F",
+      "source_triangles": 2996,
+      "web_triangles": 2996,
+      "robot_visual": true
+    },
+    {
+      "name": "right_thumb_CMC_VL_visual_0_right_thumb_CMC_VL_visual",
+      "source_triangles": 6358,
+      "web_triangles": 3998,
+      "robot_visual": true
+    },
+    {
+      "name": "right_thumb_DP_visual_0_DP_Visual_HB1_TH",
+      "source_triangles": 6722,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_thumb_MCP_VL_visual_0_right_thumb_MCP_VL_visual",
+      "source_triangles": 6014,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_thumb_MC_visual_0_right_thumb_MC_visual",
+      "source_triangles": 12505,
+      "web_triangles": 3999,
+      "robot_visual": true
+    },
+    {
+      "name": "right_thumb_PP_visual_0_right_thumb_PP_visual",
+      "source_triangles": 14395,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "right_thumb_elastomer_visual_0_elastomer_HB1_TH",
+      "source_triangles": 4226,
+      "web_triangles": 4000,
+      "robot_visual": true
+    },
+    {
+      "name": "upright_contoured_rear_guide_0",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    },
+    {
+      "name": "upright_contoured_rear_guide_1",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    },
+    {
+      "name": "upright_contoured_rear_guide_2",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    },
+    {
+      "name": "upright_contoured_rear_guide_3",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    },
+    {
+      "name": "upright_contoured_rear_guide_4",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    },
+    {
+      "name": "upright_contoured_rear_guide_5",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    },
+    {
+      "name": "upright_front_cradle_lip",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    },
+    {
+      "name": "upright_left_cradle_cheek",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    },
+    {
+      "name": "upright_right_cradle_cheek",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    },
+    {
+      "name": "upright_wood_pedestal",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    },
+    {
+      "name": "wheel1_wheel_link_visual_0_wheel1_wheel_link.001",
+      "source_triangles": 210116,
+      "web_triangles": 13999,
+      "robot_visual": true
+    },
+    {
+      "name": "wheel2_wheel_link_visual_0_wheel2_wheel_link.001",
+      "source_triangles": 210116,
+      "web_triangles": 13999,
+      "robot_visual": true
+    },
+    {
+      "name": "wheel3_wheel_link_visual_0_wheel3_wheel_link.001",
+      "source_triangles": 210116,
+      "web_triangles": 13999,
+      "robot_visual": true
+    },
+    {
+      "name": "wood_coupon_1",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    },
+    {
+      "name": "wood_coupon_2",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    }
+  ],
+  "textures": [
+    {
+      "name": "armL1_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL1_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL1_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL2_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL2_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL2_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL3_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL3_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL3_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL4_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL4_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL4_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL5_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL5_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL5_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL6_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL6_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armL6_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR1_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR1_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR1_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR2_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR2_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR2_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR3_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR3_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR3_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR4_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR4_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR4_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR5_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR5_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR5_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR6_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR6_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "armR6_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "base_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "base_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "base_link_None_opacity.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "base_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "body_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "body_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "body_link_None_normal.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "body_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "eye_Link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "eye_Link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "eye_Link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "lift_carriage_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "lift_carriage_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "lift_carriage_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "wheel1_wheel_link_None_color.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "wheel1_wheel_link_None_metalness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "name": "wheel1_wheel_link_None_roughness.png",
+      "web_size": [
+        1024,
+        1024
+      ],
+      "source_size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "glb": {
+    "bytes": 27429968,
+    "sha256": "ec15b261d7ffa826667dbcfbd2f10f0b5549ca9abe021061fff5a6d6d70e461c"
+  },
+  "frame": "metric_z_up",
+  "clamp_and_workpiece_geometry_reduced": false,
+  "wood_appearance": "native declared linear base colour; procedural grain is in the source film",
+  "shadow_receivers": "omitted: table and floor are in the captured Gaussians"
+}
