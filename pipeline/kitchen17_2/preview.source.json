@@ -1,6 +1,27 @@
 {
-  "source": "REDUCED=1 scripts/shoot_pipeline_preview.mjs kitchen17_2 0 14 (STRIP=1 SURFACE=1 GPU=1), cropped to #pipeline-scene-viewer less its 1 px frame and resized to 960x540",
-  "moment": "held at stillTime, 10.5 s into the tour: the DexMate holding the dishwasher open on its loaded racks",
-  "run": "kitchen_to_process3 predictive_kitchen_interiors_v1, authored DexMate tour",
-  "shot": "2026-10-06"
+  "source": "offline Blender original-mesh render + unchanged SPZ CPU EWA compositing",
+  "moment": "held at 16.412 s, dishwasher fully open",
+  "shot": "2026-10-12",
+  "image_sha256": "5c9b284ddc4bc26e1dd824e0ea7c52facec122aa4f9d150add4fad9becb7f50e",
+  "scene_sha256": "351b6ef8c9a58af8ab115924160e021f2527e6ffa2a14d8c64469eb6c2349435",
+  "motion_sha256": "7af4787b830c6577f4aa1bfcd4b686b264d47f6aed634e98aec83a4f7532725d",
+  "splat_sha256": "06a36c337b4b50bfa783bb296e14c7cd468a009fb6aaca8685551a60b25f5595",
+  "mesh_colour_sha256": "9beb413a612a133ce9d7592fbb07d5b73bddc572e5480c2a8c936e5fd4273060",
+  "mesh_depth_sha256": "ee40fe79883daddb352bfc6141d4ac70a62d960dd385a0d95fd550bc92910886",
+  "camera": {
+    "name": "Overview from the capture path, aimed at the back counter and the peninsula",
+    "position_xyz": [
+      0.8,
+      -0.85,
+      1.7
+    ],
+    "target_xyz": [
+      -0.15,
+      1.3,
+      0.85
+    ],
+    "fov_deg": 66.0
+  },
+  "gaussians": 989092,
+  "limitations": "Degree-zero Gaussian colour; source fixture materials simplified in offline render. Original website meshes and full SH background remain unchanged."
 }

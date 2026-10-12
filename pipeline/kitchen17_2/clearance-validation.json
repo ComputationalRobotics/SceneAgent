@@ -1,0 +1,11 @@
+{
+  "schema": "sceneagent.dexmate_surface_clearance.v1",
+  "passed": true,
+  "samples": 3570,
+  "intersections": [],
+  "source_scene_sha256": "351b6ef8c9a58af8ab115924160e021f2527e6ffa2a14d8c64469eb6c2349435",
+  "motion_sha256": "7af4787b830c6577f4aa1bfcd4b686b264d47f6aed634e98aec83a4f7532725d",
+  "scope": "Review original arm surfaces across the complete kitchen animation.\n\nCheck both arms/hands against the core, opposite arm and all converted fixture\nbodies at 10 Hz plus every keyed pose. Exclude the adjoining first two shoulder\ncovers and intended active hand/target-fixture contact. Arms still must clear\nthat fixture. Finite surface sampling cannot establish force closure, collider\nfidelity or continuous-time safety; captured background is handled by the floor\nplanner rather than this fixture-surface review.\n",
+  "source_robot_meshes": 99,
+  "fixture_bodies": 57
+}

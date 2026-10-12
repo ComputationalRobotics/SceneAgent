@@ -1,0 +1,132 @@
+{
+  "schema": "sceneagent.dexmate_natural_posture_validation.v1",
+  "passed": true,
+  "source_scene_sha256": "351b6ef8c9a58af8ab115924160e021f2527e6ffa2a14d8c64469eb6c2349435",
+  "motion_sha256": "7af4787b830c6577f4aa1bfcd4b686b264d47f6aed634e98aec83a4f7532725d",
+  "robot_dofs": 70,
+  "bounded_joints_checked": 66,
+  "complete_keyframes": 1687,
+  "duration_s": 190.774,
+  "complete_task_count": 5,
+  "support_pose_checks": 3445,
+  "maximum_unused_arm_change_rad": 4.923000000001121e-05,
+  "maximum_handle_error_m": 0.003328662058064979,
+  "peak_arm_velocity_rad_s": 0.897689768976875,
+  "peak_torso_velocity_rad_s": 0.24232081911261472,
+  "resting_poses": [
+    {
+      "hand": "L",
+      "grasp_position_m": [
+        -0.017180690865924043,
+        0.3202958654928958,
+        0.4989195290258119
+      ],
+      "shoulder_m": [
+        -0.12001430618067914,
+        0.16946,
+        1.3499921963886279
+      ],
+      "elbow_m": [
+        -0.13108945837446223,
+        0.31757167808226794,
+        1.0370820443609081
+      ]
+    },
+    {
+      "hand": "R",
+      "grasp_position_m": [
+        -0.016373827405165933,
+        -0.3203097398977669,
+        0.5132329111229095
+      ],
+      "shoulder_m": [
+        -0.12001430618067914,
+        -0.16946,
+        1.3499921963886279
+      ],
+      "elbow_m": [
+        -0.1404558369972499,
+        -0.3232436510129894,
+        1.039345553633135
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "object": "51",
+      "body": "door",
+      "active_hand": "L",
+      "unused_hand": "R",
+      "support_samples": 585,
+      "moving_samples": 188,
+      "maximum_handle_error_m": 0.0023479799632212723,
+      "opening": 0.7854
+    },
+    {
+      "object": "36",
+      "body": "front_front",
+      "active_hand": "L",
+      "unused_hand": "R",
+      "support_samples": 573,
+      "moving_samples": 191,
+      "maximum_handle_error_m": 0.003328662058064979,
+      "opening": 0.4128
+    },
+    {
+      "object": "33",
+      "body": "front_front",
+      "active_hand": "R",
+      "unused_hand": "L",
+      "support_samples": 839,
+      "moving_samples": 244,
+      "maximum_handle_error_m": 0.0032046491040517576,
+      "opening": 1.5708
+    },
+    {
+      "object": "6",
+      "body": "front_front",
+      "active_hand": "L",
+      "unused_hand": "R",
+      "support_samples": 596,
+      "moving_samples": 187,
+      "maximum_handle_error_m": 0.0031764336359298845,
+      "opening": 0.3989
+    },
+    {
+      "object": "9",
+      "body": "front_front",
+      "active_hand": "L",
+      "unused_hand": "R",
+      "support_samples": 852,
+      "moving_samples": 239,
+      "maximum_handle_error_m": 0.0032527543410596636,
+      "opening": -1.5708
+    }
+  ],
+  "validation_scope": "authored full-motion geometry, source joint positions and configured animation rates; no force-closure claim",
+  "paired_baseline": {
+    "motion_sha256": "cba264b2e3b9ae27a31171c0e25a65447de4ff74c42d4711cb78af9e6be978ae",
+    "original_task_types_preserved": true,
+    "original_task_ids_and_openings_preserved": false,
+    "task_selection_changes": [
+      {
+        "task": 3,
+        "baseline_object": "37",
+        "candidate_object": "33",
+        "baseline_opening": -1.5707,
+        "candidate_opening": 1.5708
+      },
+      {
+        "task": 5,
+        "baseline_object": "9",
+        "candidate_object": "9",
+        "baseline_opening": -1.0995,
+        "candidate_opening": -1.5708
+      }
+    ],
+    "hand_forward_reach_reduction_m": [
+      0.5177547773107124,
+      0.5168589880386283
+    ]
+  }
+}

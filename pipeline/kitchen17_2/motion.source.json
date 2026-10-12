@@ -1,0 +1,96 @@
+{
+  "schema": "sceneagent.dexmate_motion_source.v1",
+  "authored": "2026-10-12",
+  "scope": "Existing authored kinematic kitchen17_2 website tour; no new physical-force or native-simulation claims",
+  "reference_sources": [
+    {
+      "name": "Miele ComfortClose human door hold",
+      "page": "https://www.tretti.se/vitvaror/diskmaskin/fristaende-diskmaskin/product/miele-g5842-scu-ner-bw-active-plus/",
+      "local": "references/miele-dishwasher-grip.jpg",
+      "observed": "Thumb on upper edge; relaxed opposing fingers down front, wrist close to forearm. This is an edge grip, not proof of a bar grasp.",
+      "sha256": "e66268a6cf5e190ac63d8e642f09d70e7670db0f343f2eaed0318a4a856b8cba",
+      "accessed": "2026-10-12"
+    },
+    {
+      "name": "IKEA VOXTORP human cabinet grip",
+      "page": "https://www.ikea.com/au/en/p/voxtorp-2-p-door-f-corner-base-cabinet-set-right-hand-matt-white-30281999/",
+      "local": "references/ikea-cabinet-grip.jpg",
+      "observed": "Bent index/middle behind recessed edge; thumb outside; modest wrist bend. Recessed-edge example only.",
+      "sha256": "88cc1d103628d12aa17c678c7dbb9db4400ec0a813d7bb7c4d60fd418a2a583f",
+      "accessed": "2026-10-12"
+    },
+    {
+      "name": "PRI Trainer original posture photograph",
+      "page": "https://pritrainer.com/lateral-pelvic-tilt-cause-fix/",
+      "local": "references/relaxed-arms.jpg",
+      "observed": "Upper arms near flanks; elbows modestly flexed; hands near thighs; fingers lightly curled and pointing downward. No metric pose inferred.",
+      "sha256": "61d411ea7da135979221794300946c583ebf1fb615cd13d3b4d30adf2d9cc440",
+      "accessed": "2026-10-12"
+    },
+    {
+      "name": "Bosch USA human appliance handling demonstration",
+      "url": "https://www.youtube.com/watch?v=J8ibae45Yw8",
+      "viewed_time_intervals_s": [
+        [
+          16,
+          26
+        ]
+      ],
+      "observed": "Actual human reaches and handles dishes/rack; supporting arm stays close to body. The door is already open in the observed sequence."
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "data_processed/kitchen17_2_fresh_web/k3/links.json",
+      "sha256": "24aaea27b1ba304fd6fe7277f553afa1c1bab672d9e62009fbf72e7a5d279713",
+      "bytes": 192132
+    },
+    {
+      "path": "data_processed/kitchen17_2_fresh_web/k3/links.npz",
+      "sha256": "a84c75a1869807aa51ae62ae2abd1e21fb48ff3749e64d2a100806915fa14b6a",
+      "bytes": 7043371
+    },
+    {
+      "path": "data_processed/kitchen17_2_fresh_web/k3/occupancy.npy",
+      "sha256": "ead5648cbd675151d0f5e3d364b70c668a47b1dadb58a49cddc79604a8dbf16a",
+      "bytes": 1379396
+    },
+    {
+      "path": "data_processed/kitchen17_2_fresh_web/k3/calibration.json",
+      "sha256": "9e0e2f6e95d573cec00271a2776291f42a7b392df2d686928b1fa726fc492934",
+      "bytes": 64033
+    },
+    {
+      "path": "data_processed/kitchen17_2_fresh_web/k3/final_binding_v1.json",
+      "sha256": "58b0956b29924c49cd01d65c8e53c9eed28635e9a06a73c283f2315e52927d69",
+      "bytes": 1264
+    }
+  ],
+  "baseline_revision": "926fe2a5d4c7995755c90bdc025768ecef4f5d9b",
+  "scene_sha256": "351b6ef8c9a58af8ab115924160e021f2527e6ffa2a14d8c64469eb6c2349435",
+  "motion_sha256": "7af4787b830c6577f4aa1bfcd4b686b264d47f6aed634e98aec83a4f7532725d",
+  "task_selection_changes": [
+    {
+      "task": 3,
+      "baseline_object": "37",
+      "candidate_object": "33",
+      "baseline_opening": -1.5707,
+      "candidate_opening": 1.5708
+    },
+    {
+      "task": 5,
+      "baseline_object": "9",
+      "candidate_object": "9",
+      "baseline_opening": -1.0995,
+      "candidate_opening": -1.5708
+    }
+  ],
+  "technique": "Source-sized fingers-down/palms-inward rest; shoulder-relative unused arm; staged source-checked reach; oblique vertical-bar grip azimuth; grip/release blended with approach; source-checked opening retraced on close.",
+  "review": "Complete original-triangle review and 30 Hz tracking/rate/joint-position checks; actual original-mesh front/side resting-pose review. Human edge-grip photographs do not verify this cylindrical-bar contact technique.",
+  "limitations": [
+    "Prescribed kinematic animation, no native contact forces or learned policy",
+    "Configured animation speeds are not measured motor ratings",
+    "Finite surface sampling and intended active-hand contact exclusions; no continuous-time collision certificate",
+    "Existing canonical kitchen source remains unaccepted as declared in its scene manifest"
+  ]
+}
