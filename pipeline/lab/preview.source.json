@@ -1,14 +1,13 @@
 {
   "native_take": "trial20",
-  "source": "actual Three.js/Spark viewer screenshot",
-  "native_movie_time_s": 4.541666666666667,
-  "image_sha256": "e19a782f13a1b808857a25766b978f407023a39e6760a861dfe5ba563239f69f",
+  "source": "actual Three.js/Spark viewer screenshot (live playback)",
+  "image_sha256": "a7ef9753b6e9cb1979419cce209bbc05509d90daa0f0abc17769a40a8bfe8ba1",
   "camera": {
-    "name": "Frontal view of the robot and both five-finger clamp grips",
+    "name": "Three-quarter view of the robot and both five-finger clamp grips",
     "position_xyz": [
-      -0.55,
-      -0.34999999999999987,
-      1.52
+      0.7758252147247764,
+      -0.2741747852752232,
+      1.74
     ],
     "target_xyz": [
       -0.55,
@@ -18,12 +17,11 @@
     "fov_deg": 27.107528195463306
   },
   "viewport_rect": {
-    "x": 64,
-    "y": 75.515625,
-    "w": 1152,
-    "h": 648,
-    "dpr": 1,
-    "vw": 1280,
-    "vh": 800
-  }
+    "x": 63.99305725097656,
+    "y": 170.28646850585938,
+    "width": 846.4583740234375,
+    "height": 476.1285095214844
+  },
+  "playback_time_s_before_capture": 329.97,
+  "movie_time_s_before_capture": 27.470000000000027
 }
