@@ -1,9 +1,9 @@
 {
   "native_take": "trial20",
   "source": "actual Three.js/Spark viewer screenshot: headless Chrome, reduced motion, paused at the scene still",
-  "moment": "held at 4.542 s (109/24 s), both hands holding the clamp; the take's wood is not drawn",
+  "moment": "held at 4.542 s (109/24 s), both hands holding the clamp around its two coupons",
   "shot": "2026-10-17",
-  "image_sha256": "ad84613cfa125c97e8793b522ad69f27600bdb3d5ed99c1e247e2bd710917a5b",
+  "image_sha256": "bc165f5e3faa03f110be85910cd71572cc29c35619511f7512e5ddaa7ffea869",
   "camera": {
     "name": "Three-quarter view of the robot and both five-finger clamp grips",
     "position_xyz": [
@@ -27,5 +27,5 @@
     "vw": 1280,
     "vh": 800
   },
-  "note": "Replaces the 2026-10-12 capture, which framed the greenhouse cover video instead of the viewer. Base mesh drawn opaque; wood pedestal, cradle and coupons omitted from the web scene."
+  "note": "Replaces the 2026-10-12 capture, which framed the greenhouse cover video instead of the viewer. Base mesh drawn opaque; the take's wood pedestal and cradle omitted from the web scene, the two clamped coupons kept."
 }

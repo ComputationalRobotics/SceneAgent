@@ -9,8 +9,8 @@
     "sha256": "b0009f7530f4af127adb7e7ced88a8c42c445a29ca02bd00aebf88aadcd6ce83"
   },
   "exporter": {
-    "bytes": 8358,
-    "sha256": "cdffcb2dab0aafc600861ff59908d7453358af7aa1f12e11330b69f3fa0b5a15"
+    "bytes": 9167,
+    "sha256": "379a0ff748a7163431f5b8a856fe18eba5f39ca6d3364cb5577e6991d23a7b51"
   },
   "bindings": [
     {
@@ -602,8 +602,8 @@
       "trace_index": 1
     }
   ],
-  "source_triangles": 3521206,
-  "web_triangles": 686084,
+  "source_triangles": 3521230,
+  "web_triangles": 686108,
   "meshes": [
     {
       "name": "1244_fixed_frame_fixed_frame",
@@ -1132,6 +1132,18 @@
       "source_triangles": 210116,
       "web_triangles": 13999,
       "robot_visual": true
+    },
+    {
+      "name": "wood_coupon_1",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
+    },
+    {
+      "name": "wood_coupon_2",
+      "source_triangles": 12,
+      "web_triangles": 12,
+      "robot_visual": false
     }
   ],
   "textures": [
@@ -1723,12 +1735,12 @@
     "base_link_None"
   ],
   "glb": {
-    "bytes": 27407368,
-    "sha256": "b186289ce92395fd969fec7d142a1388a08dc510364378d47b30ddc749b17685"
+    "bytes": 27410968,
+    "sha256": "3183766873307df7635dab8b58f202aa9e72b2b7af8836ec9889a3467d3d74c3"
   },
   "frame": "metric_z_up",
   "clamp_and_workpiece_geometry_reduced": false,
-  "omitted_wood": [
+  "omitted_support_wood": [
     "upright_contoured_rear_guide_0",
     "upright_contoured_rear_guide_1",
     "upright_contoured_rear_guide_2",
@@ -1738,9 +1750,7 @@
     "upright_front_cradle_lip",
     "upright_left_cradle_cheek",
     "upright_right_cradle_cheek",
-    "upright_wood_pedestal",
-    "wood_coupon_1",
-    "wood_coupon_2"
+    "upright_wood_pedestal"
   ],
   "shadow_receivers": "omitted: table and floor are in the captured Gaussians"
 }
