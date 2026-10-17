@@ -9,8 +9,8 @@
     "sha256": "b0009f7530f4af127adb7e7ced88a8c42c445a29ca02bd00aebf88aadcd6ce83"
   },
   "exporter": {
-    "bytes": 8467,
-    "sha256": "52d320fa45fe003f81b1da017585cd5da9ebc62297cb9d01cf7df658dedd4146"
+    "bytes": 8358,
+    "sha256": "cdffcb2dab0aafc600861ff59908d7453358af7aa1f12e11330b69f3fa0b5a15"
   },
   "bindings": [
     {
@@ -602,8 +602,8 @@
       "trace_index": 1
     }
   ],
-  "source_triangles": 3521350,
-  "web_triangles": 686228,
+  "source_triangles": 3521206,
+  "web_triangles": 686084,
   "meshes": [
     {
       "name": "1244_fixed_frame_fixed_frame",
@@ -1116,66 +1116,6 @@
       "robot_visual": true
     },
     {
-      "name": "upright_contoured_rear_guide_0",
-      "source_triangles": 12,
-      "web_triangles": 12,
-      "robot_visual": false
-    },
-    {
-      "name": "upright_contoured_rear_guide_1",
-      "source_triangles": 12,
-      "web_triangles": 12,
-      "robot_visual": false
-    },
-    {
-      "name": "upright_contoured_rear_guide_2",
-      "source_triangles": 12,
-      "web_triangles": 12,
-      "robot_visual": false
-    },
-    {
-      "name": "upright_contoured_rear_guide_3",
-      "source_triangles": 12,
-      "web_triangles": 12,
-      "robot_visual": false
-    },
-    {
-      "name": "upright_contoured_rear_guide_4",
-      "source_triangles": 12,
-      "web_triangles": 12,
-      "robot_visual": false
-    },
-    {
-      "name": "upright_contoured_rear_guide_5",
-      "source_triangles": 12,
-      "web_triangles": 12,
-      "robot_visual": false
-    },
-    {
-      "name": "upright_front_cradle_lip",
-      "source_triangles": 12,
-      "web_triangles": 12,
-      "robot_visual": false
-    },
-    {
-      "name": "upright_left_cradle_cheek",
-      "source_triangles": 12,
-      "web_triangles": 12,
-      "robot_visual": false
-    },
-    {
-      "name": "upright_right_cradle_cheek",
-      "source_triangles": 12,
-      "web_triangles": 12,
-      "robot_visual": false
-    },
-    {
-      "name": "upright_wood_pedestal",
-      "source_triangles": 12,
-      "web_triangles": 12,
-      "robot_visual": false
-    },
-    {
       "name": "wheel1_wheel_link_visual_0_wheel1_wheel_link.001",
       "source_triangles": 210116,
       "web_triangles": 13999,
@@ -1192,18 +1132,6 @@
       "source_triangles": 210116,
       "web_triangles": 13999,
       "robot_visual": true
-    },
-    {
-      "name": "wood_coupon_1",
-      "source_triangles": 12,
-      "web_triangles": 12,
-      "robot_visual": false
-    },
-    {
-      "name": "wood_coupon_2",
-      "source_triangles": 12,
-      "web_triangles": 12,
-      "robot_visual": false
     }
   ],
   "textures": [
@@ -1795,11 +1723,24 @@
     "base_link_None"
   ],
   "glb": {
-    "bytes": 27429924,
-    "sha256": "22619fcf7f8c581ce5c5b194c4b1a1c5b7f723665b03d33f636ec351a47c01ee"
+    "bytes": 27407368,
+    "sha256": "b186289ce92395fd969fec7d142a1388a08dc510364378d47b30ddc749b17685"
   },
   "frame": "metric_z_up",
   "clamp_and_workpiece_geometry_reduced": false,
-  "wood_appearance": "native declared linear base colour; procedural grain is in the source film",
+  "omitted_wood": [
+    "upright_contoured_rear_guide_0",
+    "upright_contoured_rear_guide_1",
+    "upright_contoured_rear_guide_2",
+    "upright_contoured_rear_guide_3",
+    "upright_contoured_rear_guide_4",
+    "upright_contoured_rear_guide_5",
+    "upright_front_cradle_lip",
+    "upright_left_cradle_cheek",
+    "upright_right_cradle_cheek",
+    "upright_wood_pedestal",
+    "wood_coupon_1",
+    "wood_coupon_2"
+  ],
   "shadow_receivers": "omitted: table and floor are in the captured Gaussians"
 }
