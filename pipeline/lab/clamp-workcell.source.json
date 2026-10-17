@@ -9,8 +9,8 @@
     "sha256": "b0009f7530f4af127adb7e7ced88a8c42c445a29ca02bd00aebf88aadcd6ce83"
   },
   "exporter": {
-    "bytes": 7033,
-    "sha256": "ab16e01f99a90599b61a500f6e9b99e4e56ca4d4075aa34f46d8cf8ae8234469"
+    "bytes": 8467,
+    "sha256": "52d320fa45fe003f81b1da017585cd5da9ebc62297cb9d01cf7df658dedd4146"
   },
   "bindings": [
     {
@@ -1791,9 +1791,12 @@
       ]
     }
   ],
+  "opaque_materials": [
+    "base_link_None"
+  ],
   "glb": {
-    "bytes": 27429968,
-    "sha256": "ec15b261d7ffa826667dbcfbd2f10f0b5549ca9abe021061fff5a6d6d70e461c"
+    "bytes": 27429924,
+    "sha256": "22619fcf7f8c581ce5c5b194c4b1a1c5b7f723665b03d33f636ec351a47c01ee"
   },
   "frame": "metric_z_up",
   "clamp_and_workpiece_geometry_reduced": false,

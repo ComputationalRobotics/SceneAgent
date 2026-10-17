@@ -1,0 +1,111 @@
+{
+  "schema": "sceneagent.hcrg_clamp_specimen.v1",
+  "object_id": "1244",
+  "inputs": {
+    "workcell_glb": {
+      "bytes": 27429924,
+      "sha256": "22619fcf7f8c581ce5c5b194c4b1a1c5b7f723665b03d33f636ec351a47c01ee"
+    },
+    "urdf": {
+      "bytes": 6940,
+      "sha256": "100ec1f23613c8a40ea540b4f0cabdb26eff764292165fc14a501e2d1eda5bc7"
+    },
+    "builder": {
+      "bytes": 19841,
+      "sha256": "52159a6defe3b16bc87ba121cf1a653c7ada4fb7220b89066896fa3593680942"
+    },
+    "source_triangles": {
+      "bar": 22256,
+      "fixed jaw": 63056,
+      "sliding jaw": 59851,
+      "screw handle": 36553,
+      "swivel pad": 9704
+    }
+  },
+  "decimation": {
+    "surface": {
+      "bar": 3500,
+      "fixed jaw": 7000,
+      "sliding jaw": 7000,
+      "screw handle": 4000,
+      "swivel pad": 1800
+    },
+    "display_cells": {
+      "bar": 900,
+      "fixed jaw": 2300,
+      "sliding jaw": 2000,
+      "screw handle": 1300,
+      "swivel pad": 600
+    },
+    "method": "open3d quadric; colour from the nearest source vertex"
+  },
+  "outputs": {
+    "specimen_glb": {
+      "bytes": 485524,
+      "sha256": "4ad64a8941be7cb74ebdb2aad9aa97c5003cb3ee169b29d9832f6ad814b59be1"
+    },
+    "motion": {
+      "bytes": 29116,
+      "sha256": "a91d8dd59efe1511952ddae752b19772ce6d65af208696b3d3d05db24392643f"
+    },
+    "display_model": {
+      "bytes": 220934,
+      "sha256": "3e4e11fb5e43aacc7793b741a38b6894081c3b874ee610fe77e54b76c40f21e9"
+    }
+  },
+  "triangles": {
+    "specimen": 23299,
+    "display_cells": 7098
+  },
+  "parts": 5,
+  "sisters": [
+    {
+      "id": "hcrg-clamp-01",
+      "dimension": "geometry",
+      "change": "bar 11 cm longer beyond the sliding jaw",
+      "bytes": 485104,
+      "sha256": "f52833cb340095df65c5d45e48362671587f213d77b206bce39326e5af3b1de7"
+    },
+    {
+      "id": "hcrg-clamp-02",
+      "dimension": "geometry",
+      "change": "throat 5 cm deeper: everything above the bar lifted, the jaws stretched to meet it",
+      "bytes": 485104,
+      "sha256": "5ed666228f9d7b2d048df7da254d8c8e5d2e7b6de2df276720345a57fdb5aea2"
+    },
+    {
+      "id": "hcrg-clamp-03",
+      "dimension": "visual",
+      "change": "zinc bar, yellow jaws, blue handle, black pad",
+      "bytes": 485104,
+      "sha256": "76886acab6ed79df56f999739311fe25884b98a71db2ea93ef0a5bb59a8a9c43"
+    }
+  ],
+  "motion": {
+    "type": "kinematic_sweep_of_converted_mobility_urdf",
+    "source": "1244_helical_611141600eb5/mobility.urdf",
+    "ranges": {
+      "sliding_jaw_m": [
+        -0.025215345186568275,
+        0.07564603555970481
+      ],
+      "thread_axial_m": [
+        -0.024,
+        0.0
+      ],
+      "screw_rad": [
+        0.0,
+        100.53096491487338
+      ]
+    },
+    "coupling": "thread travel = screw angle / full screw range x full thread travel (16 turns, 24 mm)",
+    "recorded_trace": false,
+    "physics_resimulated": false,
+    "learned_policy": false
+  },
+  "notes": [
+    "Surfaces are the capture-derived triangles of clamp 1244; colours are its per-vertex linear RGB.",
+    "The articulation sweep spans the converted mobility joint ranges; it is not a recorded trace.",
+    "Sisters are procedural variants of this clamp, not text-to-3D output."
+  ]
+}

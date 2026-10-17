@@ -1,40 +1,42 @@
 {
-  "object_id": "1087",
+  "object_id": "1244",
   "source": "data/hcrg_full/real2sim/gaussians/point_cloud.ply",
   "source_sha256": "c30a0a6d2ab244da73746f754ac3756e41a988752020041954ad2066793e6be6",
-  "segment": "cabinet 1087 as the converted scene places it (usd_dump.npz)",
+  "segment": "clamp 1244: the bar clamp as the capture holds it, on the toy table",
+  "framing_splat": "out/hcrg_sharpa_clamps_20261005/background/objects/1244/splat.ply",
+  "framing_splat_sha256": "57799a3c5fe4ef3fc575340f3eef999e35f0ea3a48b3d3ef428da8a5ef902bf2",
   "metric_scale": 6.360569763987192,
   "camera": {
     "position_xyz": [
-      -1.7328581809997559,
-      -0.6743618845939636,
-      1.6531436443328857
+      0.034304179251194,
+      -1.1290568113327026,
+      1.3409734964370728
     ],
     "target_xyz": [
-      -4.1068196296691895,
-      1.1508605480194092,
-      0.4699591398239136
+      -0.5358988046646118,
+      -1.2435879707336426,
+      0.8546656966209412
     ],
-    "fov_deg": 48.908
+    "fov_deg": 29.071
   },
-  "camera_eye": "capture frame 765 (camera_00765_train.png, real2sim_z_up_ground_z0), the film's anchor for this cabinet",
+  "camera_eye": "capture frame 1599 (camera_01599_eval.png, real2sim_z_up_ground_z0)",
   "foreground_bounds_xyz": [
     [
-      -4.598758697509766,
-      0.7686960697174072,
-      0.031122051179409027
+      -0.6537563421078402,
+      -1.3417546296249203,
+      0.8409785236859224
     ],
     [
-      -3.6148808002471924,
-      1.5330250263214111,
-      0.9087962508201599
+      -0.418041273005753,
+      -1.1454212645543493,
+      0.8683528994099422
     ]
   ],
   "display_aspect": 1.1,
-  "max_frame_fraction": 0.5,
+  "max_frame_fraction": 0.62,
   "image_size": [
     1600,
     1200
   ],
-  "image_sha256": "952b013e9fa64967834f5381a5156dadbb589d2c867efa528e94e8820f7495e6"
+  "image_sha256": "96ccf6078cc864e79f4a9153a6c0f4b190826af5a2fabb940ac75ba1493d95f0"
 }
