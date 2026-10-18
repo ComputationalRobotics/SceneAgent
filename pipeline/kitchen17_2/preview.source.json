@@ -1,13 +1,11 @@
 {
-  "source": "offline Blender original-mesh render + unchanged SPZ CPU EWA compositing",
+  "source": "offline Blender original-mesh render (1920x1080, 256 samples) + unchanged SPZ CPU EWA compositing at 1920x1080, resized to 960x540",
   "moment": "held at 16.412 s, dishwasher fully open",
-  "shot": "2026-10-12",
-  "image_sha256": "5c9b284ddc4bc26e1dd824e0ea7c52facec122aa4f9d150add4fad9becb7f50e",
+  "shot": "2026-10-18",
+  "image_sha256": "a25ba31648fb1282e71bdd86e2e6560d0b98870b243950254ac09ddeb1100ffb",
   "scene_sha256": "351b6ef8c9a58af8ab115924160e021f2527e6ffa2a14d8c64469eb6c2349435",
   "motion_sha256": "7af4787b830c6577f4aa1bfcd4b686b264d47f6aed634e98aec83a4f7532725d",
   "splat_sha256": "06a36c337b4b50bfa783bb296e14c7cd468a009fb6aaca8685551a60b25f5595",
-  "mesh_colour_sha256": "9beb413a612a133ce9d7592fbb07d5b73bddc572e5480c2a8c936e5fd4273060",
-  "mesh_depth_sha256": "ee40fe79883daddb352bfc6141d4ac70a62d960dd385a0d95fd550bc92910886",
   "camera": {
     "name": "Overview from the capture path, aimed at the back counter and the peninsula",
     "position_xyz": [
@@ -23,5 +21,8 @@
     "fov_deg": 66.0
   },
   "gaussians": 989092,
-  "limitations": "Degree-zero Gaussian colour; source fixture materials simplified in offline render. Original website meshes and full SH background remain unchanged."
+  "limitations": "Degree-zero Gaussian colour; source fixture materials simplified in offline render. Original website meshes and full SH background remain unchanged.",
+  "changes": "range: the photographed door and drawer shells (fixtures 245-247) replaced by the flat backing panels the website range draws, at the door plane (y 1.600 m); otherwise the 12 Oct render inputs",
+  "mesh_colour_sha256": "a14a5d8f2580dae7c930c8af338bad370824286aaf4c312c4c772c439c316436",
+  "mesh_depth_sha256": "f977b85e3b6ce5622ae6f73aa947997e95ae747625d14dd8c4e1d924aed3f26d"
 }
