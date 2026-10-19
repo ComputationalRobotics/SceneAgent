@@ -1,0 +1,176 @@
+{
+  "schema": "sceneagent.observatory_full_radiance_web.v2",
+  "gaussian_bodies": [
+    {
+      "object": "telescope-workcell",
+      "node": "eyepiece",
+      "splat": "observatory/body-01-eyepiece-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 5820,
+      "source_label": 1
+    },
+    {
+      "object": "telescope-workcell",
+      "node": "fixed_pier",
+      "splat": "observatory/body-03-fixed_pier-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 151048,
+      "source_label": 3
+    },
+    {
+      "object": "telescope-workcell",
+      "node": "focus_knob",
+      "splat": "observatory/body-04-focus_knob-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        0.2836595417103326,
+        1.2106476112604627,
+        -2.7356460113771592
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 785,
+      "source_label": 4
+    },
+    {
+      "object": "telescope-workcell",
+      "node": "focuser_drawtube",
+      "splat": "observatory/body-05-focuser_drawtube-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        0.0977400727697712,
+        1.0821260559409418,
+        -6.283546073468022
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 8822,
+      "source_label": 5
+    },
+    {
+      "object": "telescope-workcell",
+      "node": "objective_cover",
+      "splat": "observatory/body-06-objective_cover-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 7651,
+      "source_label": 6
+    },
+    {
+      "object": "telescope-workcell",
+      "node": "optical_carrier",
+      "splat": "observatory/body-07-optical_carrier-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        -0.15685649709514377,
+        -0.171913988169405,
+        -3.497180830640843
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 165569,
+      "source_label": 7
+    },
+    {
+      "object": "telescope-workcell",
+      "node": "ra_carrier",
+      "splat": "observatory/body-08-ra_carrier-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        -0.3017362238861197,
+        -0.1215469805624236,
+        -3.338656074419852
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 33981,
+      "source_label": 8
+    },
+    {
+      "object": "dome-shutters",
+      "node": "upper_shutter",
+      "splat": "observatory/body-11-upper_shutter-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        -0.2775976595617839,
+        -0.187364066611702,
+        -3.7054386159826453
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 234031,
+      "source_label": 11
+    },
+    {
+      "object": "dome-shutters",
+      "node": "lower_shutter",
+      "splat": "observatory/body-12-lower_shutter-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        -0.2775976595617839,
+        -0.187364066611702,
+        -3.7054386159826453
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 41987,
+      "source_label": 12
+    }
+  ]
+}

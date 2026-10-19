@@ -1,0 +1,124 @@
+{
+  "schema": "sceneagent.observatory_distal_rope_display_correction.v1",
+  "reason": "User correction: operating ropes attach at front/rear optical-tube ends, not setting circles",
+  "method": "Shared-joint centerline, cubic upper-span reanchor, original lower metre retained; all frames use exact segment poses and lengths",
+  "frames": 2376,
+  "parent_body": "optical_carrier",
+  "ropes": {
+    "FrontRope": {
+      "role": "front_operating_rope",
+      "source_geometry_part": "objective_cell",
+      "parent_body": "optical_carrier",
+      "anchor_source_world_m": [
+        1.141601530576503,
+        0.8883280171273061,
+        4.9435286475122755
+      ],
+      "anchor_body_local_m": [
+        0.9847450334813592,
+        0.7164140289579011,
+        1.4463478168714325
+      ],
+      "tube_cell_center_m": [
+        1.0695202030388422,
+        0.7777242755239675,
+        5.082938455502067
+      ],
+      "tube_axis": [
+        0.39644214757597523,
+        0.6083126705491959,
+        0.6875967702619422
+      ],
+      "tube_outer_radius_m": 0.188,
+      "rope_radius_m": 0.004,
+      "attachment_basis": "downward distal cell rim from source-fitted geometry, user correction; not a measured knot location",
+      "frames": 2376,
+      "segments": 98,
+      "original_length_m": 3.9,
+      "base_segment_length_m": 0.03979591836734694,
+      "preserved_lower_segments": 26,
+      "preserved_lower_length_m": 1.0346938775510204,
+      "corrected_total_length_range_m": [
+        4.156859988007484,
+        4.260259808707598
+      ],
+      "corrected_segment_length_range_m": [
+        0.039782327678449296,
+        0.04745319796752686
+      ],
+      "maximum_attachment_displacement_m": 0.5330153379766503,
+      "max_source_joint_gap_m": 7.1449530367089e-05,
+      "max_join_gap_m": 1.5197892567712076e-07,
+      "max_anchor_error_m": 8.450467312121021e-08,
+      "max_original_handle_endpoint_error_m": 8.292104342792655e-08,
+      "max_preserved_lower_centerline_error_m": 8.562307455210393e-08,
+      "max_preserved_lower_capsule_center_displacement_m": 1.724644908635026e-05
+    },
+    "CounterweightRope": {
+      "role": "rear_operating_rope",
+      "source_geometry_part": "rear_blue_cell",
+      "parent_body": "optical_carrier",
+      "anchor_source_world_m": [
+        -0.1383209968464649,
+        -1.0756233324287612,
+        2.736001882018343
+      ],
+      "anchor_body_local_m": [
+        -0.29517749394160864,
+        -1.2475373205981661,
+        -0.7611789486224998
+      ],
+      "tube_cell_center_m": [
+        -0.20702351215579795,
+        -1.1810425236444433,
+        2.8688768552586126
+      ],
+      "tube_axis": [
+        0.39644214757597523,
+        0.6083126705491959,
+        0.6875967702619422
+      ],
+      "tube_outer_radius_m": 0.179,
+      "rope_radius_m": 0.004,
+      "attachment_basis": "downward distal cell rim from source-fitted geometry, user correction; not a measured knot location",
+      "frames": 2376,
+      "segments": 48,
+      "original_length_m": 1.9,
+      "base_segment_length_m": 0.03958333333333333,
+      "preserved_lower_segments": 26,
+      "preserved_lower_length_m": 1.0291666666666666,
+      "corrected_total_length_range_m": [
+        3.466376318864268,
+        3.5474597372129715
+      ],
+      "corrected_segment_length_range_m": [
+        0.0395814065058806,
+        0.16106178482309447
+      ],
+      "maximum_attachment_displacement_m": 2.25118149588141,
+      "max_source_joint_gap_m": 1.6164504310912136e-05,
+      "max_join_gap_m": 1.6312752017774688e-07,
+      "max_anchor_error_m": 7.999667285311145e-08,
+      "max_original_handle_endpoint_error_m": 8.051327569541507e-08,
+      "max_preserved_lower_centerline_error_m": 8.643003933933094e-08,
+      "max_preserved_lower_capsule_center_displacement_m": 6.106676588787681e-06
+    }
+  },
+  "native_robot_and_telescope_motion_preserved": true,
+  "native_rope_poses_preserved_verbatim": false,
+  "physics_resimulated": false,
+  "new_contact_or_rope_length_physics_validated": false,
+  "source_files_modified": false,
+  "source_trace": {
+    "bytes": 76128806,
+    "sha256": "2c327c429d0341735448f3399bc3acd66b7690fb4e44bf51ead1ec567662a421"
+  },
+  "source_telescope_geometry": {
+    "bytes": 72830,
+    "sha256": "b52e9ab74716b5190b7ffd6f2bad88f47c10989e438a19f09580f71deda52d72"
+  },
+  "source_binding": {
+    "bytes": 44968,
+    "sha256": "3bf7407a5ea52cd280d0340facf93b4498d88d039c5d59667140d900da3a984d"
+  }
+}

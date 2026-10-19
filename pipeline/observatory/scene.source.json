@@ -1,0 +1,650 @@
+{
+  "inputs_and_reduction": {
+    "schema": "sceneagent.observatory_full_radiance_web.v2",
+    "source_ply": {
+      "path": "/workspace/computational_robotics/data/observatory_interior_20261012/real2sim/gaussians/point_cloud.ply",
+      "sha256": "10b4894bc5a508d4fce81332469a51f126cb6511f68527cf8d588eca9e3ab9df",
+      "size_bytes": 2221005906
+    },
+    "body_labels": {
+      "path": "/workspace/computational_robotics/out/observatory_interior_20261012/resume_20261017/wall_controls_gaussian_binding_r4/binding/source_body_labels.npz",
+      "sha256": "c1b474507b6ef375a82ecc98226bf4ef2e675be8ea0278710f253cbb95b95ffc",
+      "size_bytes": 11276927
+    },
+    "binding": {
+      "bytes": 44968,
+      "sha256": "3bf7407a5ea52cd280d0340facf93b4498d88d039c5d59667140d900da3a984d"
+    },
+    "replacement": {
+      "bytes": 27385,
+      "sha256": "ebf951bfd652edbe22db76821b2c8070f25149ef68d57034d8e76f5290be2b4a"
+    },
+    "scale": 3.7028187232023315,
+    "sh_degree": 3,
+    "spz_version": 3,
+    "sh_quantization_bits": 8,
+    "source_attributes_transformed": false,
+    "random_subsampling": false,
+    "opacity_or_size_culling": false,
+    "background_labels": [
+      0,
+      9,
+      10
+    ],
+    "mesh_control_labels": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "max_rows_per_asset": 1000000,
+    "position_fractional_bits": 12
+  },
+  "row_accounting": [
+    {
+      "label": 0,
+      "source_rows": 6759709,
+      "web_rows": 6755045,
+      "suppressed_rows": 4664,
+      "invalid_rows": 0
+    },
+    {
+      "label": 1,
+      "source_rows": 5820,
+      "web_rows": 5820,
+      "suppressed_rows": 0,
+      "invalid_rows": 0
+    },
+    {
+      "label": 2,
+      "source_rows": 0,
+      "web_rows": 0,
+      "suppressed_rows": 0,
+      "invalid_rows": 0
+    },
+    {
+      "label": 3,
+      "source_rows": 151048,
+      "web_rows": 151048,
+      "suppressed_rows": 0,
+      "invalid_rows": 0
+    },
+    {
+      "label": 4,
+      "source_rows": 785,
+      "web_rows": 785,
+      "suppressed_rows": 0,
+      "invalid_rows": 0
+    },
+    {
+      "label": 5,
+      "source_rows": 8822,
+      "web_rows": 8822,
+      "suppressed_rows": 0,
+      "invalid_rows": 0
+    },
+    {
+      "label": 6,
+      "source_rows": 7651,
+      "web_rows": 7651,
+      "suppressed_rows": 0,
+      "invalid_rows": 0
+    },
+    {
+      "label": 7,
+      "source_rows": 165569,
+      "web_rows": 165569,
+      "suppressed_rows": 0,
+      "invalid_rows": 0
+    },
+    {
+      "label": 8,
+      "source_rows": 33981,
+      "web_rows": 33981,
+      "suppressed_rows": 0,
+      "invalid_rows": 0
+    },
+    {
+      "label": 9,
+      "source_rows": 31110,
+      "web_rows": 31110,
+      "suppressed_rows": 0,
+      "invalid_rows": 0
+    },
+    {
+      "label": 10,
+      "source_rows": 1504856,
+      "web_rows": 1504856,
+      "suppressed_rows": 0,
+      "invalid_rows": 0
+    },
+    {
+      "label": 11,
+      "source_rows": 234031,
+      "web_rows": 234031,
+      "suppressed_rows": 0,
+      "invalid_rows": 0
+    },
+    {
+      "label": 12,
+      "source_rows": 41987,
+      "web_rows": 41987,
+      "suppressed_rows": 0,
+      "invalid_rows": 0
+    },
+    {
+      "label": 13,
+      "source_rows": 8672,
+      "web_rows": 0,
+      "suppressed_rows": 820,
+      "invalid_rows": 0
+    },
+    {
+      "label": 14,
+      "source_rows": 710,
+      "web_rows": 0,
+      "suppressed_rows": 710,
+      "invalid_rows": 0
+    },
+    {
+      "label": 15,
+      "source_rows": 614,
+      "web_rows": 0,
+      "suppressed_rows": 614,
+      "invalid_rows": 0
+    },
+    {
+      "label": 16,
+      "source_rows": 297,
+      "web_rows": 0,
+      "suppressed_rows": 297,
+      "invalid_rows": 0
+    }
+  ],
+  "source_rows": 8955662,
+  "web_rows": 8291011,
+  "total_web_rows": 8940705,
+  "invalid_source_rows": 0,
+  "suppressed_source_rows": 7105,
+  "mesh_control_rows": 7852,
+  "background_splats": [
+    "observatory/room-00-sh3-v3-10b4894bc5.spz",
+    "observatory/room-01-sh3-v3-10b4894bc5.spz",
+    "observatory/room-02-sh3-v3-10b4894bc5.spz",
+    "observatory/room-03-sh3-v3-10b4894bc5.spz",
+    "observatory/room-04-sh3-v3-10b4894bc5.spz",
+    "observatory/room-05-sh3-v3-10b4894bc5.spz",
+    "observatory/room-06-sh3-v3-10b4894bc5.spz",
+    "observatory/room-07-sh3-v3-10b4894bc5.spz",
+    "observatory/room-08-sh3-v3-10b4894bc5.spz"
+  ],
+  "gaussian_bodies": [
+    {
+      "object": "telescope-workcell",
+      "node": "eyepiece",
+      "splat": "observatory/body-01-eyepiece-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 5820,
+      "source_label": 1
+    },
+    {
+      "object": "telescope-workcell",
+      "node": "fixed_pier",
+      "splat": "observatory/body-03-fixed_pier-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 151048,
+      "source_label": 3
+    },
+    {
+      "object": "telescope-workcell",
+      "node": "focus_knob",
+      "splat": "observatory/body-04-focus_knob-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        0.2836595417103326,
+        1.2106476112604627,
+        -2.7356460113771592
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 785,
+      "source_label": 4
+    },
+    {
+      "object": "telescope-workcell",
+      "node": "focuser_drawtube",
+      "splat": "observatory/body-05-focuser_drawtube-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        0.0977400727697712,
+        1.0821260559409418,
+        -6.283546073468022
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 8822,
+      "source_label": 5
+    },
+    {
+      "object": "telescope-workcell",
+      "node": "objective_cover",
+      "splat": "observatory/body-06-objective_cover-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 7651,
+      "source_label": 6
+    },
+    {
+      "object": "telescope-workcell",
+      "node": "optical_carrier",
+      "splat": "observatory/body-07-optical_carrier-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        -0.15685649709514377,
+        -0.171913988169405,
+        -3.497180830640843
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 165569,
+      "source_label": 7
+    },
+    {
+      "object": "telescope-workcell",
+      "node": "ra_carrier",
+      "splat": "observatory/body-08-ra_carrier-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        -0.3017362238861197,
+        -0.1215469805624236,
+        -3.338656074419852
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 33981,
+      "source_label": 8
+    },
+    {
+      "object": "dome-shutters",
+      "node": "upper_shutter",
+      "splat": "observatory/body-11-upper_shutter-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        -0.2775976595617839,
+        -0.187364066611702,
+        -3.7054386159826453
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 234031,
+      "source_label": 11
+    },
+    {
+      "object": "dome-shutters",
+      "node": "lower_shutter",
+      "splat": "observatory/body-12-lower_shutter-sh3-v3-10b4894bc5.spz",
+      "position_xyz": [
+        -0.2775976595617839,
+        -0.187364066611702,
+        -3.7054386159826453
+      ],
+      "rotation_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "uniform_scale": 3.7028187232023315,
+      "source_rows": 41987,
+      "source_label": 12
+    }
+  ],
+  "outputs": [
+    {
+      "file": "room-00-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 41271078,
+        "sha256": "9fde3d9e583eef0f3e65561ab691e2465f16c50fb7f8c8f838aa8102761a957d"
+      },
+      "source_row_indices_sha256": "598caf85b9720e4bc74f4ee4819b189250aa25d3e40bebb596a99ac1ea42030e",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.20765726772905643,
+        "max_in_range_sh_error": 0.00390625,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-01-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 43885794,
+        "sha256": "0e4c5a13c2cb414ade5129c58d5352889f8a7a4bd530526ea9ebc4e3b2874524"
+      },
+      "source_row_indices_sha256": "018e6fbaf955cf59c39b793bfb57dee200698c3cd7ffd1fbd73c7965536ffdd5",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.21402341263343871,
+        "max_in_range_sh_error": 0.003906235098838806,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-02-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 44520452,
+        "sha256": "861ac1b9edae75362e48809e0a0934ae7f5b6ae171673961ebf684c0896eeceb"
+      },
+      "source_row_indices_sha256": "4496c3a32ba448dac46eceb12c73b7541a46de7333ec51355b77966b5550a914",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.1868892065771866,
+        "max_in_range_sh_error": 0.0039062388241291046,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-03-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 44954240,
+        "sha256": "bdb6da106e11800ab24d9d7fb6a051142ec5fcfbb1790bf3418a7035075b6d92"
+      },
+      "source_row_indices_sha256": "54f7dada4d2a6dcc81dab686842f40f109eee2669533f6bced03496cdd885066",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.2096362121544174,
+        "max_in_range_sh_error": 0.003906235098838806,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-04-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 45023148,
+        "sha256": "963be996b3ce15252544145c06c04638b47281504f1d26d3fd513af313ac8e37"
+      },
+      "source_row_indices_sha256": "dc1b2c3aaede120235e16c0ff88053c434244ebb570085665b58cb5f06ee7290",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.20930455873986661,
+        "max_in_range_sh_error": 0.0039062481373548508,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-05-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 45294721,
+        "sha256": "ea7f98348452da32397ce63549bb81dfe714c8d000be1394d2a47970cd6f58bd"
+      },
+      "source_row_indices_sha256": "b9d960ce86dd97515f2661f3c3e1404526a528f9fa9076feb1605ca0c9823ccd",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.22292785849386895,
+        "max_in_range_sh_error": 0.0039062490686774254,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-06-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 45225906,
+        "sha256": "2bb06bc16b817cc73f5d6c16a742fb056773860e571b17ceba0516386981c992"
+      },
+      "source_row_indices_sha256": "dd1e0e10ba79fe004e35db627f00dabeb3bfaa7bfb8dd7da5199d65b3bd60d80",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.21920281542880304,
+        "max_in_range_sh_error": 0.00390625,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-07-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 45230066,
+        "sha256": "ae4488c4ee526bd037c59181d46308d983efb86de9f498d1440c5892ffe1f5a3"
+      },
+      "source_row_indices_sha256": "870bd0a6e8508a60dae4cfe5fe44935fe407e9f6d6c504cf56f220f7c093c8d8",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.20387649615407746,
+        "max_in_range_sh_error": 0.003906242549419403,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-08-sh3-v3-10b4894bc5.spz",
+      "rows": 291011,
+      "output": {
+        "bytes": 13156031,
+        "sha256": "b7b8e3e70e03b6bc5136be76605c1409a7ccbee342d7d250dcb75f6cce6010aa"
+      },
+      "source_row_indices_sha256": "6c884386ab63b7be12b7ddaf3c2139ecb81ffa2723aa2b601c039b1f903d506a",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.201762919486246,
+        "max_in_range_sh_error": 0.00390625,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-01-eyepiece-sh3-v3-10b4894bc5.spz",
+      "rows": 5820,
+      "output": {
+        "bytes": 271708,
+        "sha256": "034244add55442fd983becabc350644d087d92c608e024573afff92387126a67"
+      },
+      "source_row_indices_sha256": "4c4a55dd211ae07dbcb963d7894f18d7c57c32f527666815e397daefa91042a1",
+      "verification": {
+        "sample_rows": 5820,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.19097494284168703,
+        "max_in_range_sh_error": 0.0039062313735485077,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-03-fixed_pier-sh3-v3-10b4894bc5.spz",
+      "rows": 151048,
+      "output": {
+        "bytes": 6653493,
+        "sha256": "adab0e04d288b988c30f8c9a1305bd0d962c7cbaaec6fb86d47c10cb24203b8e"
+      },
+      "source_row_indices_sha256": "444944308c6af60bd6d9b52b99cc6574d69826302aee2a9438a5772ae6874b8e",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.19753059572774986,
+        "max_in_range_sh_error": 0.003906241152435541,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-04-focus_knob-sh3-v3-10b4894bc5.spz",
+      "rows": 785,
+      "output": {
+        "bytes": 38744,
+        "sha256": "ce85e4b93eb7797be443b8adcbc1d3bf3952fe554cd052a320ef663080b26d04"
+      },
+      "source_row_indices_sha256": "c11d504799d2803d3f7db15f41d20f11d8e33b083dc12d5e2209a35beffc859f",
+      "verification": {
+        "sample_rows": 785,
+        "max_position_error_m": 0.00045178353347749545,
+        "max_rotation_error_deg": 0.20276638306010433,
+        "max_in_range_sh_error": 0.003906160593032837,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-05-focuser_drawtube-sh3-v3-10b4894bc5.spz",
+      "rows": 8822,
+      "output": {
+        "bytes": 398291,
+        "sha256": "7170e983ba3f8d8284cda0f37706ea2ca965683d91516eab1098af85e9c31c08"
+      },
+      "source_row_indices_sha256": "a2b1a3278a4882582671e0d049523082ca4b943fa7045c1b5946684525693c6f",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.21281508554068745,
+        "max_in_range_sh_error": 0.003906240686774254,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-06-objective_cover-sh3-v3-10b4894bc5.spz",
+      "rows": 7651,
+      "output": {
+        "bytes": 284118,
+        "sha256": "935214ccd33e87135737b39b768680021d11c93dd60b82ca44555ff3a960e7fb"
+      },
+      "source_row_indices_sha256": "bc03a6885e7c038ca3ebb46a86a3e88d99ce7b168683ec4ab2529f4def00b512",
+      "verification": {
+        "sample_rows": 7651,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.2282514442884085,
+        "max_in_range_sh_error": 0.003906235098838806,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-07-optical_carrier-sh3-v3-10b4894bc5.spz",
+      "rows": 165569,
+      "output": {
+        "bytes": 7470888,
+        "sha256": "de9fb83946af2d998f779b408d9f2eeaebf022fd952a527bf3f500cf540d7e4f"
+      },
+      "source_row_indices_sha256": "08352a94fd010a2f15a81e5ddb49c75c53e3d7565e9bbace3642341ec2ff1d61",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.20326267682871113,
+        "max_in_range_sh_error": 0.003906235098838806,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-08-ra_carrier-sh3-v3-10b4894bc5.spz",
+      "rows": 33981,
+      "output": {
+        "bytes": 1513609,
+        "sha256": "a2ff1842941c08e046fd6636fe566fe462f1347da92067512f00957f94700df8"
+      },
+      "source_row_indices_sha256": "e18df2ddaae5d260adf8ea50f97b3b013fa47b3bfa0194996c0821ade016d8f5",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.1953171165377425,
+        "max_in_range_sh_error": 0.003906242549419403,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-11-upper_shutter-sh3-v3-10b4894bc5.spz",
+      "rows": 234031,
+      "output": {
+        "bytes": 9884923,
+        "sha256": "24bb72f268c1ead99ef5e026c5515dfb08fd3de06ec7da753359ddba70c9aade"
+      },
+      "source_row_indices_sha256": "f01a5826a070630e180125b98cc2978013856921d56cc61510c663ebf2a86120",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.20015457530514424,
+        "max_in_range_sh_error": 0.003906234633177519,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-12-lower_shutter-sh3-v3-10b4894bc5.spz",
+      "rows": 41987,
+      "output": {
+        "bytes": 1704138,
+        "sha256": "57d08bbc98dc37eb2cbcfe4c86cc52545f098c25cab9abb0d02077dee6fbf144"
+      },
+      "source_row_indices_sha256": "53e09a6f76572d5502d9b9cb4f7bfb109023940e0d228afb76b99c5426619453",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.2077811411898459,
+        "max_in_range_sh_error": 0.00390625,
+        "sample_sh_clipped_coefficients": 0
+      }
+    }
+  ],
+  "mesh_fallback": [
+    "eyepiece_clamp (zero captured source rows)",
+    "WallControls (reviewed source-fitted controls replace dislocated captured radiance)",
+    "guide ropes and DexMate robot (simulation assets)"
+  ],
+  "total_compressed_bytes": 396781348
+}

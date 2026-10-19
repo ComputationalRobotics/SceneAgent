@@ -1,0 +1,342 @@
+{
+  "schema": "sceneagent.observatory_web_replay.v1",
+  "origin_host": "invictus",
+  "origin_path": "/home/invictus/Research/computational_robotics/out/observatory_interior_20261012",
+  "edit_timeline": {
+    "bytes": 2613,
+    "sha256": "d88091eec0b9d906d931a9b766563c968a75530e6c7f0dfb1853690b4815ad66"
+  },
+  "movie": {
+    "bytes": 8033595,
+    "sha256": "7b24a37e7ecc36e3e34ed3e40e412d79cb06d07920a89d74e96882417f67fa8c"
+  },
+  "motion": {
+    "bytes": 33473061,
+    "sha256": "d11576bbb672da18fbbbb1cf79e9ae2c98849371c2f67214ae153467f9ce0a72"
+  },
+  "published_motion": {
+    "bytes": 7274719,
+    "sha256": "4135a70a42e07757ff4c1c444937674a1107ae2ad9a48d87f1955fa89ea160ca"
+  },
+  "published_motion_encoding": "gzip of exact authoring motion.json bytes; mtime=0",
+  "rope_attachment_correction": {
+    "bytes": 4438,
+    "sha256": "7b0dac83600fe4c64ac9673684f69dbcd2522ab5568e2cbc776c5d3f192a0eae"
+  },
+  "surfaces": {
+    "telescope_workcell": {
+      "bytes": 673476,
+      "sha256": "6f6e40a8d3ef6c43c442e27328036679fcf12a0f0eade24bb7319cf94f89438f"
+    },
+    "dome_shutters": {
+      "bytes": 309556,
+      "sha256": "6d319152b4bcaa6438d1ce05a840aefabbe40c12338a593d81971f7902ecc0c1"
+    },
+    "wall_controls": {
+      "bytes": 98984,
+      "sha256": "a680d772d694ab7d29c612253578ba84d64240450219cf29ead4be446609d465"
+    }
+  },
+  "gaussian_assets": [
+    {
+      "file": "room-00-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 41271078,
+        "sha256": "9fde3d9e583eef0f3e65561ab691e2465f16c50fb7f8c8f838aa8102761a957d"
+      },
+      "source_row_indices_sha256": "598caf85b9720e4bc74f4ee4819b189250aa25d3e40bebb596a99ac1ea42030e",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.20765726772905643,
+        "max_in_range_sh_error": 0.00390625,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-01-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 43885794,
+        "sha256": "0e4c5a13c2cb414ade5129c58d5352889f8a7a4bd530526ea9ebc4e3b2874524"
+      },
+      "source_row_indices_sha256": "018e6fbaf955cf59c39b793bfb57dee200698c3cd7ffd1fbd73c7965536ffdd5",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.21402341263343871,
+        "max_in_range_sh_error": 0.003906235098838806,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-02-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 44520452,
+        "sha256": "861ac1b9edae75362e48809e0a0934ae7f5b6ae171673961ebf684c0896eeceb"
+      },
+      "source_row_indices_sha256": "4496c3a32ba448dac46eceb12c73b7541a46de7333ec51355b77966b5550a914",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.1868892065771866,
+        "max_in_range_sh_error": 0.0039062388241291046,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-03-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 44954240,
+        "sha256": "bdb6da106e11800ab24d9d7fb6a051142ec5fcfbb1790bf3418a7035075b6d92"
+      },
+      "source_row_indices_sha256": "54f7dada4d2a6dcc81dab686842f40f109eee2669533f6bced03496cdd885066",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.2096362121544174,
+        "max_in_range_sh_error": 0.003906235098838806,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-04-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 45023148,
+        "sha256": "963be996b3ce15252544145c06c04638b47281504f1d26d3fd513af313ac8e37"
+      },
+      "source_row_indices_sha256": "dc1b2c3aaede120235e16c0ff88053c434244ebb570085665b58cb5f06ee7290",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.20930455873986661,
+        "max_in_range_sh_error": 0.0039062481373548508,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-05-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 45294721,
+        "sha256": "ea7f98348452da32397ce63549bb81dfe714c8d000be1394d2a47970cd6f58bd"
+      },
+      "source_row_indices_sha256": "b9d960ce86dd97515f2661f3c3e1404526a528f9fa9076feb1605ca0c9823ccd",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.22292785849386895,
+        "max_in_range_sh_error": 0.0039062490686774254,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-06-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 45225906,
+        "sha256": "2bb06bc16b817cc73f5d6c16a742fb056773860e571b17ceba0516386981c992"
+      },
+      "source_row_indices_sha256": "dd1e0e10ba79fe004e35db627f00dabeb3bfaa7bfb8dd7da5199d65b3bd60d80",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.21920281542880304,
+        "max_in_range_sh_error": 0.00390625,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-07-sh3-v3-10b4894bc5.spz",
+      "rows": 1000000,
+      "output": {
+        "bytes": 45230066,
+        "sha256": "ae4488c4ee526bd037c59181d46308d983efb86de9f498d1440c5892ffe1f5a3"
+      },
+      "source_row_indices_sha256": "870bd0a6e8508a60dae4cfe5fe44935fe407e9f6d6c504cf56f220f7c093c8d8",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.20387649615407746,
+        "max_in_range_sh_error": 0.003906242549419403,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "room-08-sh3-v3-10b4894bc5.spz",
+      "rows": 291011,
+      "output": {
+        "bytes": 13156031,
+        "sha256": "b7b8e3e70e03b6bc5136be76605c1409a7ccbee342d7d250dcb75f6cce6010aa"
+      },
+      "source_row_indices_sha256": "6c884386ab63b7be12b7ddaf3c2139ecb81ffa2723aa2b601c039b1f903d506a",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.201762919486246,
+        "max_in_range_sh_error": 0.00390625,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-01-eyepiece-sh3-v3-10b4894bc5.spz",
+      "rows": 5820,
+      "output": {
+        "bytes": 271708,
+        "sha256": "034244add55442fd983becabc350644d087d92c608e024573afff92387126a67"
+      },
+      "source_row_indices_sha256": "4c4a55dd211ae07dbcb963d7894f18d7c57c32f527666815e397daefa91042a1",
+      "verification": {
+        "sample_rows": 5820,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.19097494284168703,
+        "max_in_range_sh_error": 0.0039062313735485077,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-03-fixed_pier-sh3-v3-10b4894bc5.spz",
+      "rows": 151048,
+      "output": {
+        "bytes": 6653493,
+        "sha256": "adab0e04d288b988c30f8c9a1305bd0d962c7cbaaec6fb86d47c10cb24203b8e"
+      },
+      "source_row_indices_sha256": "444944308c6af60bd6d9b52b99cc6574d69826302aee2a9438a5772ae6874b8e",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.19753059572774986,
+        "max_in_range_sh_error": 0.003906241152435541,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-04-focus_knob-sh3-v3-10b4894bc5.spz",
+      "rows": 785,
+      "output": {
+        "bytes": 38744,
+        "sha256": "ce85e4b93eb7797be443b8adcbc1d3bf3952fe554cd052a320ef663080b26d04"
+      },
+      "source_row_indices_sha256": "c11d504799d2803d3f7db15f41d20f11d8e33b083dc12d5e2209a35beffc859f",
+      "verification": {
+        "sample_rows": 785,
+        "max_position_error_m": 0.00045178353347749545,
+        "max_rotation_error_deg": 0.20276638306010433,
+        "max_in_range_sh_error": 0.003906160593032837,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-05-focuser_drawtube-sh3-v3-10b4894bc5.spz",
+      "rows": 8822,
+      "output": {
+        "bytes": 398291,
+        "sha256": "7170e983ba3f8d8284cda0f37706ea2ca965683d91516eab1098af85e9c31c08"
+      },
+      "source_row_indices_sha256": "a2b1a3278a4882582671e0d049523082ca4b943fa7045c1b5946684525693c6f",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.21281508554068745,
+        "max_in_range_sh_error": 0.003906240686774254,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-06-objective_cover-sh3-v3-10b4894bc5.spz",
+      "rows": 7651,
+      "output": {
+        "bytes": 284118,
+        "sha256": "935214ccd33e87135737b39b768680021d11c93dd60b82ca44555ff3a960e7fb"
+      },
+      "source_row_indices_sha256": "bc03a6885e7c038ca3ebb46a86a3e88d99ce7b168683ec4ab2529f4def00b512",
+      "verification": {
+        "sample_rows": 7651,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.2282514442884085,
+        "max_in_range_sh_error": 0.003906235098838806,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-07-optical_carrier-sh3-v3-10b4894bc5.spz",
+      "rows": 165569,
+      "output": {
+        "bytes": 7470888,
+        "sha256": "de9fb83946af2d998f779b408d9f2eeaebf022fd952a527bf3f500cf540d7e4f"
+      },
+      "source_row_indices_sha256": "08352a94fd010a2f15a81e5ddb49c75c53e3d7565e9bbace3642341ec2ff1d61",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.20326267682871113,
+        "max_in_range_sh_error": 0.003906235098838806,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-08-ra_carrier-sh3-v3-10b4894bc5.spz",
+      "rows": 33981,
+      "output": {
+        "bytes": 1513609,
+        "sha256": "a2ff1842941c08e046fd6636fe566fe462f1347da92067512f00957f94700df8"
+      },
+      "source_row_indices_sha256": "e18df2ddaae5d260adf8ea50f97b3b013fa47b3bfa0194996c0821ade016d8f5",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.1953171165377425,
+        "max_in_range_sh_error": 0.003906242549419403,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-11-upper_shutter-sh3-v3-10b4894bc5.spz",
+      "rows": 234031,
+      "output": {
+        "bytes": 9884923,
+        "sha256": "24bb72f268c1ead99ef5e026c5515dfb08fd3de06ec7da753359ddba70c9aade"
+      },
+      "source_row_indices_sha256": "f01a5826a070630e180125b98cc2978013856921d56cc61510c663ebf2a86120",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.20015457530514424,
+        "max_in_range_sh_error": 0.003906234633177519,
+        "sample_sh_clipped_coefficients": 0
+      }
+    },
+    {
+      "file": "body-12-lower_shutter-sh3-v3-10b4894bc5.spz",
+      "rows": 41987,
+      "output": {
+        "bytes": 1704138,
+        "sha256": "57d08bbc98dc37eb2cbcfe4c86cc52545f098c25cab9abb0d02077dee6fbf144"
+      },
+      "source_row_indices_sha256": "53e09a6f76572d5502d9b9cb4f7bfb109023940e0d228afb76b99c5426619453",
+      "verification": {
+        "sample_rows": 8192,
+        "max_position_error_m": 0.0004520042386721596,
+        "max_rotation_error_deg": 0.2077811411898459,
+        "max_in_range_sh_error": 0.00390625,
+        "sample_sh_clipped_coefficients": 0
+      }
+    }
+  ],
+  "gaussian_source_receipt": {
+    "bytes": 19301,
+    "sha256": "c800f9762b1f1a7b0ac8d399a585bddba6802fee1d7e79087cb21e56f4b9445b"
+  },
+  "complete_native_source_samples": 11784,
+  "web_film_frames": 2376,
+  "kept_keyframes": {
+    "telescope_workcell": 2376,
+    "dome_shutters": 392,
+    "wall_controls": 439,
+    "robot": 1364
+  }
+}

@@ -1,0 +1,1099 @@
+{
+  "schema": "sceneagent.observatory_telescope_workcell.v1",
+  "glb": {
+    "bytes": 673476,
+    "sha256": "6f6e40a8d3ef6c43c442e27328036679fcf12a0f0eade24bb7319cf94f89438f"
+  },
+  "bindings": [
+    {
+      "node": "eyepiece",
+      "kind": "Telescope",
+      "source_name": "eyepiece",
+      "trace_index": 0
+    },
+    {
+      "node": "eyepiece_clamp",
+      "kind": "Telescope",
+      "source_name": "eyepiece_clamp",
+      "trace_index": 1
+    },
+    {
+      "node": "fixed_pier",
+      "kind": "Telescope",
+      "source_name": "fixed_pier",
+      "trace_index": 2
+    },
+    {
+      "node": "focus_knob",
+      "kind": "Telescope",
+      "source_name": "focus_knob",
+      "trace_index": 3
+    },
+    {
+      "node": "focuser_drawtube",
+      "kind": "Telescope",
+      "source_name": "focuser_drawtube",
+      "trace_index": 4
+    },
+    {
+      "node": "objective_cover",
+      "kind": "Telescope",
+      "source_name": "objective_cover",
+      "trace_index": 5
+    },
+    {
+      "node": "optical_carrier",
+      "kind": "Telescope",
+      "source_name": "optical_carrier",
+      "trace_index": 6
+    },
+    {
+      "node": "ra_carrier",
+      "kind": "Telescope",
+      "source_name": "ra_carrier",
+      "trace_index": 7
+    },
+    {
+      "node": "FrontRope_000",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_000",
+      "trace_index": 0
+    },
+    {
+      "node": "FrontRope_001",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_001",
+      "trace_index": 1
+    },
+    {
+      "node": "FrontRope_002",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_002",
+      "trace_index": 2
+    },
+    {
+      "node": "FrontRope_003",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_003",
+      "trace_index": 3
+    },
+    {
+      "node": "FrontRope_004",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_004",
+      "trace_index": 4
+    },
+    {
+      "node": "FrontRope_005",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_005",
+      "trace_index": 5
+    },
+    {
+      "node": "FrontRope_006",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_006",
+      "trace_index": 6
+    },
+    {
+      "node": "FrontRope_007",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_007",
+      "trace_index": 7
+    },
+    {
+      "node": "FrontRope_008",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_008",
+      "trace_index": 8
+    },
+    {
+      "node": "FrontRope_009",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_009",
+      "trace_index": 9
+    },
+    {
+      "node": "FrontRope_010",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_010",
+      "trace_index": 10
+    },
+    {
+      "node": "FrontRope_011",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_011",
+      "trace_index": 11
+    },
+    {
+      "node": "FrontRope_012",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_012",
+      "trace_index": 12
+    },
+    {
+      "node": "FrontRope_013",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_013",
+      "trace_index": 13
+    },
+    {
+      "node": "FrontRope_014",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_014",
+      "trace_index": 14
+    },
+    {
+      "node": "FrontRope_015",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_015",
+      "trace_index": 15
+    },
+    {
+      "node": "FrontRope_016",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_016",
+      "trace_index": 16
+    },
+    {
+      "node": "FrontRope_017",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_017",
+      "trace_index": 17
+    },
+    {
+      "node": "FrontRope_018",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_018",
+      "trace_index": 18
+    },
+    {
+      "node": "FrontRope_019",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_019",
+      "trace_index": 19
+    },
+    {
+      "node": "FrontRope_020",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_020",
+      "trace_index": 20
+    },
+    {
+      "node": "FrontRope_021",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_021",
+      "trace_index": 21
+    },
+    {
+      "node": "FrontRope_022",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_022",
+      "trace_index": 22
+    },
+    {
+      "node": "FrontRope_023",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_023",
+      "trace_index": 23
+    },
+    {
+      "node": "FrontRope_024",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_024",
+      "trace_index": 24
+    },
+    {
+      "node": "FrontRope_025",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_025",
+      "trace_index": 25
+    },
+    {
+      "node": "FrontRope_026",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_026",
+      "trace_index": 26
+    },
+    {
+      "node": "FrontRope_027",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_027",
+      "trace_index": 27
+    },
+    {
+      "node": "FrontRope_028",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_028",
+      "trace_index": 28
+    },
+    {
+      "node": "FrontRope_029",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_029",
+      "trace_index": 29
+    },
+    {
+      "node": "FrontRope_030",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_030",
+      "trace_index": 30
+    },
+    {
+      "node": "FrontRope_031",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_031",
+      "trace_index": 31
+    },
+    {
+      "node": "FrontRope_032",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_032",
+      "trace_index": 32
+    },
+    {
+      "node": "FrontRope_033",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_033",
+      "trace_index": 33
+    },
+    {
+      "node": "FrontRope_034",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_034",
+      "trace_index": 34
+    },
+    {
+      "node": "FrontRope_035",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_035",
+      "trace_index": 35
+    },
+    {
+      "node": "FrontRope_036",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_036",
+      "trace_index": 36
+    },
+    {
+      "node": "FrontRope_037",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_037",
+      "trace_index": 37
+    },
+    {
+      "node": "FrontRope_038",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_038",
+      "trace_index": 38
+    },
+    {
+      "node": "FrontRope_039",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_039",
+      "trace_index": 39
+    },
+    {
+      "node": "FrontRope_040",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_040",
+      "trace_index": 40
+    },
+    {
+      "node": "FrontRope_041",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_041",
+      "trace_index": 41
+    },
+    {
+      "node": "FrontRope_042",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_042",
+      "trace_index": 42
+    },
+    {
+      "node": "FrontRope_043",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_043",
+      "trace_index": 43
+    },
+    {
+      "node": "FrontRope_044",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_044",
+      "trace_index": 44
+    },
+    {
+      "node": "FrontRope_045",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_045",
+      "trace_index": 45
+    },
+    {
+      "node": "FrontRope_046",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_046",
+      "trace_index": 46
+    },
+    {
+      "node": "FrontRope_047",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_047",
+      "trace_index": 47
+    },
+    {
+      "node": "FrontRope_048",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_048",
+      "trace_index": 48
+    },
+    {
+      "node": "FrontRope_049",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_049",
+      "trace_index": 49
+    },
+    {
+      "node": "FrontRope_050",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_050",
+      "trace_index": 50
+    },
+    {
+      "node": "FrontRope_051",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_051",
+      "trace_index": 51
+    },
+    {
+      "node": "FrontRope_052",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_052",
+      "trace_index": 52
+    },
+    {
+      "node": "FrontRope_053",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_053",
+      "trace_index": 53
+    },
+    {
+      "node": "FrontRope_054",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_054",
+      "trace_index": 54
+    },
+    {
+      "node": "FrontRope_055",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_055",
+      "trace_index": 55
+    },
+    {
+      "node": "FrontRope_056",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_056",
+      "trace_index": 56
+    },
+    {
+      "node": "FrontRope_057",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_057",
+      "trace_index": 57
+    },
+    {
+      "node": "FrontRope_058",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_058",
+      "trace_index": 58
+    },
+    {
+      "node": "FrontRope_059",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_059",
+      "trace_index": 59
+    },
+    {
+      "node": "FrontRope_060",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_060",
+      "trace_index": 60
+    },
+    {
+      "node": "FrontRope_061",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_061",
+      "trace_index": 61
+    },
+    {
+      "node": "FrontRope_062",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_062",
+      "trace_index": 62
+    },
+    {
+      "node": "FrontRope_063",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_063",
+      "trace_index": 63
+    },
+    {
+      "node": "FrontRope_064",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_064",
+      "trace_index": 64
+    },
+    {
+      "node": "FrontRope_065",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_065",
+      "trace_index": 65
+    },
+    {
+      "node": "FrontRope_066",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_066",
+      "trace_index": 66
+    },
+    {
+      "node": "FrontRope_067",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_067",
+      "trace_index": 67
+    },
+    {
+      "node": "FrontRope_068",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_068",
+      "trace_index": 68
+    },
+    {
+      "node": "FrontRope_069",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_069",
+      "trace_index": 69
+    },
+    {
+      "node": "FrontRope_070",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_070",
+      "trace_index": 70
+    },
+    {
+      "node": "FrontRope_071",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_071",
+      "trace_index": 71
+    },
+    {
+      "node": "FrontRope_072",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_072",
+      "trace_index": 72
+    },
+    {
+      "node": "FrontRope_073",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_073",
+      "trace_index": 73
+    },
+    {
+      "node": "FrontRope_074",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_074",
+      "trace_index": 74
+    },
+    {
+      "node": "FrontRope_075",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_075",
+      "trace_index": 75
+    },
+    {
+      "node": "FrontRope_076",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_076",
+      "trace_index": 76
+    },
+    {
+      "node": "FrontRope_077",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_077",
+      "trace_index": 77
+    },
+    {
+      "node": "FrontRope_078",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_078",
+      "trace_index": 78
+    },
+    {
+      "node": "FrontRope_079",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_079",
+      "trace_index": 79
+    },
+    {
+      "node": "FrontRope_080",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_080",
+      "trace_index": 80
+    },
+    {
+      "node": "FrontRope_081",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_081",
+      "trace_index": 81
+    },
+    {
+      "node": "FrontRope_082",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_082",
+      "trace_index": 82
+    },
+    {
+      "node": "FrontRope_083",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_083",
+      "trace_index": 83
+    },
+    {
+      "node": "FrontRope_084",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_084",
+      "trace_index": 84
+    },
+    {
+      "node": "FrontRope_085",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_085",
+      "trace_index": 85
+    },
+    {
+      "node": "FrontRope_086",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_086",
+      "trace_index": 86
+    },
+    {
+      "node": "FrontRope_087",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_087",
+      "trace_index": 87
+    },
+    {
+      "node": "FrontRope_088",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_088",
+      "trace_index": 88
+    },
+    {
+      "node": "FrontRope_089",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_089",
+      "trace_index": 89
+    },
+    {
+      "node": "FrontRope_090",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_090",
+      "trace_index": 90
+    },
+    {
+      "node": "FrontRope_091",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_091",
+      "trace_index": 91
+    },
+    {
+      "node": "FrontRope_092",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_092",
+      "trace_index": 92
+    },
+    {
+      "node": "FrontRope_093",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_093",
+      "trace_index": 93
+    },
+    {
+      "node": "FrontRope_094",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_094",
+      "trace_index": 94
+    },
+    {
+      "node": "FrontRope_095",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_095",
+      "trace_index": 95
+    },
+    {
+      "node": "FrontRope_096",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_096",
+      "trace_index": 96
+    },
+    {
+      "node": "FrontRope_097",
+      "kind": "FrontRope",
+      "source_name": "FrontRope_097",
+      "trace_index": 97
+    },
+    {
+      "node": "CounterweightRope_000",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_000",
+      "trace_index": 0
+    },
+    {
+      "node": "CounterweightRope_001",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_001",
+      "trace_index": 1
+    },
+    {
+      "node": "CounterweightRope_002",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_002",
+      "trace_index": 2
+    },
+    {
+      "node": "CounterweightRope_003",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_003",
+      "trace_index": 3
+    },
+    {
+      "node": "CounterweightRope_004",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_004",
+      "trace_index": 4
+    },
+    {
+      "node": "CounterweightRope_005",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_005",
+      "trace_index": 5
+    },
+    {
+      "node": "CounterweightRope_006",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_006",
+      "trace_index": 6
+    },
+    {
+      "node": "CounterweightRope_007",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_007",
+      "trace_index": 7
+    },
+    {
+      "node": "CounterweightRope_008",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_008",
+      "trace_index": 8
+    },
+    {
+      "node": "CounterweightRope_009",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_009",
+      "trace_index": 9
+    },
+    {
+      "node": "CounterweightRope_010",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_010",
+      "trace_index": 10
+    },
+    {
+      "node": "CounterweightRope_011",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_011",
+      "trace_index": 11
+    },
+    {
+      "node": "CounterweightRope_012",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_012",
+      "trace_index": 12
+    },
+    {
+      "node": "CounterweightRope_013",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_013",
+      "trace_index": 13
+    },
+    {
+      "node": "CounterweightRope_014",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_014",
+      "trace_index": 14
+    },
+    {
+      "node": "CounterweightRope_015",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_015",
+      "trace_index": 15
+    },
+    {
+      "node": "CounterweightRope_016",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_016",
+      "trace_index": 16
+    },
+    {
+      "node": "CounterweightRope_017",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_017",
+      "trace_index": 17
+    },
+    {
+      "node": "CounterweightRope_018",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_018",
+      "trace_index": 18
+    },
+    {
+      "node": "CounterweightRope_019",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_019",
+      "trace_index": 19
+    },
+    {
+      "node": "CounterweightRope_020",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_020",
+      "trace_index": 20
+    },
+    {
+      "node": "CounterweightRope_021",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_021",
+      "trace_index": 21
+    },
+    {
+      "node": "CounterweightRope_022",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_022",
+      "trace_index": 22
+    },
+    {
+      "node": "CounterweightRope_023",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_023",
+      "trace_index": 23
+    },
+    {
+      "node": "CounterweightRope_024",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_024",
+      "trace_index": 24
+    },
+    {
+      "node": "CounterweightRope_025",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_025",
+      "trace_index": 25
+    },
+    {
+      "node": "CounterweightRope_026",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_026",
+      "trace_index": 26
+    },
+    {
+      "node": "CounterweightRope_027",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_027",
+      "trace_index": 27
+    },
+    {
+      "node": "CounterweightRope_028",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_028",
+      "trace_index": 28
+    },
+    {
+      "node": "CounterweightRope_029",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_029",
+      "trace_index": 29
+    },
+    {
+      "node": "CounterweightRope_030",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_030",
+      "trace_index": 30
+    },
+    {
+      "node": "CounterweightRope_031",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_031",
+      "trace_index": 31
+    },
+    {
+      "node": "CounterweightRope_032",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_032",
+      "trace_index": 32
+    },
+    {
+      "node": "CounterweightRope_033",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_033",
+      "trace_index": 33
+    },
+    {
+      "node": "CounterweightRope_034",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_034",
+      "trace_index": 34
+    },
+    {
+      "node": "CounterweightRope_035",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_035",
+      "trace_index": 35
+    },
+    {
+      "node": "CounterweightRope_036",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_036",
+      "trace_index": 36
+    },
+    {
+      "node": "CounterweightRope_037",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_037",
+      "trace_index": 37
+    },
+    {
+      "node": "CounterweightRope_038",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_038",
+      "trace_index": 38
+    },
+    {
+      "node": "CounterweightRope_039",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_039",
+      "trace_index": 39
+    },
+    {
+      "node": "CounterweightRope_040",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_040",
+      "trace_index": 40
+    },
+    {
+      "node": "CounterweightRope_041",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_041",
+      "trace_index": 41
+    },
+    {
+      "node": "CounterweightRope_042",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_042",
+      "trace_index": 42
+    },
+    {
+      "node": "CounterweightRope_043",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_043",
+      "trace_index": 43
+    },
+    {
+      "node": "CounterweightRope_044",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_044",
+      "trace_index": 44
+    },
+    {
+      "node": "CounterweightRope_045",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_045",
+      "trace_index": 45
+    },
+    {
+      "node": "CounterweightRope_046",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_046",
+      "trace_index": 46
+    },
+    {
+      "node": "CounterweightRope_047",
+      "kind": "CounterweightRope",
+      "source_name": "CounterweightRope_047",
+      "trace_index": 47
+    }
+  ],
+  "meshes": [
+    {
+      "node": "eyepiece",
+      "source_triangles": 1536,
+      "web_triangles": 1536
+    },
+    {
+      "node": "eyepiece_clamp",
+      "source_triangles": 384,
+      "web_triangles": 384
+    },
+    {
+      "node": "fixed_pier",
+      "source_triangles": 3576,
+      "web_triangles": 3576
+    },
+    {
+      "node": "focus_knob",
+      "source_triangles": 1536,
+      "web_triangles": 1536
+    },
+    {
+      "node": "focuser_drawtube",
+      "source_triangles": 768,
+      "web_triangles": 768
+    },
+    {
+      "node": "objective_cover",
+      "source_triangles": 1152,
+      "web_triangles": 1152
+    },
+    {
+      "node": "optical_carrier",
+      "source_triangles": 18956,
+      "web_triangles": 18956
+    },
+    {
+      "node": "ra_carrier",
+      "source_triangles": 4888,
+      "web_triangles": 4888
+    }
+  ],
+  "rope_geometry": {
+    "schema": "sceneagent.observatory_distal_rope_display_correction.v1",
+    "reason": "User correction: operating ropes attach at front/rear optical-tube ends, not setting circles",
+    "method": "Shared-joint centerline, cubic upper-span reanchor, original lower metre retained; all frames use exact segment poses and lengths",
+    "frames": 2376,
+    "parent_body": "optical_carrier",
+    "ropes": {
+      "FrontRope": {
+        "role": "front_operating_rope",
+        "source_geometry_part": "objective_cell",
+        "parent_body": "optical_carrier",
+        "anchor_source_world_m": [
+          1.141601530576503,
+          0.8883280171273061,
+          4.9435286475122755
+        ],
+        "anchor_body_local_m": [
+          0.9847450334813592,
+          0.7164140289579011,
+          1.4463478168714325
+        ],
+        "tube_cell_center_m": [
+          1.0695202030388422,
+          0.7777242755239675,
+          5.082938455502067
+        ],
+        "tube_axis": [
+          0.39644214757597523,
+          0.6083126705491959,
+          0.6875967702619422
+        ],
+        "tube_outer_radius_m": 0.188,
+        "rope_radius_m": 0.004,
+        "attachment_basis": "downward distal cell rim from source-fitted geometry, user correction; not a measured knot location",
+        "frames": 2376,
+        "segments": 98,
+        "original_length_m": 3.9,
+        "base_segment_length_m": 0.03979591836734694,
+        "preserved_lower_segments": 26,
+        "preserved_lower_length_m": 1.0346938775510204,
+        "corrected_total_length_range_m": [
+          4.156859988007484,
+          4.260259808707598
+        ],
+        "corrected_segment_length_range_m": [
+          0.039782327678449296,
+          0.04745319796752686
+        ],
+        "maximum_attachment_displacement_m": 0.5330153379766503,
+        "max_source_joint_gap_m": 7.1449530367089e-05,
+        "max_join_gap_m": 1.5197892567712076e-07,
+        "max_anchor_error_m": 8.450467312121021e-08,
+        "max_original_handle_endpoint_error_m": 8.292104342792655e-08,
+        "max_preserved_lower_centerline_error_m": 8.562307455210393e-08,
+        "max_preserved_lower_capsule_center_displacement_m": 1.724644908635026e-05
+      },
+      "CounterweightRope": {
+        "role": "rear_operating_rope",
+        "source_geometry_part": "rear_blue_cell",
+        "parent_body": "optical_carrier",
+        "anchor_source_world_m": [
+          -0.1383209968464649,
+          -1.0756233324287612,
+          2.736001882018343
+        ],
+        "anchor_body_local_m": [
+          -0.29517749394160864,
+          -1.2475373205981661,
+          -0.7611789486224998
+        ],
+        "tube_cell_center_m": [
+          -0.20702351215579795,
+          -1.1810425236444433,
+          2.8688768552586126
+        ],
+        "tube_axis": [
+          0.39644214757597523,
+          0.6083126705491959,
+          0.6875967702619422
+        ],
+        "tube_outer_radius_m": 0.179,
+        "rope_radius_m": 0.004,
+        "attachment_basis": "downward distal cell rim from source-fitted geometry, user correction; not a measured knot location",
+        "frames": 2376,
+        "segments": 48,
+        "original_length_m": 1.9,
+        "base_segment_length_m": 0.03958333333333333,
+        "preserved_lower_segments": 26,
+        "preserved_lower_length_m": 1.0291666666666666,
+        "corrected_total_length_range_m": [
+          3.466376318864268,
+          3.5474597372129715
+        ],
+        "corrected_segment_length_range_m": [
+          0.0395814065058806,
+          0.16106178482309447
+        ],
+        "maximum_attachment_displacement_m": 2.25118149588141,
+        "max_source_joint_gap_m": 1.6164504310912136e-05,
+        "max_join_gap_m": 1.6312752017774688e-07,
+        "max_anchor_error_m": 7.999667285311145e-08,
+        "max_original_handle_endpoint_error_m": 8.051327569541507e-08,
+        "max_preserved_lower_centerline_error_m": 8.643003933933094e-08,
+        "max_preserved_lower_capsule_center_displacement_m": 6.106676588787681e-06
+      }
+    },
+    "native_robot_and_telescope_motion_preserved": true,
+    "native_rope_poses_preserved_verbatim": false,
+    "physics_resimulated": false,
+    "new_contact_or_rope_length_physics_validated": false,
+    "source_files_modified": false,
+    "source_trace": {
+      "bytes": 76128806,
+      "sha256": "2c327c429d0341735448f3399bc3acd66b7690fb4e44bf51ead1ec567662a421"
+    },
+    "source_telescope_geometry": {
+      "bytes": 72830,
+      "sha256": "b52e9ab74716b5190b7ffd6f2bad88f47c10989e438a19f09580f71deda52d72"
+    },
+    "source_binding": {
+      "bytes": 44968,
+      "sha256": "3bf7407a5ea52cd280d0340facf93b4498d88d039c5d59667140d900da3a984d"
+    }
+  }
+}

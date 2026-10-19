@@ -1,0 +1,115 @@
+{
+  "schema": "sceneagent.observatory_telescope_specimen.v1",
+  "object_id": "observatory_equatorial_telescope_32",
+  "inputs": {
+    "components_glb": {
+      "bytes": 313728,
+      "sha256": "e1c3fca92c47302ad0e57a23f35c6c64722c10cfc2f7cca1898b0769bd357449"
+    },
+    "manifest": {
+      "bytes": 72830,
+      "sha256": "b52e9ab74716b5190b7ffd6f2bad88f47c10989e438a19f09580f71deda52d72"
+    },
+    "candidate": {
+      "bytes": 133293,
+      "sha256": "82d4c1886262c45f6eb8a9861690b308dfef24f6ef5c8a7119b97d2a49c77579"
+    },
+    "urdf": {
+      "bytes": 913002,
+      "sha256": "d0a0ed87c6b05b2fbc52552731ecb6938135162cf00e92d83f4c0c33267d6364"
+    },
+    "builder": {
+      "bytes": 28004,
+      "sha256": "776c8d237ce7a59e32108635599eb8301eb4e45a89ccb2306e6fac45476bb064"
+    },
+    "source_components": 61
+  },
+  "decimation": {
+    "display_cells": {
+      "equatorial pier": 1800,
+      "polar mount": 1400,
+      "counterweight shaft": 1600,
+      "optical tube": 2400,
+      "focuser eyepiece": 1200,
+      "objective cover": 500
+    },
+    "method": "open3d quadric; colour and material from nearest source vertex"
+  },
+  "outputs": {
+    "specimen_glb": {
+      "bytes": 776160,
+      "sha256": "ff4c73b2538c1c27deea38116f381b92e71ffa3c4fb9935b9df0b56361e8be79"
+    },
+    "motion": {
+      "bytes": 48229,
+      "sha256": "c9d86d169cbdead3c8f00a55565af6407523120411341c67854fd19bf3a392ea"
+    },
+    "display_model": {
+      "bytes": 275267,
+      "sha256": "a6f65bf5d810f106b593aaeb186468b72ce3f501a8ed68086e569638249abc8d"
+    }
+  },
+  "triangles": {
+    "specimen": 38016,
+    "display_cells": 8900
+  },
+  "parts": 6,
+  "sisters": [
+    {
+      "id": "observatory-telescope-01",
+      "dimension": "geometry",
+      "change": "optical tube 38 cm longer toward objective and 12 cm deeper toward focuser",
+      "bytes": 766508,
+      "sha256": "136ba65f1d3eb223c7d83b6d8783739d72063fe1226eb20eb5dca16941fa6336"
+    },
+    {
+      "id": "observatory-telescope-02",
+      "dimension": "geometry",
+      "change": "pier 22 cm taller with counterweight shaft extended 18 cm along declination axis",
+      "bytes": 766512,
+      "sha256": "0544d4e9acdb39092d8f5155551bba6af7a87c5b76453d23f414c8f4c8da4957"
+    },
+    {
+      "id": "observatory-telescope-03",
+      "dimension": "visual",
+      "change": "polished brass optical tube and mount with heritage green cast-iron pier",
+      "bytes": 766512,
+      "sha256": "be76303784ed142af4a29db8425682c67ebb766227e7b0f839584a0446b6d8fa"
+    }
+  ],
+  "motion": {
+    "type": "kinematic_sweep_of_converted_mobility_urdf",
+    "source": "telescope_parametric_collision_r3/physics/mobility.urdf",
+    "ranges": {
+      "ra_carrier_rad": [
+        -2.0943951023931953,
+        2.0943951023931953
+      ],
+      "optical_carrier_rad": [
+        -2.0943951023931953,
+        2.0943951023931953
+      ],
+      "focuser_drawtube_m": [
+        0.0,
+        0.04
+      ],
+      "focus_knob_rad": [
+        0.0,
+        3.333333333333333
+      ],
+      "eyepiece_clamp_rad": [
+        0.0,
+        12.566370614359172
+      ]
+    },
+    "coupling": "focuser drawtube travel (40 mm) coupled to brass focus pinion rotation (3.333 rad)",
+    "recorded_trace": false,
+    "physics_resimulated": false,
+    "learned_policy": false
+  },
+  "notes": [
+    "Surfaces are the 61 source-fitted parametric components of telescope 32 with linear glTF vertex colours.",
+    "The articulation sweep exercises all 5 actuated URDF joints within their converted limits.",
+    "Sisters are procedural geometric and finish variants of the converted telescope."
+  ]
+}

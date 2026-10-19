@@ -1,0 +1,21 @@
+{
+  "schema": "sceneagent.observatory_dome_shutters.v1",
+  "glb": {
+    "bytes": 309556,
+    "sha256": "6d319152b4bcaa6438d1ce05a840aefabbe40c12338a593d81971f7902ecc0c1"
+  },
+  "bindings": [
+    {
+      "node": "upper_shutter",
+      "kind": "Dome",
+      "source_name": "upper_shutter",
+      "trace_index": 2
+    },
+    {
+      "node": "lower_shutter",
+      "kind": "Dome",
+      "source_name": "lower_shutter",
+      "trace_index": 3
+    }
+  ]
+}

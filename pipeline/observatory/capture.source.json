@@ -1,0 +1,73 @@
+{
+  "schema": "sceneagent.observatory_original_sh3_capture.v1",
+  "object_id": "32",
+  "source": "out/observatory_interior_20261012/dexmate_observatory_cinematic_scene/payload/data/observatory_interior_20261012/real2sim/gaussians/point_cloud.ply",
+  "source_sha256": "10b4894bc5a508d4fce81332469a51f126cb6511f68527cf8d588eca9e3ab9df",
+  "segment": "telescope 32: original captured Alvan Clark equatorial refractor in the dome room",
+  "framing_labels": "out/observatory_interior_20261012/dexmate_observatory_cinematic_scene/payload/out/observatory_interior_20261012/resume_20261017/wall_controls_gaussian_binding_r4/binding/source_body_labels.npz",
+  "framing_labels_sha256": "c1b474507b6ef375a82ecc98226bf4ef2e675be8ea0278710f253cbb95b95ffc",
+  "metric_scale": 3.7028187232023315,
+  "camera": {
+    "position_xyz": [
+      -2.3320451507093707,
+      2.22459382793217,
+      1.7013199929608953
+    ],
+    "target_xyz": [
+      0.34239603140654823,
+      -0.16325082774097688,
+      2.954892703506466
+    ],
+    "fov_deg": 82.0
+  },
+  "cameras_sha256": "aa9c8a61873937e355799d0ebf6c49e210927e656d733d538737d91cd2a8693f",
+  "camera_eye": "capture frame 60 (camera_00060_train.png, real2sim_z_up_ground_z0)",
+  "camera_rotation": "look-at framing from original optimized capture center",
+  "foreground_bounds_xyz": [
+    [
+      -0.3886946843224134,
+      -1.4113960184986933,
+      0.9292480762162922
+    ],
+    [
+      1.0734867471355098,
+      1.0848943630167396,
+      4.98053733079664
+    ]
+  ],
+  "display_aspect": 1.3333333333333333,
+  "max_frame_fraction": 0.72,
+  "image_size": [
+    1600,
+    1200
+  ],
+  "image_sha256": "25d61cb6cb26c33c25c6626e8acc6a4612d8f37e5e326aa2e4b339399d7f5c56",
+  "image_encoding": "lossless WebP RGBA",
+  "row_accounting": {
+    "source_rows": 8955662,
+    "invalid_rows": 0,
+    "camera_clipped_rows": 1149734,
+    "offscreen_rows": 3483142,
+    "projected_rows": 4322786,
+    "opaque_pixel_fraction": 0.9999729166666667
+  },
+  "renderer": {
+    "implementation_sha256": "cbeb1df71426b6fb08a6349d9518bb40d987de0cc97514812a3def007ebcdc9b",
+    "method": "CPU Numba depth-sorted anisotropic EWA",
+    "sh_degree": 3,
+    "sh_coefficient_precision": "original float32",
+    "rotation_precision": "original normalized float32 wxyz, no SPZ quantization",
+    "source_subsampling": false,
+    "source_size_culling": false,
+    "source_opacity_culling": false,
+    "eye_radius_culling": false,
+    "screen_radius_culling": false,
+    "near_plane_m": 0.05,
+    "screen_covariance_filter_px2": 0.3,
+    "sigma_extent": 3,
+    "fragment_alpha_threshold": 0.00392156862745098,
+    "transmission_threshold": 0.0001,
+    "sh_direction": "Gaussian position minus camera center in original source basis",
+    "source_reference": "https://github.com/graphdeco-inria/gaussian-splatting/blob/main/utils/sh_utils.py"
+  }
+}

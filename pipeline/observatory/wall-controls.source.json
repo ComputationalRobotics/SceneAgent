@@ -1,0 +1,33 @@
+{
+  "schema": "sceneagent.observatory_wall_controls.v1",
+  "glb": {
+    "bytes": 98984,
+    "sha256": "a680d772d694ab7d29c612253578ba84d64240450219cf29ead4be446609d465"
+  },
+  "bindings": [
+    {
+      "node": "fixed_wall_mounts",
+      "kind": "WallControls",
+      "source_name": "fixed_wall_mounts",
+      "trace_index": 0
+    },
+    {
+      "node": "motor_lever",
+      "kind": "WallControls",
+      "source_name": "motor_lever",
+      "trace_index": 1
+    },
+    {
+      "node": "red_light_dimmer",
+      "kind": "WallControls",
+      "source_name": "red_light_dimmer",
+      "trace_index": 2
+    },
+    {
+      "node": "white_light_toggle",
+      "kind": "WallControls",
+      "source_name": "white_light_toggle",
+      "trace_index": 3
+    }
+  ]
+}
