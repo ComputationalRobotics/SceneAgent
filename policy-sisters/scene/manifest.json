@@ -1106,6 +1106,11 @@
           0.551183859843003,
           0.2217583550384998
         ],
+        "presentationOffsetWorldM": [
+          0.0,
+          0.0,
+          0.0
+        ],
         "nominalHousingSizeM": [
           0.077,
           0.046,
@@ -1129,8 +1134,8 @@
       "id": "external_right",
       "label": "External Right camera and support arm",
       "mesh": "cameras/external_right-camera-mount.glb",
-      "sha256": "4f40d0bccf2aab210ed5d97cce162fd36aab681800ea5974971618596af4cd74",
-      "bytes": 164568,
+      "sha256": "8ede5f6ce95b2ba7d5520ed64d10f69e8dc1c3c8d7ecb364ea12e71f3cecf29e",
+      "bytes": 164640,
       "meshParts": 146,
       "triangles": 8550,
       "transform": {
@@ -1182,8 +1187,8 @@
           0.19753876712071233
         ],
         "headRigLocalM": [
-          0.4910741344599463,
-          -0.19958352382663336,
+          0.4772901051444326,
+          -0.12077996720747396,
           0.27253876712071234
         ],
         "cameraFrameQuaternionWxyz": [
@@ -1193,9 +1198,14 @@
           -0.42989715209067253
         ],
         "cameraOpticalCenterRigLocalM": [
-          0.4338089710022948,
-          -0.16340822398066693,
+          0.4200249416867811,
+          -0.08460466736150754,
           0.3060954167631138
+        ],
+        "presentationOffsetWorldM": [
+          0.0,
+          0.08,
+          0.0
         ],
         "nominalHousingSizeM": [
           0.077,
@@ -1206,12 +1216,12 @@
       "boundsRigLocalM": [
         [
           0.27910414024725283,
-          -0.237789821374871,
+          -0.1589862647557116,
           -0.1490646296866054
         ],
         [
-          0.5188764371203431,
-          -0.06544922509576298,
+          0.5050924078048294,
+          -0.05290542307125089,
           0.3531165031896349
         ]
       ]
@@ -1219,7 +1229,7 @@
   ],
   "cameraPropSource": {
     "metadata": "cameras/manifest.json",
-    "metadataSha256": "a5f657befa3f7ce515d12a03bd0ab29e6aae4a90d7db460155f5731c55cc4040",
+    "metadataSha256": "5f41e9408d34de0df960921258354348bf57ed8a38ac02dd2c81b5a7b8009330",
     "sourcePhotos": [
       {
         "name": "IMG_6974.HEIC",
@@ -7360,7 +7370,7 @@
     "The complete original desk capture is delivered as quantized SPZ with full SH3; source PLY remains unchanged. Numerical diagnostics and a same-view browser review are retained.",
     "The saved Scope background registration provides editor context, not recorded policy observations.",
     "A separate estimated display alignment squares the CAD plate and arm bases with the captured rack; this is not physical calibration and does not alter source transforms or scores.",
-    "External camera housings and support arms are photo-referenced visual estimates; their optical poses match the archived baseline, but support geometry is not calibrated or manufacturer CAD.",
+    "External camera housings and support arms are photo-referenced visual estimates. The upper external_right camera has an explicit 80 mm world +Y presentation offset into the room; its clamp stays fixed and the original background remains complete. Archived camera records stay unchanged; the displayed props are not calibrated or manufacturer CAD.",
     "Interactive scene viewing does not change the archived scores."
   ],
   "sourceFiles": {
@@ -7503,20 +7513,20 @@
     },
     "cameras/external_left-camera-mount.glb": {
       "source": "scripts/build_policy_camera_mounts.py",
-      "role": "Photo-referenced presentation geometry; archived optical pose, estimated housing and mount.",
+      "role": "Photo-referenced presentation geometry; archived source pose plus explicit camera display offset, estimated housing and mount.",
       "sha256": "361ca5984299a61f02c7b43c0cc6dfad1bfbf1b25e2d536554c67425dfe42bce",
       "bytes": 164416
     },
     "cameras/external_right-camera-mount.glb": {
       "source": "scripts/build_policy_camera_mounts.py",
-      "role": "Photo-referenced presentation geometry; archived optical pose, estimated housing and mount.",
-      "sha256": "4f40d0bccf2aab210ed5d97cce162fd36aab681800ea5974971618596af4cd74",
-      "bytes": 164568
+      "role": "Photo-referenced presentation geometry; archived source pose plus explicit camera display offset, estimated housing and mount.",
+      "sha256": "8ede5f6ce95b2ba7d5520ed64d10f69e8dc1c3c8d7ecb364ea12e71f3cecf29e",
+      "bytes": 164640
     },
     "cameras/manifest.json": {
       "source": "scripts/build_policy_camera_mounts.py",
-      "sha256": "a5f657befa3f7ce515d12a03bd0ab29e6aae4a90d7db460155f5731c55cc4040",
-      "bytes": 5847
+      "sha256": "5f41e9408d34de0df960921258354348bf57ed8a38ac02dd2c81b5a7b8009330",
+      "bytes": 6178
     },
     "cameras/photo-alignment.json": {
       "source": "scripts/build_policy_camera_mounts.py",

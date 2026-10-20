@@ -13,7 +13,7 @@
       "bytes": 3059918
     }
   ],
-  "sourceCameraGeometry": "Exact policyCameras external_left and external_right optical centres and rotations from the archived baseline.",
+  "sourceCameraGeometry": "Exact archived optical centres and rotations are retained as source records. The upper external_right camera is displayed 80 mm toward world +Y into the room, with its support re-articulated and edge clamp unchanged. The full captured wall is preserved.",
   "orientationConversion": "Source ROS wxyz [w,x,y,z] to Three/OpenGL wxyz [-x,w,z,-y], identical to Scope experiment_family.py.",
   "visualApproximation": "Photo-referenced NexiGo-style black housings, front grille, lens and status LED, hinged monitor clip, ball head, telescopic articulated pole, screw clamp, adjustment knobs and cables. Dimensions and support placement are visual estimates; these are not manufacturer CAD or calibrated mount geometry.",
   "displayAlignmentUsedForClampAnchors": {
@@ -102,6 +102,11 @@
           0.551183859843003,
           0.2217583550384998
         ],
+        "presentationOffsetWorldM": [
+          0.0,
+          0.0,
+          0.0
+        ],
         "nominalHousingSizeM": [
           0.077,
           0.046,
@@ -125,8 +130,8 @@
       "id": "external_right",
       "label": "External Right camera and support arm",
       "mesh": "cameras/external_right-camera-mount.glb",
-      "sha256": "4f40d0bccf2aab210ed5d97cce162fd36aab681800ea5974971618596af4cd74",
-      "bytes": 164568,
+      "sha256": "8ede5f6ce95b2ba7d5520ed64d10f69e8dc1c3c8d7ecb364ea12e71f3cecf29e",
+      "bytes": 164640,
       "meshParts": 146,
       "triangles": 8550,
       "transform": {
@@ -178,8 +183,8 @@
           0.19753876712071233
         ],
         "headRigLocalM": [
-          0.4910741344599463,
-          -0.19958352382663336,
+          0.4772901051444326,
+          -0.12077996720747396,
           0.27253876712071234
         ],
         "cameraFrameQuaternionWxyz": [
@@ -189,9 +194,14 @@
           -0.42989715209067253
         ],
         "cameraOpticalCenterRigLocalM": [
-          0.4338089710022948,
-          -0.16340822398066693,
+          0.4200249416867811,
+          -0.08460466736150754,
           0.3060954167631138
+        ],
+        "presentationOffsetWorldM": [
+          0.0,
+          0.08,
+          0.0
         ],
         "nominalHousingSizeM": [
           0.077,
@@ -202,12 +212,12 @@
       "boundsRigLocalM": [
         [
           0.27910414024725283,
-          -0.237789821374871,
+          -0.1589862647557116,
           -0.1490646296866054
         ],
         [
-          0.5188764371203431,
-          -0.06544922509576298,
+          0.5050924078048294,
+          -0.05290542307125089,
           0.3531165031896349
         ]
       ]

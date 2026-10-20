@@ -46,7 +46,7 @@ corrected front/rear operating ropes, and exterior star sky. Its animation is
 losslessly compressed. GitHub Pages sites are limited to 1 GB, so keep the
 repository to this folder only; the source build rejects oversized exports.
 
-Current source revision: `lukehollis/real2sim2real-website@5176088`.
+Current source revision: `lukehollis/real2sim2real-website@11672a8`.
 
 Videos and poster frames use the clean originals without the burned-in lab
 watermark. The October 19 media refresh preserves all current cuts, player
@@ -59,3 +59,7 @@ lets wheel scrolling pass through to the page.
 
 Captured splats are depth-tested against the opaque rig, so the desk correctly
 occludes camera-clamp geometry behind its surface.
+
+The upper external camera is shifted 80 mm into the room with its support
+re-articulated and clamp fixed. All 385,885 original background Gaussians remain;
+no part of the wall is cropped.
