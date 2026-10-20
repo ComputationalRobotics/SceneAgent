@@ -1,0 +1,508 @@
+{
+  "schema": "sceneagent.local_scope_archive_snapshot.v1",
+  "experiment_id": "pi05_raw_camera_sisters_20260925--0e047ee371",
+  "source_run": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925",
+  "source_url": "https://sceneagent.dev/experiments/pi05_raw_camera_sisters_20260925--0e047ee371",
+  "native_snapshot_sha256": "48508bae78cd958139f1081911bae631ea9d308b0bcd186d032e6114bb2b92a5",
+  "files": {
+    "previews/baseline/external_left.jpg": {
+      "sha256": "890ff4911710217bc446f3112c99f27f0817d7b927abc3e54ec59922dd63a965",
+      "bytes": 51314,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/baseline.jpg"
+    },
+    "previews/warm/external_left.jpg": {
+      "sha256": "3d8c31747fe6a790c2d9b5cf856f3c5b4ad186599091dfa78180bc3f589dc4bd",
+      "bytes": 54299,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/warm.jpg"
+    },
+    "previews/cool/external_left.jpg": {
+      "sha256": "8805ce99a7076a55cf11c5137391fadad47f10949c44e597c3572ff8a8754528",
+      "bytes": 51965,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/cool.jpg"
+    },
+    "previews/dim/external_left.jpg": {
+      "sha256": "6341d707ad0f20826e2749b4c1a57a17fa066e0f293b7438a5462ddd635e37d8",
+      "bytes": 36886,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/dim.jpg"
+    },
+    "previews/bright/external_left.jpg": {
+      "sha256": "8a3c3b83bafa89fcc52f1e9a320a1055dd25a56832d9fb4ff3511656cc2ebaa7",
+      "bytes": 49543,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/bright.jpg"
+    },
+    "previews/key_left/external_left.jpg": {
+      "sha256": "08372ff01df099f9d301ce8d5ce86fc976a5c34599e57ed407196b4fd7660e3d",
+      "bytes": 44624,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/key_left.jpg"
+    },
+    "previews/key_right/external_left.jpg": {
+      "sha256": "7fb535e9e5a230e1c09b227a010963b0586b1e194c67c75c9a1cc803344741f1",
+      "bytes": 46250,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/key_right.jpg"
+    },
+    "previews/backlit/external_left.jpg": {
+      "sha256": "c64cf793083ee6d61cba83549acca01909c9cc284a61c61400f7af33abdc7860",
+      "bytes": 52786,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/backlit.jpg"
+    },
+    "previews/spotlight/external_left.jpg": {
+      "sha256": "788ff2367aa9547d63abbe8b7d71f07658b046308bb6d2daf13cf99832ada766",
+      "bytes": 44036,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/spotlight.jpg"
+    },
+    "previews/box_length_-5pct/external_left.jpg": {
+      "sha256": "0ecba4eafdb6942059ed986bed98ae0b97ec56da838ec514b233017d57802b30",
+      "bytes": 51331,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_-5pct.jpg"
+    },
+    "previews/box_length_-5pct__warm/external_left.jpg": {
+      "sha256": "09c0f31b074d27683ab9e53ab3c57fd4628f422ee0c06e936f3e4a5d8b5beb60",
+      "bytes": 54363,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_-5pct__warm.jpg"
+    },
+    "previews/box_length_-5pct__cool/external_left.jpg": {
+      "sha256": "94520f25d7fe2f34c8a7519fb37a27d3e43b814c42ce051edff20a149255d0c9",
+      "bytes": 51872,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_-5pct__cool.jpg"
+    },
+    "previews/box_length_-5pct__dim/external_left.jpg": {
+      "sha256": "33da2e7b894efe78f12d2fb3b51c40e763b09b5b5426d6ffa67e373d1344c282",
+      "bytes": 35868,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_-5pct__dim.jpg"
+    },
+    "previews/box_length_-5pct__bright/external_left.jpg": {
+      "sha256": "abf3fa7efe9aace0f63ed2eb2cfc5e95ffacd2d97f74efe36621f08f3ed06ba1",
+      "bytes": 49579,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_-5pct__bright.jpg"
+    },
+    "previews/box_length_-5pct__key_left/external_left.jpg": {
+      "sha256": "ba9d35c5d8a84496ec71318a58ad36c9ff0fae081a60a56957686c6fbda27d90",
+      "bytes": 44661,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_-5pct__key_left.jpg"
+    },
+    "previews/box_length_-5pct__key_right/external_left.jpg": {
+      "sha256": "e01f38fc8d834293ddd20cac5f3b59b0eeaa023b403479c2aa8185d415687955",
+      "bytes": 46099,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_-5pct__key_right.jpg"
+    },
+    "previews/box_length_-5pct__backlit/external_left.jpg": {
+      "sha256": "e776309ba3c005be5a94bc8dbf8389183e5354d3591da1f180d7288175f4cd41",
+      "bytes": 52735,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_-5pct__backlit.jpg"
+    },
+    "previews/box_length_-5pct__spotlight/external_left.jpg": {
+      "sha256": "32668095fbed5024c77113efc03a42c6e841c32ca9831ea72d3a96ba49125019",
+      "bytes": 43996,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_-5pct__spotlight.jpg"
+    },
+    "previews/box_length_+5pct/external_left.jpg": {
+      "sha256": "d708a1f07fcb6deb418710d4b6b767e78817fc1b4a2f57f0e36fa2a599a38659",
+      "bytes": 51381,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_+5pct.jpg"
+    },
+    "previews/box_length_+5pct__warm/external_left.jpg": {
+      "sha256": "77dc0a127886af1ebc6a0d8e0cf2b5826880672aa6502618b1f31745e9dda606",
+      "bytes": 54377,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_+5pct__warm.jpg"
+    },
+    "previews/box_length_+5pct__cool/external_left.jpg": {
+      "sha256": "530ff4b83bcff39b22ca3b31d63d77a459a96ab83fb12c0dac860362a50299e7",
+      "bytes": 51917,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_+5pct__cool.jpg"
+    },
+    "previews/box_length_+5pct__dim/external_left.jpg": {
+      "sha256": "55bd96f70b617d03972e9f2ab90eb3d56b180bee3eb97bf9e13c18e775318bf6",
+      "bytes": 35900,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_+5pct__dim.jpg"
+    },
+    "previews/box_length_+5pct__bright/external_left.jpg": {
+      "sha256": "6f9e18178e7d29d1cb93c02c0107f0eeb0249dfa52dadd3cbb727ff852da40dc",
+      "bytes": 49584,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_+5pct__bright.jpg"
+    },
+    "previews/box_length_+5pct__key_left/external_left.jpg": {
+      "sha256": "578a9cb6a4f9b9d2e10ae8ebdee8bb1ed196446f53a818344fbb34568c9daf2b",
+      "bytes": 44941,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_+5pct__key_left.jpg"
+    },
+    "previews/box_length_+5pct__key_right/external_left.jpg": {
+      "sha256": "10d3c2990d4d0fcfdde08e4b774130bcec69fec0c184a68ef2e31735f615747c",
+      "bytes": 45892,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_+5pct__key_right.jpg"
+    },
+    "previews/box_length_+5pct__backlit/external_left.jpg": {
+      "sha256": "b47e9c41b68154d35ae54b1e02c9df295540b8dbbe20bc23140903a39ca6762c",
+      "bytes": 52762,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_+5pct__backlit.jpg"
+    },
+    "previews/box_length_+5pct__spotlight/external_left.jpg": {
+      "sha256": "ecbf49d01b970b769c755c221ae4ea6632b8ffe2b1aa0760ab0ebd34274f4f3e",
+      "bytes": 44042,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_length_+5pct__spotlight.jpg"
+    },
+    "previews/box_width_-5pct/external_left.jpg": {
+      "sha256": "99894882836b395a59a71c2dfeef68ea1779b52e616fdc4841f9bfc494811406",
+      "bytes": 51328,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_-5pct.jpg"
+    },
+    "previews/box_width_-5pct__warm/external_left.jpg": {
+      "sha256": "92d8eae13c3bd01ccf991b39239302b0335da2cd13b34134c685fcc6143b9b77",
+      "bytes": 54396,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_-5pct__warm.jpg"
+    },
+    "previews/box_width_-5pct__cool/external_left.jpg": {
+      "sha256": "cdd1a2b90af6740ef7c352c986666042b67bda133069961f54d85d49bae3897f",
+      "bytes": 51911,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_-5pct__cool.jpg"
+    },
+    "previews/box_width_-5pct__dim/external_left.jpg": {
+      "sha256": "81bd4fda939613c0302fd62c0f714dfdbd85773e651031b40215f9c2de082f11",
+      "bytes": 36373,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_-5pct__dim.jpg"
+    },
+    "previews/box_width_-5pct__bright/external_left.jpg": {
+      "sha256": "108a972fb2de42b8134f94a5e3bcb461b617ba6ca130a973e267b44774e8f160",
+      "bytes": 49494,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_-5pct__bright.jpg"
+    },
+    "previews/box_width_-5pct__key_left/external_left.jpg": {
+      "sha256": "3ed5e89cb15290b442bca3f34fd428906934eda36ddf4a7af363fffd379951bc",
+      "bytes": 44717,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_-5pct__key_left.jpg"
+    },
+    "previews/box_width_-5pct__key_right/external_left.jpg": {
+      "sha256": "889a5084993390828bb16c3936a7867413475afd3d61e9301b8695dea0107c49",
+      "bytes": 46470,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_-5pct__key_right.jpg"
+    },
+    "previews/box_width_-5pct__backlit/external_left.jpg": {
+      "sha256": "2e852c4870c74cf52132ac4445ec7e2bf6adddc363a1914afcdc2eacb2b73a59",
+      "bytes": 52700,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_-5pct__backlit.jpg"
+    },
+    "previews/box_width_-5pct__spotlight/external_left.jpg": {
+      "sha256": "3c12b34691967a503e9a2f30cd432c9c0ee4eaf9ae2dbc2559292b32a2a68cf3",
+      "bytes": 44051,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_-5pct__spotlight.jpg"
+    },
+    "previews/box_width_+5pct/external_left.jpg": {
+      "sha256": "1e5348cb6eeb160f2dec63172713b7a702e35a065b1e225bd0ba2bbde6143ff3",
+      "bytes": 51447,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_+5pct.jpg"
+    },
+    "previews/box_width_+5pct__warm/external_left.jpg": {
+      "sha256": "53c74fb4b97231e5999f2fd1e077aa2353de5037c246f1a147440bba5d137665",
+      "bytes": 54323,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_+5pct__warm.jpg"
+    },
+    "previews/box_width_+5pct__cool/external_left.jpg": {
+      "sha256": "b4e9f72182cd67c8a09bc00058fe870b9969229ca349fd5a12215552cb866b01",
+      "bytes": 51927,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_+5pct__cool.jpg"
+    },
+    "previews/box_width_+5pct__dim/external_left.jpg": {
+      "sha256": "f0c1519e2d2d29105e2a04caa93e56a814e42133018a312bd0cee72130ed6b48",
+      "bytes": 37867,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_+5pct__dim.jpg"
+    },
+    "previews/box_width_+5pct__bright/external_left.jpg": {
+      "sha256": "25f0a329ef7fcabcdff828d323d9111d7ee0d664b883eba7a3fdf7a0eddd5624",
+      "bytes": 49505,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_+5pct__bright.jpg"
+    },
+    "previews/box_width_+5pct__key_left/external_left.jpg": {
+      "sha256": "91b79d4fbe9845611a9c3b08cbd21a18962de75514bed358a4450c7ae84b4296",
+      "bytes": 44801,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_+5pct__key_left.jpg"
+    },
+    "previews/box_width_+5pct__key_right/external_left.jpg": {
+      "sha256": "8f938ba2130f279317c242c6dba0cdc36f052487feacb5785142ee4511561687",
+      "bytes": 45790,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_+5pct__key_right.jpg"
+    },
+    "previews/box_width_+5pct__backlit/external_left.jpg": {
+      "sha256": "8c67fbb02bc46567e18b76a19bccc0016394126a1489d915b83b2b51ee9fc599",
+      "bytes": 52763,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_+5pct__backlit.jpg"
+    },
+    "previews/box_width_+5pct__spotlight/external_left.jpg": {
+      "sha256": "5b9a646f13b33398c65c21a35d4b6bb0c443f891f1e8a852d87b2c65aa4b8a41",
+      "bytes": 44435,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_width_+5pct__spotlight.jpg"
+    },
+    "previews/box_height_-5pct/external_left.jpg": {
+      "sha256": "c6484052336b70cf4a8798034caebeb94c155a284696ad97008597c01329294c",
+      "bytes": 51445,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_height_-5pct.jpg"
+    },
+    "previews/box_height_-5pct__warm/external_left.jpg": {
+      "sha256": "8e07bf1a8cd7223826ef6297845eddf848249ff59ba419e2a760a392fe98f33b",
+      "bytes": 54293,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_height_-5pct__warm.jpg"
+    },
+    "previews/box_height_-5pct__cool/external_left.jpg": {
+      "sha256": "b4a02ea8c7ea83ccfcd1a10b297e72934efdd7daf0b6ca54c91a861e5489445c",
+      "bytes": 51876,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_height_-5pct__cool.jpg"
+    },
+    "previews/box_height_-5pct__dim/external_left.jpg": {
+      "sha256": "b57e4af558de6d4d90e6f2ba1d7272bb45cb2849f947cfd009a412053eb8ea25",
+      "bytes": 36000,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_height_-5pct__dim.jpg"
+    },
+    "previews/box_height_-5pct__bright/external_left.jpg": {
+      "sha256": "676f985ad94dcbcdf829b6d583aac664d90b6e93996fad093058c954a2c24b02",
+      "bytes": 49566,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_height_-5pct__bright.jpg"
+    },
+    "previews/box_height_-5pct__key_left/external_left.jpg": {
+      "sha256": "098981db73d29500b1e6a8a393bc23416b83cc36d960a02abb1117109e0f23e1",
+      "bytes": 45359,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_height_-5pct__key_left.jpg"
+    },
+    "previews/box_height_-5pct__key_right/external_left.jpg": {
+      "sha256": "922ca52bccec863e00f074cf28271631b0dfe7dcce1f7773e603f30210e0762c",
+      "bytes": 46541,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_height_-5pct__key_right.jpg"
+    },
+    "previews/box_height_-5pct__backlit/external_left.jpg": {
+      "sha256": "eae1d805af37500a6180cdc09a60ed80044829d226afed00fe0278e809251173",
+      "bytes": 52715,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_height_-5pct__backlit.jpg"
+    },
+    "previews/box_height_-5pct__spotlight/external_left.jpg": {
+      "sha256": "e15776d3d01883e5b2720b6db564d2386402b79da90686824e08599abef3cd36",
+      "bytes": 44032,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_height_-5pct__spotlight.jpg"
+    },
+    "scenes/baseline.json": {
+      "sha256": "3ec6c49b1514d0fdab1c35fb19e8bf82587437ae77bd1964c37ba31cdd02b7c2",
+      "bytes": 11814,
+      "source_path": "prime:/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/so101_policy_autoresearch_20261007/operations/lehome_pretrained_transfer_001/offline_inference_001/full_native_learned_candidate_003/workspace/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/baseline.json",
+      "read_method": "Read-only SSH cat; exact SHA matches native Scope snapshot."
+    },
+    "scope_snapshot.json": {
+      "sha256": "48508bae78cd958139f1081911bae631ea9d308b0bcd186d032e6114bb2b92a5",
+      "bytes": 536482,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/.cache/experiment.json"
+    },
+    "slide_manifest.json": {
+      "sha256": "bff9d9a7f935a3554eb3ba6d964418632073776468adba5b3b274a60fdd43cfa",
+      "bytes": 15680,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/manifest.json"
+    },
+    "slide_exporter.py": {
+      "sha256": "fdbfce62e7f342a3488f6ce397698b6f257454825402311dac076a9cf5549ca7",
+      "bytes": 6437,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/scripts/build-joint-assets.py"
+    },
+    "run_reference.md": {
+      "sha256": "a92df68e19d61de35ce13aa44297f97fc0d743b4a0edef3646d0dc82614bada5",
+      "bytes": 14770,
+      "source_path": "/Users/lrh/Research/computational_robotics/lerobot_agent_guide/references/pi05-raw-camera-sisters-20260925.md"
+    },
+    "digital_sisters_full_results_with_real.pdf": {
+      "sha256": "1d3c2a6366683f6d55f0085fbfa6902104c77dacac2925b379a1f7a730bf3919",
+      "bytes": 1839251,
+      "source_path": "/Users/lrh/Downloads/digital_sisters_full_results_with_real.pdf"
+    },
+    "previews/box_cool/external_left.jpg": {
+      "sha256": "a0f6092383875bf84c8aa02b8962ecb9985e6fe0280863c24125cb2820ee2d7c",
+      "bytes": 51322,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_cool.jpg"
+    },
+    "previews/box_cool__warm/external_left.jpg": {
+      "sha256": "6f7c62f2118523cda588ecb02870c480ebf5b041afc0769a0aa8b76a371de57e",
+      "bytes": 54351,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_cool__warm.jpg"
+    },
+    "previews/box_cool__cool/external_left.jpg": {
+      "sha256": "0e0fec3f30d8372872fd8623287e48299dc6563596c654244237edff61f63c18",
+      "bytes": 51825,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_cool__cool.jpg"
+    },
+    "previews/box_cool__dim/external_left.jpg": {
+      "sha256": "abf9163c4288264b00ec58726f38c91582160b925c1b83830d5a86c41b4a4204",
+      "bytes": 36400,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_cool__dim.jpg"
+    },
+    "previews/box_cool__bright/external_left.jpg": {
+      "sha256": "4da0bb9721478e10670366ed1d72826d89a0684306066abd47961c02ea1fef50",
+      "bytes": 49452,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_cool__bright.jpg"
+    },
+    "previews/box_cool__key_left/external_left.jpg": {
+      "sha256": "868fefbcde637a86b5756ab8dc1b88dc6732b0b45baeff248398c8fb535ce803",
+      "bytes": 44892,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_cool__key_left.jpg"
+    },
+    "previews/box_cool__key_right/external_left.jpg": {
+      "sha256": "ad0c5660750c514f1cd2454019169bf30976aa91adc40712b18e169c9943ce7c",
+      "bytes": 46056,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_cool__key_right.jpg"
+    },
+    "previews/box_cool__backlit/external_left.jpg": {
+      "sha256": "6fe6d6530eb114b116e583015ddfa8b7bd1cd03e6088e3d6c61602e9c73b4254",
+      "bytes": 52801,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_cool__backlit.jpg"
+    },
+    "previews/box_cool__spotlight/external_left.jpg": {
+      "sha256": "9695a3e42e2b76ed1647f5032d6af04a929aaadcc5a7ccc5c643238245c6b2d2",
+      "bytes": 43997,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_cool__spotlight.jpg"
+    },
+    "previews/box_fiber/external_left.jpg": {
+      "sha256": "05a2b55658d6a9a783e5a590f3d55971ef4ee1b2efc2e44eb4543f9630a35a00",
+      "bytes": 51151,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_fiber.jpg"
+    },
+    "previews/box_fiber__warm/external_left.jpg": {
+      "sha256": "772335ff835592469661228241f8e398d15ed20117a757f451626f119d342a47",
+      "bytes": 54110,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_fiber__warm.jpg"
+    },
+    "previews/box_fiber__cool/external_left.jpg": {
+      "sha256": "0588ead5b384b6db669f0e490a1ae5bbcc63dad05bc2a8794923dc4be609528f",
+      "bytes": 51769,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_fiber__cool.jpg"
+    },
+    "previews/box_fiber__dim/external_left.jpg": {
+      "sha256": "df0d91aac98be9ee607b1230bce81e2714663e3a42ffac2ec2bf0302c649029f",
+      "bytes": 37006,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_fiber__dim.jpg"
+    },
+    "previews/box_fiber__bright/external_left.jpg": {
+      "sha256": "3f469875b535529c4259116be319261af8e2fa58ee6653c8a7060ecc5304695d",
+      "bytes": 49347,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_fiber__bright.jpg"
+    },
+    "previews/box_fiber__key_left/external_left.jpg": {
+      "sha256": "8f7425e800e24e5f1c9243dd43bf03cd45a8cb386a9e3da69a7873064d1aeb7e",
+      "bytes": 44575,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_fiber__key_left.jpg"
+    },
+    "previews/box_fiber__key_right/external_left.jpg": {
+      "sha256": "73711682c0f11ae1a5ca5165aa82ccfe0772e474b40ed57d43d84fb8d7de975b",
+      "bytes": 46080,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_fiber__key_right.jpg"
+    },
+    "previews/box_fiber__backlit/external_left.jpg": {
+      "sha256": "1802beb2d257ae9365aff0bd04cb6df351d2ba842aba1aee574d9e3d0b2926cc",
+      "bytes": 52515,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_fiber__backlit.jpg"
+    },
+    "previews/box_fiber__spotlight/external_left.jpg": {
+      "sha256": "85a7e901fb834721b4cddd4eb9aa6864926aa1b977274ae6eac34b6e6151410a",
+      "bytes": 43322,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_fiber__spotlight.jpg"
+    },
+    "previews/box_print/external_left.jpg": {
+      "sha256": "138146702df1180434f8026e84ad27bb0e915bee23cb9f76b5d40dc4051f1004",
+      "bytes": 51136,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_print.jpg"
+    },
+    "previews/box_print__warm/external_left.jpg": {
+      "sha256": "c5795a924e32db4546893b766ab81326bdc708ce3342a28b072f6f81c697a11d",
+      "bytes": 54106,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_print__warm.jpg"
+    },
+    "previews/box_print__cool/external_left.jpg": {
+      "sha256": "4c65d93b6ec27299854975ca3324c6e8e724476feb3c79ba87f98c93242c8e61",
+      "bytes": 51630,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_print__cool.jpg"
+    },
+    "previews/box_print__dim/external_left.jpg": {
+      "sha256": "144c053f37736601fb66d9d3bb4de1fb91c917da5b208f317fbe9592ab97a889",
+      "bytes": 35940,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_print__dim.jpg"
+    },
+    "previews/box_print__bright/external_left.jpg": {
+      "sha256": "fe284d3e2d52fed2735786dd6ef41dab0117320c229709675ea1ddcbf991a8ef",
+      "bytes": 49302,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_print__bright.jpg"
+    },
+    "previews/box_print__key_left/external_left.jpg": {
+      "sha256": "22c25769d0dcb71d6111e36aa80aa436a2d6f32d76f819d8df70d32197c5d8fa",
+      "bytes": 45115,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_print__key_left.jpg"
+    },
+    "previews/box_print__key_right/external_left.jpg": {
+      "sha256": "f6e9d9fcbe3656cf29ba037de02c14d29c19da539467b4c3ba0a1ec9d00cf6c9",
+      "bytes": 45820,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_print__key_right.jpg"
+    },
+    "previews/box_print__backlit/external_left.jpg": {
+      "sha256": "e071fcd59dedd976703541576e66af198b3a008748d903d4355a12e03de4ba1e",
+      "bytes": 52640,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_print__backlit.jpg"
+    },
+    "previews/box_print__spotlight/external_left.jpg": {
+      "sha256": "104c5b5b100f2666573a2ef96df5b55dc242bfd89f712806864decefe53faf1d",
+      "bytes": 43330,
+      "source_path": "/Users/lrh/Research/computational_robotics/slides/public/joint/sisters/box_print__spotlight.jpg"
+    }
+  },
+  "selected_scene_ids": [
+    "baseline",
+    "warm",
+    "cool",
+    "dim",
+    "bright",
+    "key_left",
+    "key_right",
+    "backlit",
+    "spotlight",
+    "box_length_-5pct",
+    "box_length_-5pct__warm",
+    "box_length_-5pct__cool",
+    "box_length_-5pct__dim",
+    "box_length_-5pct__bright",
+    "box_length_-5pct__key_left",
+    "box_length_-5pct__key_right",
+    "box_length_-5pct__backlit",
+    "box_length_-5pct__spotlight",
+    "box_length_+5pct",
+    "box_length_+5pct__warm",
+    "box_length_+5pct__cool",
+    "box_length_+5pct__dim",
+    "box_length_+5pct__bright",
+    "box_length_+5pct__key_left",
+    "box_length_+5pct__key_right",
+    "box_length_+5pct__backlit",
+    "box_length_+5pct__spotlight",
+    "box_cool",
+    "box_cool__warm",
+    "box_cool__cool",
+    "box_cool__dim",
+    "box_cool__bright",
+    "box_cool__key_left",
+    "box_cool__key_right",
+    "box_cool__backlit",
+    "box_cool__spotlight",
+    "box_fiber",
+    "box_fiber__warm",
+    "box_fiber__cool",
+    "box_fiber__dim",
+    "box_fiber__bright",
+    "box_fiber__key_left",
+    "box_fiber__key_right",
+    "box_fiber__backlit",
+    "box_fiber__spotlight",
+    "box_print",
+    "box_print__warm",
+    "box_print__cool",
+    "box_print__dim",
+    "box_print__bright",
+    "box_print__key_left",
+    "box_print__key_right",
+    "box_print__backlit",
+    "box_print__spotlight"
+  ],
+  "preview_camera": "external_left",
+  "method": "Byte-for-byte local copy of the previously captured Scope API JSON and original camera JPEGs; no network or simulator operations.",
+  "limitations": [
+    "The locally preserved camera JPEGs are external_left. Other camera images are unavailable in this snapshot. Baseline native config recovered byte-identically from a later frozen source workspace; other per-scene configs remain represented by their native SHA, layout and lighting.",
+    "The full native API snapshot preserves exact source config SHA256 values, layouts and lighting. The interactive scene has separate source provenance.",
+    "Automatic completion and verification are distinct from whole-video human review."
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "schema": "left_so101_box_bowl.v1",
+  "task": "Pick up the white box and put it in the bowl.",
+  "base_frame": "SO101 URDF base_link, meters, Z up",
+  "desk_source": "lerobot_agent_guide/runs/rig_registration_refinement_20260918/context_v3/context.usdc",
+  "desk_translation": [
+    -0.05,
+    -0.2,
+    -1.32
+  ],
+  "table_z": -0.0011081121227458452,
+  "box_dimensions_m": [
+    0.0762,
+    0.04000773965466712,
+    0.0381759297213594
+  ],
+  "bowl_dimensions_m": [
+    0.12975247097447604,
+    0.12975247097447604,
+    0.04274579004731456
+  ],
+  "box_mass_kg": 0.025,
+  "box_center": [
+    0.1760498339847257,
+    0.05099588515376637,
+    0.017979852737933854
+  ],
+  "box_yaw_deg": 189.33727857464703,
+  "bowl_center": [
+    0.14452713262735378,
+    0.2181078574753999,
+    0.020264782900911434
+  ],
+  "camera_calibration_status": "Estimated current geometry, measured held-out wrist residual median6-7px/max11.42px. Exact physical equivalence not asserted.",
+  "width": 640,
+  "height": 480,
+  "cameras": {
+    "external_left": {
+      "eye": [
+        0.3582038639576451,
+        0.551183859843003,
+        0.2217583550384998
+      ],
+      "rotation_wxyz": [
+        -0.23050756015662158,
+        0.28538249506524604,
+        0.7832488278503639,
+        -0.5019406039483234
+      ],
+      "focal_px": 680.5110506107115,
+      "fy_over_fx": 1.0984596027498053,
+      "distortion_k1k2": [
+        -0.44439430732881996,
+        0.30439558351797674
+      ],
+      "convention": "ros",
+      "render_vertical_output_correction": 1.0984596027498053,
+      "render_correction_provenance": "Native fiducials v5/v6/v7: installed RTX ignores vertical aperture and render-product aspect; central vertical crop required. Complete pixel audit mandatory.",
+      "measured_rgb_response": {
+        "channels": [
+          {
+            "rendered": [
+              0,
+              34.434782608695656,
+              139.84615384615387,
+              255
+            ],
+            "physical": [
+              0,
+              40.0,
+              171.0,
+              255
+            ]
+          },
+          {
+            "rendered": [
+              0,
+              13.235294117647058,
+              88.4054054054054,
+              255
+            ],
+            "physical": [
+              0,
+              21.0,
+              134.0,
+              255
+            ]
+          },
+          {
+            "rendered": [
+              0,
+              30.0,
+              100.22950819672131,
+              255
+            ],
+            "physical": [
+              0,
+              20.0,
+              146.0,
+              255
+            ]
+          }
+        ],
+        "source": "Current before_238 real patches vs native_preview02; simulator camera response only. Never apply to physical feeds."
+      }
+    },
+    "external_right": {
+      "eye": [
+        0.4338089710022948,
+        -0.16340822398066693,
+        0.3060954167631138
+      ],
+      "rotation_wxyz": [
+        -0.42718141082260286,
+        0.7786469332205398,
+        0.42989715209067253,
+        -0.16252210390647784
+      ],
+      "focal_px": 677.742455617158,
+      "fy_over_fx": 1.033494661294171,
+      "distortion_k1k2": [
+        -0.370567476785285,
+        0.09275032049178468
+      ],
+      "convention": "ros",
+      "render_vertical_output_correction": 1.033494661294171,
+      "render_correction_provenance": "Native fiducials v5/v6/v7: installed RTX ignores vertical aperture and render-product aspect; central vertical crop required. Complete pixel audit mandatory.",
+      "measured_rgb_response": {
+        "channels": [
+          {
+            "rendered": [
+              0,
+              46.65217391304348,
+              159.8695652173913,
+              255
+            ],
+            "physical": [
+              0,
+              45.0,
+              245.0,
+              255
+            ]
+          },
+          {
+            "rendered": [
+              0,
+              19.86046511627907,
+              105.44186046511628,
+              255
+            ],
+            "physical": [
+              0,
+              22.0,
+              164.0,
+              255
+            ]
+          },
+          {
+            "rendered": [
+              0,
+              39.52777777777778,
+              126.31481481481481,
+              255
+            ],
+            "physical": [
+              0,
+              22.0,
+              186.0,
+              255
+            ]
+          }
+        ],
+        "source": "Current before_238 real patches vs native_preview02; simulator camera response only. Never apply to physical feeds."
+      }
+    },
+    "left_wrist": {
+      "pos": [
+        0.009463951159449618,
+        0.06662887328841086,
+        -0.01222675394969968
+      ],
+      "rotation_wxyz": [
+        -0.024162559735732343,
+        0.10564372639716713,
+        0.9585837981147437,
+        -0.2633869316648986
+      ],
+      "focal_px": 638.1790416697846,
+      "distortion_k1k2": [
+        1.3877787807814457e-17,
+        0.0
+      ],
+      "parent": "gripper_link",
+      "convention": "ros",
+      "render_vertical_output_correction": 1.0,
+      "render_correction_provenance": "Native fiducials v5/v6/v7: installed RTX ignores vertical aperture and render-product aspect; central vertical crop required. Complete pixel audit mandatory.",
+      "measured_rgb_response": {
+        "channels": [
+          {
+            "rendered": [
+              0,
+              37.48837209302325,
+              230.7088607594937,
+              255
+            ],
+            "physical": [
+              0,
+              48.0,
+              243.0,
+              255
+            ]
+          },
+          {
+            "rendered": [
+              0,
+              15.844444444444443,
+              199.4,
+              255
+            ],
+            "physical": [
+              0,
+              51.0,
+              239.0,
+              255
+            ]
+          },
+          {
+            "rendered": [
+              0,
+              31.82,
+              220.22916666666666,
+              255
+            ],
+            "physical": [
+              0,
+              44.0,
+              237.0,
+              255
+            ]
+          }
+        ],
+        "source": "Current before_238 real patches vs native_preview02; simulator camera response only. Never apply to physical feeds."
+      }
+    }
+  },
+  "joint_bridge": {
+    "arm_sign": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "arm_offset_deg": [
+      -1.746613361051197,
+      -9.579263231281722,
+      3.6709081623467776,
+      -0.708131025093277,
+      7.999999999994301
+    ],
+    "gripper_radians_per_unit": 0.022292,
+    "gripper_zero_rad": -0.17724880344894658,
+    "status": "Offline encoder-to-CAD geometric estimate. Never written to physical calibration. Model URDF angle limits translated by the identical offsets, preserving motor-space limits.",
+    "gripper_fit_source": "runs/experiment_30000/camera_registration_v2/gripper_zero_fit_v1.json"
+  },
+  "fixed_shoulder_deg": -89.05494505494505,
+  "real_trials_per_round": 10,
+  "control_hz": 20,
+  "bowl_placement_source": "Fresh two-view manually annotated outer-rim fit, fixed dimensions/table height",
+  "table_registration_source": "bowl_body_height_diagnostic.json; bottom silhouette resolves rim-height/table-height ambiguity approximately",
+  "registration_review": "Current physical raw mounts, nominal manually reset object arrangement, simulation-only arm geometry fit. Held-out wrist median6-7px/max11.42px; full equivalence is not established.",
+  "joint_response": {
+    "elbow_flex": {
+      "half_width_deg": 1.4222631503923726,
+      "bias_deg": 1.672263147007945,
+      "filter_tau_s": 0.04,
+      "physics_position_offset_deg": 0.22
+    }
+  },
+  "joint_response_provenance": "runs/experiment_30000/joint_response_trace_fit.json; integration replay response_isaac_v1; seven fresh negative-direction elbow endpoints agree within 0.73 deg of the 3.0945-deg hysteresis offset, see response_endpoint_check.json",
+  "light_color": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "light_intensity": 1200,
+  "appearance_status": "Approximate open U camera bracket and connector, gray shells/black servo materials and pink illumination. Physical camera enclosure position, cables and background still have documented appearance residuals; camera model is validated by held-out image points.",
+  "box_label_orientation_review": "Yaw modulo 180 chosen from geometry; +180 selected after actual three-view Isaac/physical label review.",
+  "task_table": {
+    "size_m": [
+      0.40212636989717354,
+      0.3267276755414535,
+      0.01
+    ],
+    "position_m": [
+      0.06908839200041494,
+      0.11185253003694551,
+      -0.006108112122745845
+    ],
+    "rotation_wxyz": [
+      0.6497028645458568,
+      0.0,
+      0.0,
+      0.7601882581314369
+    ],
+    "source": "Front/side hole grid. Pitch estimated, not physically measured; far boundary partly occluded.",
+    "grid": {
+      "to_world": [
+        [
+          -0.15577237560181612,
+          -0.9877929778042395,
+          0.0,
+          0.2278325217550132
+        ],
+        [
+          0.9877929778042395,
+          -0.15577237560181612,
+          0.0,
+          0.07327734682758669
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0011081121227458452
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pitch_m": 0.025132898118573346,
+      "columns": [
+        -5,
+        10
+      ],
+      "rows": [
+        0,
+        12
+      ],
+      "radius_m": 0.0032
+    }
+  },
+  "rig_context": {
+    "profile": "lerobot_agent_guide/runs/rig_registration_refinement_20260918/right_context_profile.json",
+    "profile_sha256": "d1ffc7f39f92916ae080449f3a476d363f77e973730c2c1622d90d4b7c2ea86e",
+    "source_config": "lerobot_agent_guide/runs/rig_registration_refinement_20260918/scene_context_source.json",
+    "source_config_sha256": "57dc40f95fdad6ac8f0ca267907b62535988e52b50b63adbb4aae1dbcef22c38",
+    "registration_status": "estimated from current two-view landmarks under corrected native lens model, not encoder calibration",
+    "right_robot_control": "static_visual_context",
+    "policy_robot_id": "so101_left",
+    "policy_camera_roles": [
+      "external_left",
+      "external_right",
+      "left_wrist"
+    ],
+    "observer_camera_prim": "/World/RightRobot/base_link/shoulder_link/upper_arm_link/lower_arm_link/wrist_link/gripper_link/RightWristCamera",
+    "observer_camera_roles": [
+      "right_wrist"
+    ],
+    "observer_recording": "USD camera available; existing three-view sim_task recorder does not record it",
+    "validation": "CPU USD composition, kinematics and geometry only; Isaac render/contact/policy evaluation not run"
+  },
+  "separate_servo_materials": true,
+  "passive_pose_elbow_geometry_offset_deg": -2.0041590651994015,
+  "robot_urdf": "lerobot_agent_guide/runs/rig_registration_refinement_20260918/so101_registered_v3.urdf",
+  "robot_usd_cache": "lerobot_agent_guide/runs/rig_registration_refinement_20260918/robot_usd_v3",
+  "robot_shell_diffuse_color": [
+    0.2,
+    0.2,
+    0.19
+  ],
+  "teacher_placement_offset_m": [
+    -0.0067756910474507425,
+    -0.009904040126609738,
+    0.03
+  ],
+  "box_visual_yaw_deg": 180.0,
+  "object_assets": {
+    "box": {
+      "usd_path": "lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/box_fiber/object.usda",
+      "dimensions_m": [
+        0.0762,
+        0.0508,
+        0.0508
+      ]
+    }
+  },
+  "lighting": {
+    "schema": "sceneagent.lighting.v2",
+    "dome": {
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "temperature_kelvin": 2700
+    },
+    "key": {
+      "position_m": [
+        0.175,
+        -0.2,
+        0.6
+      ],
+      "target_m": [
+        0.175,
+        0.12,
+        0.025
+      ],
+      "width_m": 0.35,
+      "height_m": 0.35,
+      "intensity": 2400,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "temperature_kelvin": 2700
+    }
+  },
+  "sister_asset_audit": true
+}

@@ -1,0 +1,380 @@
+{
+  "clips": [
+    {
+      "id": "kitchen-cover",
+      "source": "/Users/lrh/Downloads/Kitchen17_cinematic_realistic_interiors.mp4",
+      "sourceSha256": "1d5cf41a7dc81574859ed2c40ce9e631105aeeb02175a59bff90b7735ebc679f",
+      "file": "/joint/videos/kitchen-cover.mp4",
+      "sha256": "b23ec14ddcdfd700fbeb24aa5a1acf384c89f661b65e9cb39f3fdf4b1b826304",
+      "poster": "/joint/videos/kitchen-cover.jpg",
+      "speed": 1,
+      "duration": 183.0,
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "1d5cf41a7dc81574859ed2c40ce9e631105aeeb02175a59bff90b7735ebc679f",
+      "originalBytes": 59551704,
+      "compressedBytes": 13316139,
+      "avg_frame_rate": "24/1"
+    },
+    {
+      "id": "kitchen",
+      "source": "/Volumes/amaryl/Research/computational_robotics/website/public/videos/harness/codex_skills_1.mp4",
+      "sourceSha256": "17ed50b08a0cc55548e0b70e8ba6c278bff41897c914568020857fcb9c886490",
+      "file": "/joint/videos/kitchen.mp4",
+      "sha256": "acd13a72d647644ed76451689403aff8ff316d3491952d6ab0f84e3483e09894",
+      "poster": "/joint/videos/kitchen.jpg",
+      "speed": 1,
+      "duration": 30.0,
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "17ed50b08a0cc55548e0b70e8ba6c278bff41897c914568020857fcb9c886490",
+      "originalBytes": 1790907,
+      "compressedBytes": 1482512,
+      "avg_frame_rate": "24/1"
+    },
+    {
+      "id": "cables",
+      "source": "/Volumes/amaryl/Research/computational_robotics/website/public/videos/datacenter_cable.mp4",
+      "sourceSha256": "7ac779da91405bd46181c1db8999d46c081b26779d898b2103a3923cc627da68",
+      "file": "/joint/videos/cables.mp4",
+      "sha256": "2777b5151dd6033764dde005eb993891bab31a220c3008b3183eaf7f32d710c5",
+      "poster": "/joint/videos/cables.jpg",
+      "speed": 20,
+      "duration": 34.7,
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "f935cb09ad239d4821be20609a71043dc5df60ebcd64b2021b70792ffdac63d5",
+      "originalBytes": 11741286,
+      "compressedBytes": 3499281,
+      "avg_frame_rate": "30/1"
+    },
+    {
+      "id": "sunglasses",
+      "source": "/Volumes/amaryl/Research/computational_robotics/website/public/videos/hands_sunglasses_5x.mp4",
+      "sourceSha256": "8142c385a42ea286f739abdfb84746f8e7379df9eaf1c37f3fab37f7b47784e2",
+      "file": "/joint/videos/sunglasses.mp4",
+      "sha256": "5f9757830da458842c18cb26dfc1cb0687a0443494c2ed1a31862775141901c0",
+      "poster": "/joint/videos/sunglasses.jpg",
+      "speed": 1,
+      "duration": 28.633333,
+      "codec_name": "h264",
+      "width": 960,
+      "height": 720,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "8142c385a42ea286f739abdfb84746f8e7379df9eaf1c37f3fab37f7b47784e2",
+      "originalBytes": 2029012,
+      "compressedBytes": 797207,
+      "avg_frame_rate": "30/1"
+    },
+    {
+      "id": "lab",
+      "source": "/Users/lrh/Downloads/compressed_hcrg_lab_dual_sharpa_all_fingers_front.mp4",
+      "sourceSha256": "1d96557fedf7e817053a00c318672d461280ea4629bf9f535daf0e051d358032",
+      "file": "/joint/videos/lab.mp4",
+      "sha256": "7f661ca02fe7cad3b11794bd19972aa207aad3ec56588433ca972939b431112f",
+      "poster": "/joint/videos/lab.jpg",
+      "speed": 1,
+      "duration": 30.25,
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "1d96557fedf7e817053a00c318672d461280ea4629bf9f535daf0e051d358032",
+      "originalBytes": 2468260,
+      "compressedBytes": 1165356,
+      "avg_frame_rate": "24/1"
+    },
+    {
+      "id": "codex",
+      "source": "/Volumes/amaryl/Research/computational_robotics/website/public/videos/harness/codex_no_skills_1.mp4",
+      "sourceSha256": "7f1f90d1c2cd3ac94c5abc5fa26486ffb0f2181aa4d1e1fe01ca94bdd7c467ee",
+      "file": "/joint/videos/codex.mp4",
+      "sha256": "0465484b59c77d522f260c1fd82e8f8633532673d065dbfd43483bcd0b2249a5",
+      "poster": "/joint/videos/codex.jpg",
+      "speed": 1,
+      "duration": 22.0,
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 536,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "7f1f90d1c2cd3ac94c5abc5fa26486ffb0f2181aa4d1e1fe01ca94bdd7c467ee",
+      "originalBytes": 1532856,
+      "compressedBytes": 1253131,
+      "avg_frame_rate": "24/1"
+    },
+    {
+      "id": "claude",
+      "source": "/Volumes/amaryl/Research/computational_robotics/website/public/videos/harness/claude.mp4",
+      "sourceSha256": "39138aaf4261be6586340b3308c420bc8e525db63bab99c746e170115a637dbd",
+      "file": "/joint/videos/claude.mp4",
+      "sha256": "f3e15fbe50c71abbf25f626850ff694f6ff8cb593953900aa6023feac4e64b04",
+      "poster": "/joint/videos/claude.jpg",
+      "speed": 1,
+      "duration": 52.0,
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "39138aaf4261be6586340b3308c420bc8e525db63bab99c746e170115a637dbd",
+      "originalBytes": 3658072,
+      "compressedBytes": 3012384,
+      "avg_frame_rate": "30/1"
+    },
+    {
+      "id": "zcode",
+      "source": "/Volumes/amaryl/Research/computational_robotics/website/public/videos/harness/zcode.mp4",
+      "sourceSha256": "7dc140a48f7fc1c56906108fd56881d68cbed686d1a2d6000fe467b71f956dbb",
+      "file": "/joint/videos/zcode.mp4",
+      "sha256": "e7d15cb9073e96cf6734b4e906b2de73421156bf25d153df38ba11c85d990d23",
+      "poster": "/joint/videos/zcode.jpg",
+      "speed": 1,
+      "duration": 20.0,
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "7dc140a48f7fc1c56906108fd56881d68cbed686d1a2d6000fe467b71f956dbb",
+      "originalBytes": 1448644,
+      "compressedBytes": 1196182,
+      "avg_frame_rate": "30/1"
+    },
+    {
+      "id": "grok",
+      "source": "/Volumes/amaryl/Research/computational_robotics/website/public/videos/harness/grok.mp4",
+      "sourceSha256": "3b3f0ac5f0cc970dbdeb73c838b3439a08c945d031e50b808c723bf563386a64",
+      "file": "/joint/videos/grok.mp4",
+      "sha256": "4d6d5f6f33a9d70a48085e1ef31c8e6cafaa86cb7efc8638358aac555489212e",
+      "poster": "/joint/videos/grok.jpg",
+      "speed": 1,
+      "duration": 6.0,
+      "codec_name": "h264",
+      "width": 540,
+      "height": 720,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "3b3f0ac5f0cc970dbdeb73c838b3439a08c945d031e50b808c723bf563386a64",
+      "originalBytes": 1237456,
+      "compressedBytes": 608886,
+      "avg_frame_rate": "24/1"
+    },
+    {
+      "id": "marker",
+      "source": "/Volumes/amaryl/Research/computational_robotics/website/public/videos/sharpa_hello_world_lift_then_uncap.mp4",
+      "sourceSha256": "7d3a7e9b77bf498b7fd82c8ea24e05fcb7f24a5018dada5dcc9a9a923475aaba",
+      "file": "/joint/videos/marker.mp4",
+      "sha256": "8d830603437bead143d7eae57b9259289eda2bef8c143101de7a85f96827fc82",
+      "poster": "/joint/videos/marker.jpg",
+      "speed": 1,
+      "duration": 155.9,
+      "codec_name": "h264",
+      "width": 640,
+      "height": 360,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "7d3a7e9b77bf498b7fd82c8ea24e05fcb7f24a5018dada5dcc9a9a923475aaba",
+      "originalBytes": 2327700,
+      "compressedBytes": 1372041,
+      "avg_frame_rate": "30/1"
+    },
+    {
+      "id": "hat",
+      "source": "/Volumes/amaryl/Research/computational_robotics/website/public/videos/liquid_death_hat_physics.mp4",
+      "sourceSha256": "cbfe9ca703793824fbad4b725e5e4f66aa25d681534f79e778ab1d36481f3112",
+      "file": "/joint/videos/hat.mp4",
+      "sha256": "73d331d6198d05c14de717cfcf534a4702ee2c56dade6e59c998ab147f5380e5",
+      "poster": "/joint/videos/hat.jpg",
+      "speed": 1,
+      "duration": 56.0,
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "cbfe9ca703793824fbad4b725e5e4f66aa25d681534f79e778ab1d36481f3112",
+      "originalBytes": 2323920,
+      "compressedBytes": 1917544,
+      "avg_frame_rate": "24/1"
+    },
+    {
+      "id": "parchment",
+      "source": "/Volumes/amaryl/Research/computational_robotics/website/public/videos/parchment_free_fracture.mp4",
+      "sourceSha256": "96d77115a472a5c46005a523c4a513c5b1b6bfb373a57e4a0684a7418078162b",
+      "file": "/joint/videos/parchment.mp4",
+      "sha256": "ab2b3788a189d94f3b4cda6a94b55653b33c2ee0f5cb3405e2abe00034ef51fd",
+      "poster": "/joint/videos/parchment.jpg",
+      "speed": 1,
+      "duration": 100.75,
+      "codec_name": "h264",
+      "width": 960,
+      "height": 720,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "96d77115a472a5c46005a523c4a513c5b1b6bfb373a57e4a0684a7418078162b",
+      "originalBytes": 2943256,
+      "compressedBytes": 1983734,
+      "avg_frame_rate": "24/1"
+    },
+    {
+      "id": "museum",
+      "source": "/Users/lrh/Downloads/compressed_museum_destructible_cinematic_new.mp4",
+      "sourceSha256": "16fb205ed4480b704fe7b0465c12c1262308668ec1dcfe5c7651983f57230dab",
+      "file": "/joint/videos/museum.mp4",
+      "sha256": "63c723b7afb3d1d1d90bf25076b5a7b225265ee508b9fe8bc027d6e654a674e5",
+      "poster": "/joint/videos/museum.jpg",
+      "speed": 1,
+      "duration": 16.458333,
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "16fb205ed4480b704fe7b0465c12c1262308668ec1dcfe5c7651983f57230dab",
+      "originalBytes": 4076152,
+      "compressedBytes": 1463100,
+      "avg_frame_rate": "24/1"
+    },
+    {
+      "id": "terracotta",
+      "source": "/Users/lrh/Downloads/museum_terracotta_drop_collection.mp4",
+      "sourceSha256": "904b08d62d752fec817d707708f1a892936118ef2586f14ecfb9304ad4c4a729",
+      "file": "/joint/videos/terracotta.mp4",
+      "sha256": "cc9f1d1c2dbd9182b93969260138ac1749141b3c319900e98e82d9e7983a6015",
+      "poster": "/joint/videos/terracotta.jpg",
+      "speed": 1,
+      "duration": 9.166016,
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "4247b878d169add7613983bc8911aa4d1f92add91670efd5c117a880920d2096",
+      "originalBytes": 4473867,
+      "compressedBytes": 938834,
+      "avg_frame_rate": "30/1"
+    },
+    {
+      "id": "laptop",
+      "source": "/Users/lrh/Downloads/Dexmate_Laptop_Cinematic_20261007_173402.mp4",
+      "sourceSha256": "0404186c2b2a7deb28460146050ff5e9b0bfca50943e8c7f7e4ff71e0304d2cb",
+      "file": "/joint/videos/laptop.mp4",
+      "sha256": "7b50749d5f9eeed74a8ead6e3f66e5c6a56d4b27d7064cb73657a384db964e47",
+      "poster": "/joint/videos/laptop.jpg",
+      "speed": 1,
+      "duration": 55.5,
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "preset": "h264-720p-crf29-cap80pct-v1",
+      "originalSha256": "f6ba4b26c9f1c7d619db783c6f4426f93962b57f5e01b0f79a878788ccd596e7",
+      "originalBytes": 9918783,
+      "compressedBytes": 2536664,
+      "avg_frame_rate": "30/1"
+    }
+  ],
+  "experiment": {
+    "source": "https://sceneagent.dev/experiments/pi05_raw_camera_sisters_20260925--0e047ee371",
+    "updatedAt": "2026-10-07T20:00:02.832057+00:00",
+    "snapshotSha256": "48508bae78cd958139f1081911bae631ea9d308b0bcd186d032e6114bb2b92a5"
+  },
+  "pipeline": {
+    "scene": "kitchen17_2",
+    "object": "Blender",
+    "source": "https://computationalrobotics.seas.harvard.edu/SceneAgent/",
+    "capturedAt": "2026-10-07T23:26:21.474076+00:00",
+    "method": "Browser renders of the website FigurePipeline component with its original Blender assets; the 3DGS capture reveal is completed for its still image. Render backgrounds use the slide dark stock. Labels and descriptions remain editable HTML.",
+    "sourceFiles": [
+      {
+        "path": "website/src/components/site/FigurePipeline.tsx",
+        "sha256": "9788031b449cbf9ca5ecd346d9e99846aac1b9d4c012e2e9d7c3e94925553344"
+      },
+      {
+        "path": "website/src/components/site/captureReveal.ts",
+        "sha256": "302ae0fc82dbad54964d0e81af20e2b224f6689f6685a23f165634f82887c5fd"
+      },
+      {
+        "path": "website/src/content/pipelineScenes.ts",
+        "sha256": "743370330712467aa52c3dc3492694587de19800783008c61eb3f921c9a7891f"
+      },
+      {
+        "path": "website/public/models/kitchen17-2-blender.json",
+        "sha256": "5a78e24a3b78d64b4a37f31ee5423c37749c2ee9d2a549b2111e720a9bf996e3"
+      },
+      {
+        "path": "website/public/models/lexicon.json",
+        "sha256": "358915ec8fc9dda24d04afc78156da694f2b24202cd0e86f0f1f98db33f4c965"
+      },
+      {
+        "path": "website/public/pipeline/kitchen17_2/capture-blender.glb",
+        "sha256": "d287a625c836542d01bf5cee6949f04e894c5321a3c46ed599fc03af2ae0f18b"
+      },
+      {
+        "path": "website/public/pipeline/kitchen17_2/scene.json",
+        "sha256": "fbb7b031e92e2e7175e61cbdbea5032eafc7ae7b41836d5966ad07612236ab27"
+      },
+      {
+        "path": "website/public/cousin-gallery/generated/kitchen17-blender-01.glb",
+        "sha256": "351dd2e54fbe95efc278246a136233912cffae85c587e53295f7521e0217b683"
+      },
+      {
+        "path": "website/public/cousin-gallery/generated/kitchen17-blender-02.glb",
+        "sha256": "bdd1da758a28809ffb5325281127c3e6597b9dbb613920951ac1d512a0c26e93"
+      },
+      {
+        "path": "website/public/cousin-gallery/generated/kitchen17-blender-04.glb",
+        "sha256": "d02a1f88cdb86cdbe53426818dc0c45644f8be9756dfacbfaf7d84aac718ce1d"
+      }
+    ],
+    "thumbnails": [
+      {
+        "step": 1,
+        "file": "/joint/pipeline/kitchen17_2/01.jpg",
+        "sha256": "34dac103e41185c0e06c2efe9a4dc985531cf49d4e05a64bfc98e8af91af1c84"
+      },
+      {
+        "step": 2,
+        "file": "/joint/pipeline/kitchen17_2/02.jpg",
+        "sha256": "07cd30bb287abc8fae8c93c2d7a4b823206085f61cd9f5528ac1b12ec0b65b49"
+      },
+      {
+        "step": 3,
+        "file": "/joint/pipeline/kitchen17_2/03.jpg",
+        "sha256": "577edd97ed2d7ba349af96ce02079b715e21a655b24e6e0ab0fd7ab448204146"
+      },
+      {
+        "step": 4,
+        "file": "/joint/pipeline/kitchen17_2/04.jpg",
+        "sha256": "deb67bbf520914ece7450f1097993d29f921a24f1d0f1af9d840a38de638a33f"
+      },
+      {
+        "step": 5,
+        "file": "/joint/pipeline/kitchen17_2/05.jpg",
+        "sha256": "a8abbfe19ba14852e19dddc00c88b32901099a37dce44554e57a4dc769ce2895"
+      },
+      {
+        "step": 6,
+        "file": "/joint/pipeline/kitchen17_2/06.jpg",
+        "sha256": "297b95f7698546c880a6c7691640cf7d47ad0b0c203dd2d2d8a76cf024b8d071"
+      },
+      {
+        "step": 7,
+        "file": "/joint/pipeline/kitchen17_2/07.jpg",
+        "sha256": "44df662dbb49017c19f40f6f4888003cfc5c020bb6878fd65924153c409cd33b"
+      }
+    ],
+    "sourcePlateSha256": "508c87d43ac37d53ec3753e416f3d9236009bef0c3cbb6056c7de692e5318cf9"
+  },
+  "branding": {
+    "source": "/Volumes/amaryl/Research/computational_robotics/website/public/branding/computational-robotics.jpg",
+    "sourceSha256": "de990fbd551815c8378bfd626fd66c3491aa8583f8bcd47109b5442c75a15f2a",
+    "file": "/joint/branding/computational-robotics.jpg",
+    "sha256": "de990fbd551815c8378bfd626fd66c3491aa8583f8bcd47109b5442c75a15f2a"
+  },
+  "compression": {
+    "preset": "h264-720p-crf29-cap80pct-v1",
+    "clipCount": 15,
+    "originalBytes": 111521875,
+    "compressedBytes": 36542995,
+    "preservesTiming": true,
+    "audio": "silent presentation films"
+  }
+}

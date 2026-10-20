@@ -1,0 +1,1034 @@
+{
+  "parent": {
+    "schema": "computational_robotics.space_scene.v1",
+    "space": "Box & bowl rig",
+    "assets": {
+      "full_3dgs_ply": "/home/prime/Research/computational_robotics/data_processed/shell_desk/3dgs/shell_desk_full_scene.ply",
+      "background_3dgs_ply": "/home/prime/Research/computational_robotics/data_processed/shell_desk/3dgs/shell_desk_background_only.ply"
+    },
+    "objects": [
+      {
+        "object_id": "box",
+        "name": "White box",
+        "mesh_glb": "/home/prime/Research/computational_robotics/scope/.scope-data/experiment-assets/objects/14985fe09ea0d2b7ed4faf4f0014404ccd86c0a3e0978e7e51f3c0d527159377/mesh.glb",
+        "transform": {
+          "position_xyz": [
+            0.18669574297501898,
+            0.030589507634750275,
+            0.0073120028188533685
+          ],
+          "rotation_wxyz": [
+            0.32401762432432246,
+            0.0,
+            0.0,
+            0.9460510446731837
+          ],
+          "scale_xyz": [
+            0.9999999876410318,
+            0.8075066152811289,
+            0.9341623282700451
+          ]
+        },
+        "render_visible": true,
+        "source_usd": "/home/prime/Research/computational_robotics/lerobot_agent_guide/assets/small_white_box.usda"
+      },
+      {
+        "object_id": "bowl",
+        "name": "White bowl",
+        "mesh_glb": "/home/prime/Research/computational_robotics/scope/.scope-data/experiment-assets/objects/fb135cf27137ba52515afc3f1ebca02c0210e95589ac83c09e72737b2c1bfcaf/mesh.glb",
+        "transform": {
+          "position_xyz": [
+            0.16528542896548976,
+            0.20695575387662318,
+            0.010219738924456453
+          ],
+          "rotation_wxyz": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "scale_xyz": [
+            0.999999968085703,
+            0.999999968085703,
+            1.048640129086724
+          ]
+        },
+        "render_visible": true,
+        "source_usd": "/home/prime/Research/computational_robotics/lerobot_agent_guide/assets/small_white_bowl.usda"
+      },
+      {
+        "object_id": "table",
+        "name": "Table",
+        "mesh_glb": "/home/prime/Research/computational_robotics/scope/.scope-data/experiment-assets/table.glb",
+        "transform": {
+          "position_xyz": [
+            0.07246144438938856,
+            0.1300139382248584,
+            -0.021415720032451648
+          ],
+          "rotation_wxyz": [
+            0.9999771431518393,
+            0.0,
+            0.0,
+            -0.006761151816518181
+          ],
+          "scale_xyz": [
+            0.5457813691533361,
+            0.6545519696484252,
+            0.5
+          ]
+        },
+        "render_visible": true
+      }
+    ],
+    "experiment_source": {
+      "experiment_id": "digital_sisters_lighting_10ep_4k_v4--6ae013dc1b",
+      "experiment_title": "Object sisters \u00d7 severe lighting \u00b7 10 trials",
+      "scene_id": "baseline",
+      "scene_label": "Original objects \u00b7 Neutral",
+      "protocol_sha256": "a7dc009e35fed95514675e147dbdc171fa3e47755723b33777fd24da605c7dc3",
+      "scene_sha256": "9cf00f3d144eab4a66229085c2e23432d60542d65c19a943c6d9bc807514c503",
+      "source_config": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/digital_sisters_lighting_10ep_4k_v4/scenes/baseline.json",
+      "start_pose_sha256": "a7e7143746747f67c46d4b97b2ae1917106ecc296cfce4381bf38bdc41dbc90d",
+      "editable_copy": true,
+      "version": 1,
+      "desk_capture": {
+        "scene_dir": "/home/prime/Research/computational_robotics/data_processed/shell_desk",
+        "manifest": "/home/prime/Research/computational_robotics/data_processed/shell_desk/scene.json.editor-original.json",
+        "manifest_sha256": "cd705a044bcacb226cbcdfeefcb3acf17977f5096e97c526e8daef7e197ed2f3",
+        "full_splat_sha256": "f5bf73472796beffa5cf1775c8a6e208918c6907daeb28ff12f291f983075ab7",
+        "transform": {
+          "position_xyz": [
+            -0.05,
+            -0.2,
+            -1.32
+          ],
+          "rotation_wxyz": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "uniform_scale": 1.206849951513535
+        },
+        "role": "Editor context from the desk capture; not part of recorded policy observations"
+      },
+      "rig_context": {
+        "profile": "/home/prime/Research/computational_robotics/lerobot_agent_guide/config/right_rig_context_20260917.json",
+        "sha256": "1faade114ed041adeea0616b94f5f864ddafde23c1d81d5f708ab6ed3dbd9933",
+        "registration_status": "estimated_unvalidated",
+        "policy_robot_id": "so101_left",
+        "policy_camera_roles": [
+          "external_left",
+          "external_right",
+          "left_wrist"
+        ],
+        "observer_camera_roles": [
+          "right_wrist"
+        ]
+      }
+    },
+    "experiment_lighting": {
+      "dome": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "temperature_kelvin": 6500,
+        "intensity": 1200,
+        "effective_color": [
+          1.0433334112167358,
+          0.9836244583129883,
+          1.0346132516860962
+        ]
+      },
+      "sources": [
+        {
+          "position_m": [
+            0.175,
+            -0.2,
+            0.6
+          ],
+          "target_m": [
+            0.175,
+            0.12,
+            0.025
+          ],
+          "width_m": 0.35,
+          "height_m": 0.35,
+          "intensity": 2400,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "temperature_kelvin": 6500,
+          "effective_color": [
+            1.0433334112167358,
+            0.9836244583129883,
+            1.0346132516860962
+          ]
+        }
+      ]
+    },
+    "robots": {
+      "so101_left": {
+        "asset_id": "so101_experiment",
+        "name": "SO-101 left",
+        "joints": [
+          -0.36210787118299936,
+          -1.6095388003007047,
+          1.1806864698106696,
+          1.2719806152996036,
+          -1.5059698117208216,
+          0.7724241490630973
+        ],
+        "transform": {
+          "position_xyz": [
+            0,
+            0,
+            0
+          ],
+          "rotation_wxyz": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "uniform_scale": 1
+        }
+      },
+      "so101_right": {
+        "asset_id": "so101_experiment",
+        "name": "SO-101 right",
+        "transform": {
+          "position_xyz": [
+            -0.00011197437581987786,
+            0.26399532236209733,
+            0.0
+          ],
+          "rotation_wxyz": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "uniform_scale": 1
+        },
+        "joints": [
+          -0.379174526127472,
+          -1.4223401412920231,
+          0.08614656645580157,
+          1.4940013964501362,
+          -1.133245643516435,
+          0.3
+        ]
+      }
+    },
+    "camera_views": [
+      {
+        "name": "Photo reference",
+        "position_xyz": [
+          0.557204216431428,
+          0.8536770507440701,
+          0.49843084420254
+        ],
+        "target_xyz": [
+          0.2647957200093063,
+          0.17018447071170828,
+          0.08632022281447238
+        ],
+        "up_xyz": [
+          -0.2009137594460605,
+          -0.44135499087384855,
+          0.8745509895346272
+        ],
+        "fov_deg": 56.27270737795928
+      },
+      {
+        "name": "Experiment overview",
+        "position_xyz": [
+          0.75,
+          -0.75,
+          0.55
+        ],
+        "target_xyz": [
+          0.13,
+          0.12,
+          0.11
+        ],
+        "fov_deg": 48
+      }
+    ],
+    "background": {
+      "position_xyz": [
+        0.2673775939635033,
+        0.2511386395016134,
+        -0.8402232538284636
+      ],
+      "rotation_wxyz": [
+        0.20369162630862078,
+        0.0,
+        0.0,
+        0.9790350971092656
+      ],
+      "uniform_scale": 0.7851333992074111
+    },
+    "scene_family": {
+      "name": "Box & bowl rig",
+      "sister_count": 210,
+      "experiments": [
+        {
+          "experiment_id": "digital_sisters_lighting_10ep_4k_v4--6ae013dc1b",
+          "title": "Object sisters \u00d7 severe lighting \u00b7 10 trials",
+          "sister_count": 210,
+          "manifest": "/home/prime/Research/computational_robotics/data_processed/box_bowl_rig/cousins/experiments/digital_sisters_lighting_10ep_4k_v4--6ae013dc1b.json"
+        }
+      ],
+      "camera_geometry_sha256": "436b7f48777766db523cb003ba3502e95e3f18d630332ba2608b2b6bdf348c51"
+    },
+    "display_registration": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/sceneagent_rig_photo_20260917/registration.json",
+      "status": "estimated_from_photo_not_hardware_calibration"
+    }
+  },
+  "robotAsset": {
+    "schema": "computational_robotics.robot_asset.v1",
+    "asset_id": "so101_experiment",
+    "name": "SO-101 \u00b7 experiment rig",
+    "model": "SO-101 original left follower",
+    "kinematics": "urdf_tree",
+    "root_link": "base_link",
+    "joints": [
+      {
+        "name": "gripper_frame_joint",
+        "type": "fixed",
+        "parent": "gripper_link",
+        "child": "gripper_frame_link",
+        "xyz": [
+          -0.0079,
+          -0.000218121,
+          -0.0981274
+        ],
+        "rpy": [
+          0.0,
+          3.14159,
+          0.0
+        ],
+        "axis": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "gripper",
+        "type": "revolute",
+        "parent": "gripper_link",
+        "child": "moving_jaw_so101_v1_link",
+        "xyz": [
+          0.0202,
+          0.0188,
+          -0.0234
+        ],
+        "rpy": [
+          1.5708,
+          -5.24284e-08,
+          -1.41553e-15
+        ],
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "lower": -0.174533,
+        "upper": 1.74533
+      },
+      {
+        "name": "wrist_roll",
+        "type": "revolute",
+        "parent": "wrist_link",
+        "child": "gripper_link",
+        "xyz": [
+          5.55112e-17,
+          -0.0611,
+          0.0181
+        ],
+        "rpy": [
+          1.5708,
+          0.0486795,
+          3.14159
+        ],
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "lower": -2.74385,
+        "upper": 2.84121
+      },
+      {
+        "name": "wrist_flex",
+        "type": "revolute",
+        "parent": "lower_arm_link",
+        "child": "wrist_link",
+        "xyz": [
+          -0.1349,
+          0.0052,
+          3.62355e-17
+        ],
+        "rpy": [
+          4.02456e-15,
+          8.67362e-16,
+          -1.5708
+        ],
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "lower": -1.65806,
+        "upper": 1.65806
+      },
+      {
+        "name": "elbow_flex",
+        "type": "revolute",
+        "parent": "upper_arm_link",
+        "child": "lower_arm_link",
+        "xyz": [
+          -0.11257,
+          -0.028,
+          1.73763e-16
+        ],
+        "rpy": [
+          -3.63608e-16,
+          8.74301e-16,
+          1.5708
+        ],
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "lower": -1.69,
+        "upper": 1.69
+      },
+      {
+        "name": "shoulder_lift",
+        "type": "revolute",
+        "parent": "shoulder_link",
+        "child": "upper_arm_link",
+        "xyz": [
+          -0.0303992,
+          -0.0182778,
+          -0.0542
+        ],
+        "rpy": [
+          -1.5708,
+          -1.5708,
+          0.0
+        ],
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "lower": -1.74533,
+        "upper": 1.74533
+      },
+      {
+        "name": "shoulder_pan",
+        "type": "revolute",
+        "parent": "base_link",
+        "child": "shoulder_link",
+        "xyz": [
+          0.0388353,
+          -8.97657e-09,
+          0.0624
+        ],
+        "rpy": [
+          3.14159,
+          4.18253e-17,
+          -3.14159
+        ],
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "lower": -1.91986,
+        "upper": 1.91986
+      }
+    ],
+    "actuated": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll",
+      "gripper"
+    ],
+    "rest_joints": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "visuals": [
+      {
+        "link_name": "base_link",
+        "mesh": "robot/2982a20bdb4c186a-base_link_0.glb",
+        "visual_transform": {
+          "position_xyz": [
+            -0.00636471,
+            -9.94414e-05,
+            -0.0024
+          ],
+          "rotation_wxyz": [
+            0.49999816339744785,
+            0.4999999999966273,
+            0.5000018366025512,
+            0.4999999999966273
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "base_link",
+        "mesh": "robot/d31c71927a04b812-base_link_1.glb",
+        "visual_transform": {
+          "position_xyz": [
+            -0.00636471,
+            -8.97657e-09,
+            -0.0024
+          ],
+          "rotation_wxyz": [
+            0.4999981633974483,
+            0.49999999999662686,
+            0.5000018366025516,
+            0.49999999999662686
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "base_link",
+        "mesh": "robot/985601a245a2be57-base_link_2.glb",
+        "visual_transform": {
+          "position_xyz": [
+            0.0263353,
+            -8.97657e-09,
+            0.0437
+          ],
+          "rotation_wxyz": [
+            1.0,
+            -4.10574e-16,
+            3.922564999999744e-18,
+            6.245e-16
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "base_link",
+        "mesh": "robot/4a4ac27632f7b2ae-base_link_3.glb",
+        "visual_transform": {
+          "position_xyz": [
+            -0.0309827,
+            -0.000199441,
+            0.0474
+          ],
+          "rotation_wxyz": [
+            0.4999981633974449,
+            0.49999999999663025,
+            0.5000018366025482,
+            0.49999999999663025
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "shoulder_link",
+        "mesh": "robot/985601a245a2be57-shoulder_link_0.glb",
+        "visual_transform": {
+          "position_xyz": [
+            -0.0303992,
+            0.000422241,
+            -0.0417
+          ],
+          "rotation_wxyz": [
+            0.4999981633974483,
+            0.49999999999662686,
+            0.49999999999662686,
+            -0.5000018366025516
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "shoulder_link",
+        "mesh": "robot/c717c27124bb1c30-shoulder_link_1.glb",
+        "visual_transform": {
+          "position_xyz": [
+            -0.0675992,
+            -0.000177759,
+            0.0158499
+          ],
+          "rotation_wxyz": [
+            0.4999981633974483,
+            0.49999999999662686,
+            -0.49999999999662686,
+            0.5000018366025516
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "shoulder_link",
+        "mesh": "robot/37ea7014fc8aacba-shoulder_link_2.glb",
+        "visual_transform": {
+          "position_xyz": [
+            0.0122008,
+            2.22413e-05,
+            0.0464
+          ],
+          "rotation_wxyz": [
+            0.7071054825112363,
+            -0.7071080798594735,
+            8.316302935088774e-34,
+            8.31633348263126e-34
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "upper_arm_link",
+        "mesh": "robot/985601a245a2be57-upper_arm_link_0.glb",
+        "visual_transform": {
+          "position_xyz": [
+            -0.11257,
+            -0.0155,
+            0.0187
+          ],
+          "rotation_wxyz": [
+            9.381839454221638e-07,
+            -0.7071054825106139,
+            0.7071080798588512,
+            -9.38187391943447e-07
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "upper_arm_link",
+        "mesh": "robot/d9f981c38d110e2f-upper_arm_link_1.glb",
+        "visual_transform": {
+          "position_xyz": [
+            -0.065085,
+            0.012,
+            0.0182
+          ],
+          "rotation_wxyz": [
+            1.3267948966775328e-06,
+            0.9999999999991198,
+            -6.545549999994239e-31,
+            -8.684602335947626e-37
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "lower_arm_link",
+        "mesh": "robot/c6019f93fb39d23e-lower_arm_link_0.glb",
+        "visual_transform": {
+          "position_xyz": [
+            -0.0648499,
+            -0.032,
+            0.0182
+          ],
+          "rotation_wxyz": [
+            1.3267948966775328e-06,
+            0.9999999999991198,
+            3.336009999997064e-31,
+            4.426201043265217e-37
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "lower_arm_link",
+        "mesh": "robot/9f9156232a755b62-lower_arm_link_1.glb",
+        "visual_transform": {
+          "position_xyz": [
+            -0.0648499,
+            -0.032,
+            0.018
+          ],
+          "rotation_wxyz": [
+            1.3267948966775328e-06,
+            -0.9999999999991198,
+            -1.6939920173905883e-21,
+            -1.2767549999988762e-15
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "lower_arm_link",
+        "mesh": "robot/985601a245a2be57-lower_arm_link_2.glb",
+        "visual_transform": {
+          "position_xyz": [
+            -0.1224,
+            0.0052,
+            0.0187
+          ],
+          "rotation_wxyz": [
+            1.760384697849545e-12,
+            -1.326794896676365e-06,
+            0.9999999999982396,
+            -1.326794896676365e-06
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "wrist_link",
+        "mesh": "robot/e40e1e519b2d2dfd-wrist_link_0.glb",
+        "visual_transform": {
+          "position_xyz": [
+            8.32667e-17,
+            -0.0424,
+            0.0306
+          ],
+          "rotation_wxyz": [
+            0.4999981633974483,
+            0.49999999999662686,
+            0.49999999999662686,
+            -0.5000018366025516
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "wrist_link",
+        "mesh": "robot/5f5e20243915c65a-wrist_link_1.glb",
+        "visual_transform": {
+          "position_xyz": [
+            0.0,
+            -0.028,
+            0.0181
+          ],
+          "rotation_wxyz": [
+            0.4999981633974483,
+            -0.49999999999662686,
+            -0.49999999999662686,
+            -0.5000018366025516
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "gripper_link",
+        "mesh": "robot/985601a245a2be57-gripper_link_0.glb",
+        "visual_transform": {
+          "position_xyz": [
+            0.0077,
+            0.0001,
+            -0.0234
+          ],
+          "rotation_wxyz": [
+            0.7071054825112363,
+            -0.7071080798594735,
+            4.0522699066383794e-17,
+            -7.723398194918994e-17
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "gripper_link",
+        "mesh": "robot/519df56d8ff08110-gripper_link_1.glb",
+        "visual_transform": {
+          "position_xyz": [
+            8.32667e-17,
+            -0.000218214,
+            0.000949706
+          ],
+          "rotation_wxyz": [
+            1.3267948966775328e-06,
+            -0.9999999999991198,
+            -3.6825988434222926e-23,
+            -2.775559999997557e-17
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "link_name": "moving_jaw_so101_v1_link",
+        "mesh": "robot/8e7375e9a509cb2d-moving_jaw_so101_v1_link_0.glb",
+        "visual_transform": {
+          "position_xyz": [
+            -5.55112e-17,
+            -5.55112e-17,
+            0.0189
+          ],
+          "rotation_wxyz": [
+            1.0,
+            4.765725e-17,
+            3.469445e-18,
+            6.203849998346558e-25
+          ],
+          "scale_xyz": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    ],
+    "urdf": "/home/prime/Research/computational_robotics/models/so101/urdf/so101_new_calib.urdf",
+    "urdf_sha256": "3a65d2d35e68a8d2f0c2cc176d19b884506543c93ba72980145b80abe276022c"
+  },
+  "objects": [
+    {
+      "id": "box",
+      "mesh": "objects/a2c92203d150c122-mesh.glb",
+      "bounds": [
+        [
+          -0.038100000470876694,
+          -0.02539999969303608,
+          -0.02539999969303608
+        ],
+        [
+          0.038100000470876694,
+          0.02539999969303608,
+          0.02539999969303608
+        ]
+      ]
+    },
+    {
+      "id": "bowl",
+      "mesh": "objects/50b3e8db9cb6bba5-mesh.glb",
+      "bounds": [
+        [
+          -0.06350000202655792,
+          -0.06350000202655792,
+          -0.02539999969303608
+        ],
+        [
+          0.06350000202655792,
+          0.06350000202655792,
+          0.02539999969303608
+        ]
+      ]
+    }
+  ],
+  "tableMesh": "objects/2ff7c7636449e01d-table.glb",
+  "colors": {
+    "2700": [
+      1.9353235960006714,
+      0.8035656809806824,
+      0.19168952107429504
+    ],
+    "6500": [
+      1.0433334112167358,
+      0.9836244583129883,
+      1.0346132516860962
+    ],
+    "12000": [
+      0.871841311454773,
+      0.9946879148483276,
+      1.4299958944320679
+    ]
+  },
+  "sourceFiles": {
+    "objects/a2c92203d150c122-mesh.glb": {
+      "source": "scope/.scope-data/experiment-assets/objects/14985fe09ea0d2b7ed4faf4f0014404ccd86c0a3e0978e7e51f3c0d527159377/mesh.glb",
+      "sha256": "a2c92203d150c12236d03407989a17ea066ea645056734e14c8a8ab6c5a0c8eb",
+      "bytes": 4073712
+    },
+    "robot/985601a245a2be57-shoulder_link_0.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/shoulder_link_0.glb",
+      "sha256": "985601a245a2be5784bafab274e4785703f6008e3c6d09d030485c1f29fcf12c",
+      "bytes": 917376
+    },
+    "robot/985601a245a2be57-lower_arm_link_2.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/lower_arm_link_2.glb",
+      "sha256": "985601a245a2be5784bafab274e4785703f6008e3c6d09d030485c1f29fcf12c",
+      "bytes": 917376
+    },
+    "source/3a65d2d35e68a8d2-so101_new_calib.urdf": {
+      "source": "models/so101/urdf/so101_new_calib.urdf",
+      "sha256": "3a65d2d35e68a8d2f0c2cc176d19b884506543c93ba72980145b80abe276022c",
+      "bytes": 16231
+    },
+    "robot/519df56d8ff08110-gripper_link_1.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/gripper_link_1.glb",
+      "sha256": "519df56d8ff08110eb8b37a4eb7bb83abbc27120c665e97362bbdbad4334da33",
+      "bytes": 1383804
+    },
+    "robot/d9f981c38d110e2f-upper_arm_link_1.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/upper_arm_link_1.glb",
+      "sha256": "d9f981c38d110e2f740241e56b059305f706b8250438ac830fa673e7f84bc104",
+      "bytes": 1252816
+    },
+    "robot/c717c27124bb1c30-shoulder_link_1.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/shoulder_link_1.glb",
+      "sha256": "c717c27124bb1c3041741c6a96b8bac44cabcadad6e5102ad3f3c9a8886c1856",
+      "bytes": 1085716
+    },
+    "robot/985601a245a2be57-upper_arm_link_0.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/upper_arm_link_0.glb",
+      "sha256": "985601a245a2be5784bafab274e4785703f6008e3c6d09d030485c1f29fcf12c",
+      "bytes": 917376
+    },
+    "robot/d31c71927a04b812-base_link_1.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/base_link_1.glb",
+      "sha256": "d31c71927a04b8129bbd7426a0a4ee712a07ea9b6635fe18b5e2d741908e1245",
+      "bytes": 454168
+    },
+    "robot/5f5e20243915c65a-wrist_link_1.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/wrist_link_1.glb",
+      "sha256": "5f5e20243915c65a26b9b932ec3ff71f2d090673adfb35bcc088564a9ba68354",
+      "bytes": 2593296
+    },
+    "source/d3a0bdbcd72e1bf4-blackbody.json": {
+      "source": "scope/.scope-data/experiment-assets/blackbody.json",
+      "sha256": "d3a0bdbcd72e1bf40081db533f9db4caaf66153f0348afd7e6f3d75ebdbaf5ac",
+      "bytes": 211
+    },
+    "robot/4a4ac27632f7b2ae-base_link_3.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/base_link_3.glb",
+      "sha256": "4a4ac27632f7b2aefc9a957b9dde3816ee867c9b653522908b09d5333ba1dee3",
+      "bytes": 61780
+    },
+    "robot/8e7375e9a509cb2d-moving_jaw_so101_v1_link_0.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/moving_jaw_so101_v1_link_0.glb",
+      "sha256": "8e7375e9a509cb2d7de32f70a75ad82d399897526b54018c7ee32d08c63822b4",
+      "bytes": 1358516
+    },
+    "robot/985601a245a2be57-gripper_link_0.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/gripper_link_0.glb",
+      "sha256": "985601a245a2be5784bafab274e4785703f6008e3c6d09d030485c1f29fcf12c",
+      "bytes": 917376
+    },
+    "source/e8290dd687d9e9d9-scene.json": {
+      "source": "data_processed/box_bowl_rig/scene.json",
+      "sha256": "e8290dd687d9e9d9c7587e0207961c8c32e2e2e548ddf0ac7e33afd26fc475f2",
+      "bytes": 8176
+    },
+    "objects/2ff7c7636449e01d-table.glb": {
+      "source": "scope/.scope-data/experiment-assets/table.glb",
+      "sha256": "2ff7c7636449e01d3fd4157dea8508d943f4d9fbbbcdf16421ee38a675636e82",
+      "bytes": 1228
+    },
+    "source/ca3e457b4c40ed2d-robot.json": {
+      "source": "data_processed/box_bowl_rig/assets/robots/so101_experiment/robot.json",
+      "sha256": "ca3e457b4c40ed2d588a4d8058df29ce0d7b5b5fe52d1f7e00f2a4e044fa0752",
+      "bytes": 13729
+    },
+    "robot/e40e1e519b2d2dfd-wrist_link_0.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/wrist_link_0.glb",
+      "sha256": "e40e1e519b2d2dfd7ad9481b7fe2980976a945054cc1c813bc48fa7310d3a0da",
+      "bytes": 832736
+    },
+    "robot/985601a245a2be57-base_link_2.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/base_link_2.glb",
+      "sha256": "985601a245a2be5784bafab274e4785703f6008e3c6d09d030485c1f29fcf12c",
+      "bytes": 917376
+    },
+    "robot/37ea7014fc8aacba-shoulder_link_2.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/shoulder_link_2.glb",
+      "sha256": "37ea7014fc8aacba0bc0f74187c4651429f5f32d006ec73c1180bba518f23cdb",
+      "bytes": 849828
+    },
+    "robot/9f9156232a755b62-lower_arm_link_1.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/lower_arm_link_1.glb",
+      "sha256": "9f9156232a755b62a3e021f4858812512890c61287cb47bfa671b57602a49fa6",
+      "bytes": 1011604
+    },
+    "robot/2982a20bdb4c186a-base_link_0.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/base_link_0.glb",
+      "sha256": "2982a20bdb4c186a6fbe0abd45c47d6303e11f140328d8a9b6cc0c4d82340914",
+      "bytes": 1803508
+    },
+    "robot/c6019f93fb39d23e-lower_arm_link_0.glb": {
+      "source": "scope/.scope-data/experiment-assets/robots/5bbefe19a7cb54c3e2da1e48beaf86d630371021ac8c30a97ebeebfc74f06c56/meshes/lower_arm_link_0.glb",
+      "sha256": "c6019f93fb39d23ec40b054de25cb16135d90ffc0449b8ab3b8c06a4938327d4",
+      "bytes": 1898324
+    },
+    "objects/50b3e8db9cb6bba5-mesh.glb": {
+      "source": "scope/.scope-data/experiment-assets/objects/fb135cf27137ba52515afc3f1ebca02c0210e95589ac83c09e72737b2c1bfcaf/mesh.glb",
+      "sha256": "50b3e8db9cb6bba522bab4a0c502341d9a8aee981e15c7d52092039c269dc22f",
+      "bytes": 1955624
+    }
+  }
+}

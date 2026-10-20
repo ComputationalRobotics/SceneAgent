@@ -1,0 +1,211 @@
+scene_id,object_id,lighting_id,label,trials,pick_successes,place_successes,pick_rate,place_rate,verified_complete,scene_sha256
+baseline,baseline,baseline,Original objects · Neutral,10,2,1,0.2,0.1,True,3ec6c49b1514d0fdab1c35fb19e8bf82587437ae77bd1964c37ba31cdd02b7c2
+warm,baseline,warm,Original objects · Strong warm,10,2,2,0.2,0.2,True,f0a2e81d97d24d7a91666516b76adc4153388eed5fd67df9991daa0b346bf29d
+cool,baseline,cool,Original objects · Strong cool,10,2,2,0.2,0.2,True,c4c880d5a4f8bda3c124034ff423918bd79cc8ac1d6bd3aeeecc5d4f397b52c6
+dim,baseline,dim,Original objects · Very dim,10,4,2,0.4,0.2,True,7bb2de44168f6b75fbce8f3e04a685323cfdfe2cdbf5ea91cfdb32cb3e4072cc
+bright,baseline,bright,Original objects · Very bright,10,5,4,0.5,0.4,True,ba0f1ecec0c6b5963c2fae5dfe513c944fa0a2dc038a584af822267351b649f4
+key_left,baseline,key_left,Original objects · Hard left,10,3,1,0.3,0.1,True,b4c63d1ed6f40473ed1de083d7f13bc590f82c42cccdcaa101dabed55884d5f2
+key_right,baseline,key_right,Original objects · Hard right,10,10,6,1,0.6,True,7f0fc5a3645997fac1d47805c10e8fab1e7cb7fe65b1ad67bf1ed815cc9648e7
+backlit,baseline,backlit,Original objects · Backlit,10,5,4,0.5,0.4,True,949d22beb498b1d5119292b623bd18c26db347e1ba6750ccb67efac1fa15cfbf
+spotlight,baseline,spotlight,Original objects · Overhead spot,10,4,3,0.4,0.3,True,2ee7b490f25d6c2998e1c307aa1d1f332a3c2efc522132ee68a756f4cc084e62
+split,baseline,split,Original objects · Red / blue split,10,0,0,0,0,True,81fd008e7743061ba9262300b15ea5ac34b0d70f6504fad21ed40b39315eae4a
+box_length_-5pct,box_length_-5pct,baseline,Box length -5% · Neutral,10,2,1,0.2,0.1,True,ed0fdb0545f93f6a9ac5405e5c9b6c0ede0bea22c3872e7560358010ece58950
+box_length_-5pct__warm,box_length_-5pct,warm,Box length -5% · Strong warm,10,1,1,0.1,0.1,True,65fb833313951b788754247442ce399c57114b88442f58641edda2e97385873b
+box_length_-5pct__cool,box_length_-5pct,cool,Box length -5% · Strong cool,10,2,0,0.2,0,True,789e482e438992ad9352020d5187cffbee4d29be2dd7eed55aea14bebbe4ac51
+box_length_-5pct__dim,box_length_-5pct,dim,Box length -5% · Very dim,10,2,1,0.2,0.1,True,150aaa7ae9c6395544422ebbd8eddec5f38145da9ce76f2ad4370f1e6810add6
+box_length_-5pct__bright,box_length_-5pct,bright,Box length -5% · Very bright,10,3,2,0.3,0.2,True,48d6486ab2bd2ed09ceaa429e11478762d988e78dc3fef5f513697db1420bbb3
+box_length_-5pct__key_left,box_length_-5pct,key_left,Box length -5% · Hard left,10,3,3,0.3,0.3,True,64f053db2ae7abc26ec6d8bf27f50f1f3fc942df8948e50e9b53b6caba2b37db
+box_length_-5pct__key_right,box_length_-5pct,key_right,Box length -5% · Hard right,10,10,7,1,0.7,True,f2963381de8f3efc38486605235528c71741752f8e9dfde2d684b0461f0efd68
+box_length_-5pct__backlit,box_length_-5pct,backlit,Box length -5% · Backlit,10,1,1,0.1,0.1,True,1436cb27217cc2e722f54f9a45d2433600ebf4e3cc2a20722569e7bc04d74644
+box_length_-5pct__spotlight,box_length_-5pct,spotlight,Box length -5% · Overhead spot,10,5,4,0.5,0.4,True,6d8f40722124fc237badc09a1e0e77e7ceab7cb545e96bcf911398b4707dad05
+box_length_-5pct__split,box_length_-5pct,split,Box length -5% · Red / blue split,10,0,0,0,0,True,423f10076b95fc34b434dda60b86cd2809d391c4e5f9aa7d45c58c040e3d5fce
+box_length_+5pct,box_length_+5pct,baseline,Box length +5% · Neutral,10,2,2,0.2,0.2,True,7d3143fa73a83e3d81a22ca1417c83779000ddf44fe0c5f79c59e1ca758a3e86
+box_length_+5pct__warm,box_length_+5pct,warm,Box length +5% · Strong warm,10,2,0,0.2,0,True,659954550d898aeb70530a3ef392d1725462f301d419b4508d48f54246d21037
+box_length_+5pct__cool,box_length_+5pct,cool,Box length +5% · Strong cool,10,2,0,0.2,0,True,5c7a5f93e489c6f71434046ef2a5439eb0137b835e8c1ef28f06e20877dc7a89
+box_length_+5pct__dim,box_length_+5pct,dim,Box length +5% · Very dim,10,3,3,0.3,0.3,True,82599f15d8be2e9a2a7337413472751704ece9872879e842cea0c9c85c6d83af
+box_length_+5pct__bright,box_length_+5pct,bright,Box length +5% · Very bright,10,5,5,0.5,0.5,True,275272015e975a8c80beb547316e6542adcbef4edd172806dca159ea7b4da00f
+box_length_+5pct__key_left,box_length_+5pct,key_left,Box length +5% · Hard left,10,4,2,0.4,0.2,True,b34725d625938e586c4f439c580503f74083e446855d573b6d15636f06a2ae87
+box_length_+5pct__key_right,box_length_+5pct,key_right,Box length +5% · Hard right,10,10,8,1,0.8,True,4020f3f2f2cea8dfca816926fa8d0f2d620736d22eb9733b022c9939a5813f90
+box_length_+5pct__backlit,box_length_+5pct,backlit,Box length +5% · Backlit,10,4,3,0.4,0.3,True,9494ef60e2faa185e3be005d5be618fe656fb6e0905e8e94fb9300092faf1a63
+box_length_+5pct__spotlight,box_length_+5pct,spotlight,Box length +5% · Overhead spot,10,6,4,0.6,0.4,True,3cf08f4711e61b78eece262f3c90617959eeed03f5e6ba323c0a9008df266391
+box_length_+5pct__split,box_length_+5pct,split,Box length +5% · Red / blue split,10,0,0,0,0,True,ad5d65846d96d82accf1235596ae91970f3e3dbfdc1154394c424809332a6e9d
+box_width_-5pct,box_width_-5pct,baseline,Box width -5% · Neutral,10,2,1,0.2,0.1,True,25bae7be03e1b7d8e0322f445673bed38d7535d9edf17304bfe978a8d9b9cd8b
+box_width_-5pct__warm,box_width_-5pct,warm,Box width -5% · Strong warm,10,0,0,0,0,True,8b252a211c743ba9f2c91beef672651aa4311027512b0e103d7f4ea26a0c2eb3
+box_width_-5pct__cool,box_width_-5pct,cool,Box width -5% · Strong cool,10,1,1,0.1,0.1,True,dc5c68ff1648e1645b8f58238a594a55fdca7bc0db756677a5e0fa0fb2df834a
+box_width_-5pct__dim,box_width_-5pct,dim,Box width -5% · Very dim,10,0,0,0,0,True,2c9bf9740cb86f5ae1769b881b237fa6e12f43f6a48f1895b461e023d731b30d
+box_width_-5pct__bright,box_width_-5pct,bright,Box width -5% · Very bright,10,0,0,0,0,True,569f6ea45828eaf690648c00977ea0de76da3df5eef8261813d105d1c2e78a11
+box_width_-5pct__key_left,box_width_-5pct,key_left,Box width -5% · Hard left,10,1,1,0.1,0.1,True,914011e29f770f3ad18e8c0660b537e4dc08bfe9edf60fe09a5341195fcf5b35
+box_width_-5pct__key_right,box_width_-5pct,key_right,Box width -5% · Hard right,10,7,6,0.7,0.6,True,ad426d29a2141c56483626d0b4421edbe029d2586a123652cf0e858a3f1deb6e
+box_width_-5pct__backlit,box_width_-5pct,backlit,Box width -5% · Backlit,10,0,0,0,0,True,b5ff36f5ecd22faa3550fbceb8733421522f1514b4825b68f2f7fb7d9ecb82bb
+box_width_-5pct__spotlight,box_width_-5pct,spotlight,Box width -5% · Overhead spot,10,0,0,0,0,True,5df0231d01348a6a4172dbbaf616d4895fb6950acbd35c8731efcd384da14adb
+box_width_-5pct__split,box_width_-5pct,split,Box width -5% · Red / blue split,10,0,0,0,0,True,585ce242f817cd5d4b6ef2e03c1dfc281a3721f8bc2af952fb9ed2931cb5da04
+box_width_+5pct,box_width_+5pct,baseline,Box width +5% · Neutral,10,2,0,0.2,0,True,5abfdf1aea9f20bc8c21dfa647c38f0fe4e981fc5151e0ae3d72c335d933cf21
+box_width_+5pct__warm,box_width_+5pct,warm,Box width +5% · Strong warm,10,2,1,0.2,0.1,True,f726e612f2423ea065bba7cd7c69ee5c614176a91206e766289a6b18b8565746
+box_width_+5pct__cool,box_width_+5pct,cool,Box width +5% · Strong cool,10,1,0,0.1,0,True,d40821d62a3face9611b5d99ddac843b680406f00862b94120f74fd74bdd43e8
+box_width_+5pct__dim,box_width_+5pct,dim,Box width +5% · Very dim,10,3,2,0.3,0.2,True,9c29ca57a40309167a23da2ae5c8d98dbe32e2a1afb69cb232c4a342aa8e984d
+box_width_+5pct__bright,box_width_+5pct,bright,Box width +5% · Very bright,10,4,4,0.4,0.4,True,efd68eec5b2e3b2eaf23f422e0cea00718bce70697c4626e8a8baa69049e564a
+box_width_+5pct__key_left,box_width_+5pct,key_left,Box width +5% · Hard left,10,3,3,0.3,0.3,True,e6e11f039a907edd581a882b44a66048b481aeab94a34db3399453fbbcbfc3b1
+box_width_+5pct__key_right,box_width_+5pct,key_right,Box width +5% · Hard right,10,9,4,0.9,0.4,True,f0767c236880451eb57a2748f7fbe49af20fdaaada368839c868784c402d687b
+box_width_+5pct__backlit,box_width_+5pct,backlit,Box width +5% · Backlit,10,1,1,0.1,0.1,True,f37304371bd802778bc818c44fae686f23e39a02317f826a25768880c18fa485
+box_width_+5pct__spotlight,box_width_+5pct,spotlight,Box width +5% · Overhead spot,10,3,1,0.3,0.1,True,0a5a9982b756501b293f5e5dee749417ac7fd4560bbc3c8c69e62a45afa3ba15
+box_width_+5pct__split,box_width_+5pct,split,Box width +5% · Red / blue split,10,0,0,0,0,True,bf4ea6f6ff587cd49fb2a1800b31f7cefe6e82844f59d35a025e21f81e3a7df3
+box_height_-5pct,box_height_-5pct,baseline,Box height -5% · Neutral,10,2,2,0.2,0.2,True,a75d0227f1df9189686fef07798e4cc410f6e3d845d9c8a5e9ddf9db1009cda4
+box_height_-5pct__warm,box_height_-5pct,warm,Box height -5% · Strong warm,10,2,2,0.2,0.2,True,8e429e9632c49da95223a76dddf92d8476604d9074a04f31b98764d48eb89fd2
+box_height_-5pct__cool,box_height_-5pct,cool,Box height -5% · Strong cool,10,0,0,0,0,True,f34109a8f924be90d919308508e39bd97f30a987e2f4d7f80a81566923355707
+box_height_-5pct__dim,box_height_-5pct,dim,Box height -5% · Very dim,10,4,4,0.4,0.4,True,fbb265c10e2a1707eac8aa58306bf4c7d986df5dba9cf9754a2cbcc14e47068b
+box_height_-5pct__bright,box_height_-5pct,bright,Box height -5% · Very bright,10,5,3,0.5,0.3,True,bbeedcf5a808a8cbda8ed59ee3389d59804e10409f6066e550f97864942bc7bd
+box_height_-5pct__key_left,box_height_-5pct,key_left,Box height -5% · Hard left,10,4,2,0.4,0.2,True,6d94481b966a08a0e79ab5d060c4e32e15b98aa7fdd5645443a9e7f29e364f17
+box_height_-5pct__key_right,box_height_-5pct,key_right,Box height -5% · Hard right,10,10,9,1,0.9,True,ec7f6f41a315ba7d1d559309f5fe90e5447d366f48f32e6207f49fc9308a681d
+box_height_-5pct__backlit,box_height_-5pct,backlit,Box height -5% · Backlit,10,5,4,0.5,0.4,True,c50971618472d03ff6e2bb1daf5898f5120de50a9cf8e9d73a1383df0203397b
+box_height_-5pct__spotlight,box_height_-5pct,spotlight,Box height -5% · Overhead spot,10,5,4,0.5,0.4,True,a9e5233c9e53db240d1c8cd6a651be640deae9d892b769d3a55395b2ebf1e76e
+box_height_-5pct__split,box_height_-5pct,split,Box height -5% · Red / blue split,10,0,0,0,0,True,8773a794c60722df1347fd5e72bd0d30b6f76834d17a99fed6881d1ad56c6dcb
+box_height_+5pct,box_height_+5pct,baseline,Box height +5% · Neutral,10,2,1,0.2,0.1,True,fe519696c73e72723e30d00cce23f736549b5e1b6803e0974a0e8e4c21b23f13
+box_height_+5pct__warm,box_height_+5pct,warm,Box height +5% · Strong warm,10,2,2,0.2,0.2,True,90937e0f443b32bad10d9d0d88ac06ce803157ef58cd995089ebb4714e6acacd
+box_height_+5pct__cool,box_height_+5pct,cool,Box height +5% · Strong cool,10,3,1,0.3,0.1,True,2f255c43463687bd12fde2dcd25ad92e99bce8991d46703e3a87ac1db23f19c2
+box_height_+5pct__dim,box_height_+5pct,dim,Box height +5% · Very dim,10,4,4,0.4,0.4,True,915ae57881d6369084479a03668f9fe37b383dbfd052ac9415b52ce17395f2bd
+box_height_+5pct__bright,box_height_+5pct,bright,Box height +5% · Very bright,10,4,2,0.4,0.2,True,19a9e20f0696483e27e5f377c8edad37354dfe901aeb4854323ac82e4f6a54ff
+box_height_+5pct__key_left,box_height_+5pct,key_left,Box height +5% · Hard left,10,6,2,0.6,0.2,True,1e37beef65ca0d23bc409dffd57432f0d451c4cd8cf41a27ee1ab4b69a39b4c3
+box_height_+5pct__key_right,box_height_+5pct,key_right,Box height +5% · Hard right,10,10,2,1,0.2,True,eea6bd12509edbe37c6d83c85bb49af31de7ee8ba1c87c6c57bfa74987e37530
+box_height_+5pct__backlit,box_height_+5pct,backlit,Box height +5% · Backlit,10,4,3,0.4,0.3,True,814a00f2f2ac9d8f7e14e62c24d475af2141dbd100ed20f11e32544a09e0acee
+box_height_+5pct__spotlight,box_height_+5pct,spotlight,Box height +5% · Overhead spot,10,3,0,0.3,0,True,1a2d8f74ce3fa6f8a62867d2e5d85e6fe0148eeefbd518e06909030bd5938535
+box_height_+5pct__split,box_height_+5pct,split,Box height +5% · Red / blue split,10,2,1,0.2,0.1,True,5903a64fd178c85ba1409556d8256326667a4dce9b826b180711f32f552db877
+bowl_diameter_-5pct,bowl_diameter_-5pct,baseline,Bowl diameter -5% · Neutral,10,1,1,0.1,0.1,True,ae3814676d7e5c115b835e599a0118e927e1c683392e8e247305089a30fab702
+bowl_diameter_-5pct__warm,bowl_diameter_-5pct,warm,Bowl diameter -5% · Strong warm,10,2,2,0.2,0.2,True,d07dcf5b78c22ab2c20d065d5d190c426cfe9b15744922eccb5f473aff9e1031
+bowl_diameter_-5pct__cool,bowl_diameter_-5pct,cool,Bowl diameter -5% · Strong cool,10,2,2,0.2,0.2,True,bc20543d40fa683c7dd23955ecc8260bf24d8309e2fc7e2d75b3aa43c9a4e2b4
+bowl_diameter_-5pct__dim,bowl_diameter_-5pct,dim,Bowl diameter -5% · Very dim,10,3,1,0.3,0.1,True,e89f904cb4fc860d5e442c8ceb5f75c8252ba5ad667ccc45dd1b92ff3d70b235
+bowl_diameter_-5pct__bright,bowl_diameter_-5pct,bright,Bowl diameter -5% · Very bright,10,2,0,0.2,0,True,2d004b15ce8c41cdceafde8e2a9e2d68edb24a11f887326872356a4e0e51b593
+bowl_diameter_-5pct__key_left,bowl_diameter_-5pct,key_left,Bowl diameter -5% · Hard left,10,6,4,0.6,0.4,True,8dd2e842b3cc983e5d5cdd19aaf82a6f24c3432223a998c1e379bcbc98f2cdc9
+bowl_diameter_-5pct__key_right,bowl_diameter_-5pct,key_right,Bowl diameter -5% · Hard right,10,10,9,1,0.9,True,37f5e324de1e51836023b10be3ceb7ba466d78e451a16699dd6ce908461a12cd
+bowl_diameter_-5pct__backlit,bowl_diameter_-5pct,backlit,Bowl diameter -5% · Backlit,10,2,2,0.2,0.2,True,5a935d82fec96510685eefe02caba1427e8ed1cacd6f258f393c7eb051d6e769
+bowl_diameter_-5pct__spotlight,bowl_diameter_-5pct,spotlight,Bowl diameter -5% · Overhead spot,10,4,2,0.4,0.2,True,4c3117eb9da4f317466a4eacf32f401d415f2ec39432364d07224e9de5b59306
+bowl_diameter_-5pct__split,bowl_diameter_-5pct,split,Bowl diameter -5% · Red / blue split,10,0,0,0,0,True,ed5155271d4225fa828fe2fc877774f623e886a3522b3179cc710be7d07340c3
+bowl_diameter_+5pct,bowl_diameter_+5pct,baseline,Bowl diameter +5% · Neutral,10,3,1,0.3,0.1,True,f97f443c86950c8aee21c9085d04d516ab107d9b2cb667d70da3c9ced776bebd
+bowl_diameter_+5pct__warm,bowl_diameter_+5pct,warm,Bowl diameter +5% · Strong warm,10,0,0,0,0,True,a338d177ee8c3550b140185f34b778d9250844a5b83c3217da61c057425e33da
+bowl_diameter_+5pct__cool,bowl_diameter_+5pct,cool,Bowl diameter +5% · Strong cool,10,1,0,0.1,0,True,da12977ce268427b859e9c72d1f04fe8861bb250baa703901021c06c5bf10241
+bowl_diameter_+5pct__dim,bowl_diameter_+5pct,dim,Bowl diameter +5% · Very dim,10,2,1,0.2,0.1,True,cb4e0a7ea5c3dc928761dff32d0bab04b16a979b7b14a450af3d8891977d9e04
+bowl_diameter_+5pct__bright,bowl_diameter_+5pct,bright,Bowl diameter +5% · Very bright,10,4,4,0.4,0.4,True,9967f63af68cdf643e82eeca943354a458fca574cea11514e0e881a2a9a85110
+bowl_diameter_+5pct__key_left,bowl_diameter_+5pct,key_left,Bowl diameter +5% · Hard left,10,2,0,0.2,0,True,a12cfd586e43c36cfbfd432dd675d18306693b89e786b966a8cb163b580d7bf9
+bowl_diameter_+5pct__key_right,bowl_diameter_+5pct,key_right,Bowl diameter +5% · Hard right,10,9,8,0.9,0.8,True,34cc61e913a8a913729d7dc4af968714ae4b63932404c90404e9c32b55e460d8
+bowl_diameter_+5pct__backlit,bowl_diameter_+5pct,backlit,Bowl diameter +5% · Backlit,10,2,2,0.2,0.2,True,f67d28f3c0e951bd3f67ed12e5ba975503ef7ea4ef07bcaa1eb36f781dd3b832
+bowl_diameter_+5pct__spotlight,bowl_diameter_+5pct,spotlight,Bowl diameter +5% · Overhead spot,10,6,4,0.6,0.4,True,08f834201fc3676a39c69cb51e9de36c30678b12aa94d8bf6b65bb2aaaa4cd37
+bowl_diameter_+5pct__split,bowl_diameter_+5pct,split,Bowl diameter +5% · Red / blue split,10,0,0,0,0,True,b7752f07696fdd51d7e5e53c9564b6d1cccc4589246a06b4d9d4e546bc3ed783
+box_cool,box_cool,baseline,Box cool · Neutral,10,1,0,0.1,0,True,3f19d79392b3e5421eef901eb57c1d43684fb72c6c6f0c6dd09a9a1d37ec93b2
+box_cool__warm,box_cool,warm,Box cool · Strong warm,10,1,1,0.1,0.1,True,9d473634c16c80b29241c43a7d7f99415c2ab0e4a2eec760a19b1dfc742666d2
+box_cool__cool,box_cool,cool,Box cool · Strong cool,10,1,1,0.1,0.1,True,909f71cf8cff52bbcdde63dfecea5107466484aebfd07cb5611d4f1358ad8985
+box_cool__dim,box_cool,dim,Box cool · Very dim,10,5,4,0.5,0.4,True,5df1f7d298f2e66ae0a6246a22858d854f418e8274c5ceda070cbfe3bd35b05a
+box_cool__bright,box_cool,bright,Box cool · Very bright,10,4,3,0.4,0.3,True,21e627398a326c5199b1552d12ec820e3f059ebf65536d802bc95adfc58666e7
+box_cool__key_left,box_cool,key_left,Box cool · Hard left,10,2,1,0.2,0.1,True,9e902fd61ef85b51c7d47fa3b6bf97ce50124293df77e5d8fbf4ce6feb08dd94
+box_cool__key_right,box_cool,key_right,Box cool · Hard right,10,10,8,1,0.8,True,b7427a079e48830f8b1744df0135475d6963c31d02fde0c832f8baeb84841dd5
+box_cool__backlit,box_cool,backlit,Box cool · Backlit,10,3,3,0.3,0.3,True,b2cebc9ce2c6694710b1a8ef88cce803a79d96c34667854e088c276cbbb67c90
+box_cool__spotlight,box_cool,spotlight,Box cool · Overhead spot,10,3,1,0.3,0.1,True,67cec24991acdb5af0c25f2ae43d5e11faa144e5b9db8ec541a08672f6d748f5
+box_cool__split,box_cool,split,Box cool · Red / blue split,10,0,0,0,0,True,5a7b6c5e1cd59a5488c5a4cd3513ad3b2cde17d97071c61459b1393078dfe3a2
+box_warm,box_warm,baseline,Box warm · Neutral,10,3,1,0.3,0.1,True,245d34b22b40db1fd11abd5c4fcff44fba8aa7540c4b134fedd4da5eea547065
+box_warm__warm,box_warm,warm,Box warm · Strong warm,10,0,0,0,0,True,e0f0113d93ba34775602779c3915632e8729af8b7e2ac3f17e303c95bc40e9eb
+box_warm__cool,box_warm,cool,Box warm · Strong cool,10,3,0,0.3,0,True,0eec3daae3667b3404c2a5951d9c405079af55124bd48032d5f7d765cc9c3383
+box_warm__dim,box_warm,dim,Box warm · Very dim,10,3,0,0.3,0,True,83b631c4ed192734e6d1077abdadd16890ac369705b99131ec68728db1331b81
+box_warm__bright,box_warm,bright,Box warm · Very bright,10,3,3,0.3,0.3,True,7b3649583c2010dbd4c8116828a5f2c0969ef08a913484f014ad46c52efdf5de
+box_warm__key_left,box_warm,key_left,Box warm · Hard left,10,1,1,0.1,0.1,True,f0b57ecc359a320f06e34f127d8db703ab679f84831dd567e97a376a10fe4a50
+box_warm__key_right,box_warm,key_right,Box warm · Hard right,10,10,7,1,0.7,True,f53cedfab6ea912e912e00cd8b460013e824b06d6de9257cf021f934b0a242c7
+box_warm__backlit,box_warm,backlit,Box warm · Backlit,10,6,4,0.6,0.4,True,c00685bc81b7ae476a03dd2f56ee24357f1a7a9db3a69edef3e3c1742879a8a7
+box_warm__spotlight,box_warm,spotlight,Box warm · Overhead spot,10,8,5,0.8,0.5,True,2b5af44bc8db30469942883115fe71728640b533591641ca544801cb3e07750b
+box_warm__split,box_warm,split,Box warm · Red / blue split,10,0,0,0,0,True,9daf34abe1731fdb8e972f3f4dbe8872fa381e6197835a52502a0936b077918c
+bowl_cool,bowl_cool,baseline,Bowl cool · Neutral,10,2,0,0.2,0,True,a13ef520068088d63bf8ad70ed0da807eec2c6c6667f875ff6da4dec798b396c
+bowl_cool__warm,bowl_cool,warm,Bowl cool · Strong warm,10,2,2,0.2,0.2,True,4fc5039afcf42adbcc1eeff62df01b96e92ba86a1db7127cb03d5b1b4820024d
+bowl_cool__cool,bowl_cool,cool,Bowl cool · Strong cool,10,3,2,0.3,0.2,True,03177649b767ddb2cda1a6fa56e3538f3b4f50433060a8b31c826bd6cd4546c8
+bowl_cool__dim,bowl_cool,dim,Bowl cool · Very dim,10,3,1,0.3,0.1,True,5c5c0848e69007cf7e1678bf0c6deeb7de5b4e1add38b3b544386e753e58a4cf
+bowl_cool__bright,bowl_cool,bright,Bowl cool · Very bright,10,6,2,0.6,0.2,True,b48c68b275d2ff879cdea52d902af2a0d12097d82436e62cbd1b68a512d864df
+bowl_cool__key_left,bowl_cool,key_left,Bowl cool · Hard left,10,4,2,0.4,0.2,True,4a935b1360451301fd2f59f4bdb393c8f6da7bebd17d6f904b4eb23a24cc7867
+bowl_cool__key_right,bowl_cool,key_right,Bowl cool · Hard right,10,9,8,0.9,0.8,True,54739e3f38a4189e4c2d2cb90cd564974438345b06f2c03d7744bf368ff8a771
+bowl_cool__backlit,bowl_cool,backlit,Bowl cool · Backlit,10,2,2,0.2,0.2,True,fce2179eabe1aa0e2a6f65a108375f311ea6df2ea4fda4c1eb2bd05d99544e35
+bowl_cool__spotlight,bowl_cool,spotlight,Bowl cool · Overhead spot,10,3,3,0.3,0.3,True,27cf0d3a88b8d2b19ab0364b91381f137d7c3854306d9ecb9c130a79232fcc9a
+bowl_cool__split,bowl_cool,split,Bowl cool · Red / blue split,10,0,0,0,0,True,890abf91d15dc414e315e6dca08d54531108f13dfefe83cd4102587ba69ec408
+bowl_warm,bowl_warm,baseline,Bowl warm · Neutral,10,2,0,0.2,0,True,a4d2e1451e2ea56b34497a7a50a7841f01ca002c66131f71285409b5efad79b4
+bowl_warm__warm,bowl_warm,warm,Bowl warm · Strong warm,10,1,0,0.1,0,True,4a027f6bb29752864ffd49422d81c38e135e80d9d1e430da12f544dc97ab2155
+bowl_warm__cool,bowl_warm,cool,Bowl warm · Strong cool,10,0,0,0,0,True,69259e851206216dba95df22a659b470b28b91efca768182be710e6be322a9c2
+bowl_warm__dim,bowl_warm,dim,Bowl warm · Very dim,10,2,0,0.2,0,True,210dd18a785290fc2a1624b31c2076fda1d78ce86369ac5054a582d79e6422b0
+bowl_warm__bright,bowl_warm,bright,Bowl warm · Very bright,10,3,2,0.3,0.2,True,3cd8979dd969b0ced0c50a0d5bed462b218649dc24b04eef4109252f50aced2b
+bowl_warm__key_left,bowl_warm,key_left,Bowl warm · Hard left,10,2,2,0.2,0.2,True,5d2f70faadefca78b40b6156008a62adffe35d3f52ac94d05f3d0f9c4e81d805
+bowl_warm__key_right,bowl_warm,key_right,Bowl warm · Hard right,10,10,8,1,0.8,True,87b912137f7b363911c685c376daed3d8c632e77c769f08e88c8052165f6ad73
+bowl_warm__backlit,bowl_warm,backlit,Bowl warm · Backlit,10,2,2,0.2,0.2,True,79b457ab26bee1ed88c6d6d6f1b214e91ca3c537107390bd31c74f3b0454b216
+bowl_warm__spotlight,bowl_warm,spotlight,Bowl warm · Overhead spot,10,7,6,0.7,0.6,True,153dd73772e407544e747d0461a7a601cbf6c567a2051731193754892ff07f09
+bowl_warm__split,bowl_warm,split,Bowl warm · Red / blue split,10,0,0,0,0,True,68a6af0ad36aa9bd660933cb6e2246977b17d29a49c4839645c80a7a02da5979
+box_fiber,box_fiber,baseline,Box fiber · Neutral,10,0,0,0,0,True,4f05e21cc467f68b9ef78b7365b226d8155435d1b130ddfa6fc370df82d00a63
+box_fiber__warm,box_fiber,warm,Box fiber · Strong warm,10,1,0,0.1,0,True,7df8c4611e87807f1fcbc871f12a09bbce2aa60aa0adb8b16cd03b7ab673bc6c
+box_fiber__cool,box_fiber,cool,Box fiber · Strong cool,10,7,1,0.7,0.1,True,d78a610a3abce11a3c97efcdf153793aecb35b02fc7f933809b05d75289b8db6
+box_fiber__dim,box_fiber,dim,Box fiber · Very dim,10,0,0,0,0,True,c04d6e3309ba55602417f8e37a3f64972f6d6aab10aeb45c102b0444196b248c
+box_fiber__bright,box_fiber,bright,Box fiber · Very bright,10,4,2,0.4,0.2,True,9c3eb311a0e18c4fdfa0acc527e729909877a86050ce741042aff5ee407253c2
+box_fiber__key_left,box_fiber,key_left,Box fiber · Hard left,10,5,4,0.5,0.4,True,2328f75a7c6b132d1d96f2f39b4d1e4d9947b4b3b83c5a67248013ca464204a8
+box_fiber__key_right,box_fiber,key_right,Box fiber · Hard right,10,10,8,1,0.8,True,27b7910ebc505d0cf8611a26ac09ee130f00124e12dd51091d0ee267c5f93616
+box_fiber__backlit,box_fiber,backlit,Box fiber · Backlit,10,0,0,0,0,True,51be747395e5575d93a0ac8aa563ee1db2e8b418425f7fe6e7dbd55c548c6d22
+box_fiber__spotlight,box_fiber,spotlight,Box fiber · Overhead spot,10,4,2,0.4,0.2,True,d4f73c92dfe6dff2996582150314ec28c327c99862e2e8121ffd6df85c365ac3
+box_fiber__split,box_fiber,split,Box fiber · Red / blue split,10,0,0,0,0,True,b9f24b031f7303562f8a6143572b518586dc0b0b4b7a7a43d9cf200f86638585
+box_print,box_print,baseline,Box print · Neutral,10,0,0,0,0,True,4a99e4964da08e4bbe91fe72dbb2525ba95a08ad0a148dd1b1969d312f9ac3dc
+box_print__warm,box_print,warm,Box print · Strong warm,10,0,0,0,0,True,8ee28c26a60d5d5c7e209d32c13a2d1954a508b81ec35ba1c18144541697c297
+box_print__cool,box_print,cool,Box print · Strong cool,10,7,4,0.7,0.4,True,39c612e6fdca1822ff60813efd13531e05f710198815bca82213d656ba76558b
+box_print__dim,box_print,dim,Box print · Very dim,10,0,0,0,0,True,0dc22dfa3dd62a6729c813373978064874306ba835467dc5d2a2c4ea6d290a6c
+box_print__bright,box_print,bright,Box print · Very bright,10,7,5,0.7,0.5,True,b83070db9575e02ac7d066b60e9096dd6aa9dd169b76776fa4a00eb1c7522e11
+box_print__key_left,box_print,key_left,Box print · Hard left,10,1,0,0.1,0,True,31e5a42678cfc57f270ab026e64bf9bc2d786b03d8e78a06f2eaab31a975ebef
+box_print__key_right,box_print,key_right,Box print · Hard right,10,9,8,0.9,0.8,True,d07f8832b18f997e318813a62ef109d552c1915e206b904aa6fec46694b3be80
+box_print__backlit,box_print,backlit,Box print · Backlit,10,0,0,0,0,True,d6da1f6088111dc078828114d7609178b89cea2d54a77ffac6beebc2db30c310
+box_print__spotlight,box_print,spotlight,Box print · Overhead spot,10,3,2,0.3,0.2,True,3d5d7be6f150ca244e0c212a1a575f4f3fbc85ca66b7c280089bf3ee238c31d9
+box_print__split,box_print,split,Box print · Red / blue split,10,0,0,0,0,True,49eea14f1cccc5c275a8ec1b09e7c8d2972a6203071ea1d5394992dc9184eeec
+box_crosshatch,box_crosshatch,baseline,Box crosshatch · Neutral,10,1,0,0.1,0,True,0e79b8e142142e32b8959947ab8e20a549da6082488e0c2d4f16b56f4030fb75
+box_crosshatch__warm,box_crosshatch,warm,Box crosshatch · Strong warm,10,2,1,0.2,0.1,True,b0bd43e5bd0c3c9b9f94bfa7f9a55b09a01faa19638d2c5db90ff5d0ebc7d9b7
+box_crosshatch__cool,box_crosshatch,cool,Box crosshatch · Strong cool,10,7,3,0.7,0.3,True,ac8eefc254f5aa02aa080e3d0f2873d1ce7be523fab7f1e442b94e7643ac1048
+box_crosshatch__dim,box_crosshatch,dim,Box crosshatch · Very dim,10,0,0,0,0,True,2bb840ecb2fa255665e5ddaf95472d5c8815b1e7d8064e508a3338230357d608
+box_crosshatch__bright,box_crosshatch,bright,Box crosshatch · Very bright,10,7,3,0.7,0.3,True,9d3379250d70785bb08b4809af4aa40b1732553b4b3a5fffd1431cc101d297ce
+box_crosshatch__key_left,box_crosshatch,key_left,Box crosshatch · Hard left,10,4,1,0.4,0.1,True,f58b448b99bcb41f57423b3a0188352112744965f95d3d9201b703e2cdba3a5d
+box_crosshatch__key_right,box_crosshatch,key_right,Box crosshatch · Hard right,10,8,7,0.8,0.7,True,aa2101e9e020a1540faf46fa305efd7f9864ef811f2ff28601f6210d9b104687
+box_crosshatch__backlit,box_crosshatch,backlit,Box crosshatch · Backlit,10,0,0,0,0,True,394de2f863f242b1965194088f063f0b351de20d5ac75ef9ac97ee10e855d605
+box_crosshatch__spotlight,box_crosshatch,spotlight,Box crosshatch · Overhead spot,10,2,2,0.2,0.2,True,208b42a5d9d561322c827761748e05883fa90779e99f77ee1d9ea8127b3f5c97
+box_crosshatch__split,box_crosshatch,split,Box crosshatch · Red / blue split,10,0,0,0,0,True,95e942dfe89809d00ed26466507fa695a9f7ffc2ee99c0d3b72f7060a252a6ed
+box_scuffed,box_scuffed,baseline,Box scuffed · Neutral,10,0,0,0,0,True,fe880aab9907102d8f07949be53e654607b995a864128406133ed2c6ac8bbc78
+box_scuffed__warm,box_scuffed,warm,Box scuffed · Strong warm,10,3,2,0.3,0.2,True,649bbf5879190cb48bc29db8f1cc62727e6eb88a5adc58ff892d865b2a09d64d
+box_scuffed__cool,box_scuffed,cool,Box scuffed · Strong cool,10,6,3,0.6,0.3,True,8a685e569d53d21b1ad7c2956f803a6bd0211b8eaebad4bd92d79d64ca2799ec
+box_scuffed__dim,box_scuffed,dim,Box scuffed · Very dim,10,0,0,0,0,True,b3b5309aa5c048d7d6abbd805e51cf215b52bb5b72ff2b334ff5d1129f1f0b52
+box_scuffed__bright,box_scuffed,bright,Box scuffed · Very bright,10,3,2,0.3,0.2,True,b24c9479e241713aa0874e0cf0f29de468bc4458818512a2ac22b9857a802b81
+box_scuffed__key_left,box_scuffed,key_left,Box scuffed · Hard left,10,2,1,0.2,0.1,True,61aa4530ed566cd4462b7089d42f7d9e12a99ac735791393f10a29285398f41b
+box_scuffed__key_right,box_scuffed,key_right,Box scuffed · Hard right,10,9,6,0.9,0.6,True,8cd85d54d9c8e417f93d1b0b28875bdeb4305558ffe090db414867f71b4a9b9a
+box_scuffed__backlit,box_scuffed,backlit,Box scuffed · Backlit,10,0,0,0,0,True,65f9655f8898ae1d11c66f7fd003105c4bacf57f2b89f873691e156b41bd1cd0
+box_scuffed__spotlight,box_scuffed,spotlight,Box scuffed · Overhead spot,10,4,3,0.4,0.3,True,2c1c2b463a0e2409e103e6d2c2d9190a99ff634a74ae2609d72b50dc0f0748a5
+box_scuffed__split,box_scuffed,split,Box scuffed · Red / blue split,10,1,1,0.1,0.1,True,a3cca9dc31150e0fc5364709ee1695b6a3dcccb0a66bf7a480c9fa492c39d94b
+bowl_speckle,bowl_speckle,baseline,Bowl speckle · Neutral,10,4,3,0.4,0.3,True,5fd693372125fd4eba9fb9b3cd1e48ca816abb1bc34e79bc56a8dc37310afbca
+bowl_speckle__warm,bowl_speckle,warm,Bowl speckle · Strong warm,10,2,1,0.2,0.1,True,fb9cbf727da121c24484d21cd506196550e5473359251018f45f96ab51b6834f
+bowl_speckle__cool,bowl_speckle,cool,Bowl speckle · Strong cool,10,2,1,0.2,0.1,True,454b74f1e991fee3b9330ef188755325eb95c1ba646317a936c4ebc239216368
+bowl_speckle__dim,bowl_speckle,dim,Bowl speckle · Very dim,10,0,0,0,0,True,697b8dbb951e8ba0aaa6ceba51d892f9faa0ee39a4267a4e7e7070558a775de3
+bowl_speckle__bright,bowl_speckle,bright,Bowl speckle · Very bright,10,6,2,0.6,0.2,True,50db2e90a0f4538ad2cad4796349008b75b308e7d04a54085de44bb4153c0eab
+bowl_speckle__key_left,bowl_speckle,key_left,Bowl speckle · Hard left,10,3,1,0.3,0.1,True,be91736fa9657c05f6b59aa404fcb40523afbb7787c467f2186a806206a53612
+bowl_speckle__key_right,bowl_speckle,key_right,Bowl speckle · Hard right,10,9,7,0.9,0.7,True,2ada11a6f82c56b1c2ebf9fbabfa983a5718453ec584fccffedd525f93ad72fc
+bowl_speckle__backlit,bowl_speckle,backlit,Bowl speckle · Backlit,10,7,3,0.7,0.3,True,f08cd7e26500bc4ef00a59d24c710ad1a75fd085cad49153d6dffd8fe2dc116c
+bowl_speckle__spotlight,bowl_speckle,spotlight,Bowl speckle · Overhead spot,10,7,5,0.7,0.5,True,adfc6bfbc87c06683688ad145acb91a58c91afbc636ec8ea093c9db1aa84a040
+bowl_speckle__split,bowl_speckle,split,Bowl speckle · Red / blue split,10,0,0,0,0,True,71c96596fdaf3c200829b42f69c992f134b2448a388bdd23b6dbfeec9578fed3
+bowl_brushed,bowl_brushed,baseline,Bowl brushed · Neutral,10,3,2,0.3,0.2,True,3450a0714a190ada74a945ddbc3ec718a2d5bba74513d02cb79d586792959d17
+bowl_brushed__warm,bowl_brushed,warm,Bowl brushed · Strong warm,10,6,3,0.6,0.3,True,8787211f01d571d332b92e511a70adc84db9ef91e4e5c55aa7028d39a1ee496f
+bowl_brushed__cool,bowl_brushed,cool,Bowl brushed · Strong cool,10,2,2,0.2,0.2,True,2421ccee529cf8f161c682e99c933d66f8576f96fcb9b273b43bab7ebc36a860
+bowl_brushed__dim,bowl_brushed,dim,Bowl brushed · Very dim,10,1,0,0.1,0,True,4c3c69b394516ae2f5b16b3ecb6665a1494557043868abe3437a6b4ba6a9a5ca
+bowl_brushed__bright,bowl_brushed,bright,Bowl brushed · Very bright,10,4,4,0.4,0.4,True,6c0122c1e988fb2983fde7481db7c77fb59f4c07bc48373c708aa35b4e5ad298
+bowl_brushed__key_left,bowl_brushed,key_left,Bowl brushed · Hard left,10,4,2,0.4,0.2,True,415937a602936f948061895da77ab03c076c3168ba5b3db5bbdc9b68cb29d87c
+bowl_brushed__key_right,bowl_brushed,key_right,Bowl brushed · Hard right,10,10,8,1,0.8,True,ac22d3776eb5365fe0884eb04c9a4891bb81373e4eb4c0c6b73de98ff7364c70
+bowl_brushed__backlit,bowl_brushed,backlit,Bowl brushed · Backlit,10,2,2,0.2,0.2,True,03b21d03c99679737253ac655389a1b28fc9a8560e004dc106c23a7f7952be55
+bowl_brushed__spotlight,bowl_brushed,spotlight,Bowl brushed · Overhead spot,10,4,4,0.4,0.4,True,96e33b9c1842b27cee8f0ce577d544b08786b9df6040ca03285b8b86c6fd59f2
+bowl_brushed__split,bowl_brushed,split,Bowl brushed · Red / blue split,10,0,0,0,0,True,f1b89e783e675ed43c67d05ca6c1bde61f602b7f37818b02b4f98a794c564870
+bowl_crackle,bowl_crackle,baseline,Bowl crackle · Neutral,10,4,4,0.4,0.4,True,a5b199c1bd4603f435dab578ecd97f875116b805ec25414a81f709062a3964c8
+bowl_crackle__warm,bowl_crackle,warm,Bowl crackle · Strong warm,10,4,1,0.4,0.1,True,3af4e2800826778ee7697b321c7bee0d4ca65afd4a9b27028a30f649603f38d0
+bowl_crackle__cool,bowl_crackle,cool,Bowl crackle · Strong cool,10,1,1,0.1,0.1,True,62935c763600d32150e02b15a5a7972d4fdbfc067e81c8e825387ca1c9c262ef
+bowl_crackle__dim,bowl_crackle,dim,Bowl crackle · Very dim,10,0,0,0,0,True,cdd8d764969a374ebb961caf2ad5ba1bd27d505b8e4560b252dc172468d5c8aa
+bowl_crackle__bright,bowl_crackle,bright,Bowl crackle · Very bright,10,4,2,0.4,0.2,True,5365f6d34e34b4455c4ac2f04f855459432be8ca57a907ae88c01f7651281dec
+bowl_crackle__key_left,bowl_crackle,key_left,Bowl crackle · Hard left,10,4,0,0.4,0,True,9413ef286ab98a879916738b86c4763ffe244046cede25a9896608ad677d8b7f
+bowl_crackle__key_right,bowl_crackle,key_right,Bowl crackle · Hard right,10,10,10,1,1,True,65628fb66bbc0da7bb3d02c55c0f16eedac7e7b5a72e832719ecd4114047ab4d
+bowl_crackle__backlit,bowl_crackle,backlit,Bowl crackle · Backlit,10,4,2,0.4,0.2,True,226f3fd023da2102e17c388e4f7a751db7bbc8ae389c7638a81855a6fe64c380
+bowl_crackle__spotlight,bowl_crackle,spotlight,Bowl crackle · Overhead spot,10,1,1,0.1,0.1,True,82afc0e0ac9599f768890405081c5a3bcf01e3e517172c2cd46f9e050ea7f11f
+bowl_crackle__split,bowl_crackle,split,Bowl crackle · Red / blue split,10,0,0,0,0,True,72d0d28597168da1cbb6e6674cc86d519109d3d614298361ad2e5f0d83e18d17
+bowl_bands,bowl_bands,baseline,Bowl bands · Neutral,10,2,1,0.2,0.1,True,eaab86596183ba73cbf3bac870827de0105503fb9736d54d79a1c0c4d8fb7b61
+bowl_bands__warm,bowl_bands,warm,Bowl bands · Strong warm,10,4,1,0.4,0.1,True,db129f04d9d5f29a4c360acbc78ba169431e8e456fb8c11e5a5a67b2cfb2c1ca
+bowl_bands__cool,bowl_bands,cool,Bowl bands · Strong cool,10,0,0,0,0,True,de9318fff9785b13013f5ad8983685750e5a7c706e98694247c8a7f83e3df0e2
+bowl_bands__dim,bowl_bands,dim,Bowl bands · Very dim,10,1,0,0.1,0,True,186efc5ee61d35335fb8e408061f8b5c95e7c4c1be21ef44e704d25e36d36ad9
+bowl_bands__bright,bowl_bands,bright,Bowl bands · Very bright,10,5,3,0.5,0.3,True,04ae17577c0dba055b05b7992c2aab28480b0e656dfd0e912f04624792010830
+bowl_bands__key_left,bowl_bands,key_left,Bowl bands · Hard left,10,4,4,0.4,0.4,True,2e5b908f6ed89450ea7c6e717afa6016c9380832f4389381514fae423a866c73
+bowl_bands__key_right,bowl_bands,key_right,Bowl bands · Hard right,10,9,8,0.9,0.8,True,41df6f6b3c512ecc16a988fa15e3835385e056443962584fd47bef7718f3d421
+bowl_bands__backlit,bowl_bands,backlit,Bowl bands · Backlit,10,6,5,0.6,0.5,True,8ec9c7a8114988341875d27809551a3da0ff20d8e4f52364a3793ced89ea96da
+bowl_bands__spotlight,bowl_bands,spotlight,Bowl bands · Overhead spot,10,2,0,0.2,0,True,eb0acd6f70113421c88a086a8a7e324095f4e300056371df547b7e78f1d1fdd5
+bowl_bands__split,bowl_bands,split,Bowl bands · Red / blue split,10,0,0,0,0,True,69ab8072196334efa8b4b347bbf8d6ce25dca910a4f591fc8d06d4b10937e58b

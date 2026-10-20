@@ -41,13 +41,18 @@ fresh export into this folder, leaving `.git`, this README, `.gitignore`,
 git add -A && git commit -m "Update site" && git push
 ```
 
-The export is about 926 MB, including the Observatory's full-density SH3 capture,
+The export is about 995 MB, including the Observatory's full-density SH3 capture,
 corrected front/rear operating ropes, and exterior star sky. Its animation is
 losslessly compressed. GitHub Pages sites are limited to 1 GB, so keep the
 repository to this folder only; the source build rejects oversized exports.
 
-Current source revision: `lukehollis/real2sim2real-website@24f0d3f`.
+Current source revision: `lukehollis/real2sim2real-website@c6de9d1`.
 
 Videos and poster frames use the clean originals without the burned-in lab
 watermark. The October 19 media refresh preserves all current cuts, player
 URLs and the cover’s authored titles.
+
+The policy workflow and 54-condition sister exhibit include the captured SO101
+workspace, both external camera mounts, and recorded geometry/appearance/lighting
+variations. The 3D viewer defers loading on mobile until **Start viewer** and
+lets wheel scrolling pass through to the page.

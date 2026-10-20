@@ -1,0 +1,41 @@
+{
+  "source": "/workspace/computational_robotics/lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/box_print/object.usda",
+  "source_sha256": "2cc984b80dbaf6bfee768302eeddd0e7178c97440b29ea19008ab22d2648041b",
+  "glb_sha256": "2da2b15cf04509748a7b07fd229e94c249d80b0ce1c3eeccd0d2fa4245ff8a90",
+  "bounds": [
+    [
+      -0.038100000470876694,
+      -0.02539999969303608,
+      -0.02539999969303608
+    ],
+    [
+      0.038100000470876694,
+      0.02539999969303608,
+      0.02539999969303608
+    ]
+  ],
+  "dependencies": {
+    "/workspace/computational_robotics/lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/box_print/object.usda": "2cc984b80dbaf6bfee768302eeddd0e7178c97440b29ea19008ab22d2648041b",
+    "/workspace/computational_robotics/lerobot_agent_guide/assets/small_white_box.usda": "005d640e90458a022d4e1bfc2d265de15069c58ef25e23012c020bee3bb946f5",
+    "/workspace/computational_robotics/lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/meshy/box_print/base_color.png": "cbbc1d9d7a0883cce4b2f7dc01af4fca2a2c2dcfa2be4d7ba491f483f9ba3639"
+  },
+  "meshes": [
+    {
+      "prim": "/Object/small_white_box",
+      "triangles": 43720,
+      "bounds": [
+        [
+          -0.038100000470876694,
+          -0.02539999969303608,
+          -0.02539999969303608
+        ],
+        [
+          0.038100000470876694,
+          0.02539999969303608,
+          0.02539999969303608
+        ]
+      ]
+    }
+  ],
+  "coordinate_frame": "Z up, meters, composed USD object frame"
+}

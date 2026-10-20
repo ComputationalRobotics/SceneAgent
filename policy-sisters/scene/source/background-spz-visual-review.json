@@ -1,0 +1,95 @@
+{
+  "schema": "sceneagent.gaussian_browser_comparison.v1",
+  "status": "accepted",
+  "sourceSha256": "f5bf73472796beffa5cf1775c8a6e208918c6907daeb28ff12f291f983075ab7",
+  "runtimeSha256": "bc0c1dadc44eaae0f6ee05951d5724df87d05ef4acad7ba8d42e1c19b207aec1",
+  "review": "Same-view browser A/B comparison of the original PLY and complete SH3 SPZ accepted by the integrating agent before manifest promotion. Numerical quantization remains explicit in the adjacent diagnostics; acceptance is visual suitability for this website, not byte equivalence.",
+  "checks": {
+    "originalPly": {
+      "file": "/tmp/policy-sisters-ply-final/checks.json",
+      "sha256": "1b641f309a957d4b1266da835ba863eaf3bf6cc8a6353fd5ba9509554def6608",
+      "bytes": 810
+    },
+    "spz": {
+      "file": "/tmp/policy-sisters-spz-final/checks.json",
+      "sha256": "1b641f309a957d4b1266da835ba863eaf3bf6cc8a6353fd5ba9509554def6608",
+      "bytes": 810
+    }
+  },
+  "comparisonArtifacts": {
+    "originalPly": [
+      {
+        "file": "/tmp/policy-sisters-ply-final/scene-selected.png",
+        "sha256": "4c85c37fa90a40c6ae203e655e9174803b0b33878e8025c2326cc35cad0c8810",
+        "bytes": 241365
+      },
+      {
+        "file": "/tmp/policy-sisters-ply-final/scene-orbit.png",
+        "sha256": "ae8875531953772ba264b83ca20bfac26c6b8aa174bcafa60d164e45d5349f68",
+        "bytes": 242029
+      },
+      {
+        "file": "/tmp/policy-sisters-ply-final/scene-box_cool.png",
+        "sha256": "186ef437218b374d6399519ec2f4df09f1bfef5b3018f1dd274993b0bec3537b",
+        "bytes": 240029
+      },
+      {
+        "file": "/tmp/policy-sisters-ply-final/scene-box_fiber.png",
+        "sha256": "2acdca838958f86fc6763b376d95e9bd3a27b4d844a4697bd65adc35217a9103",
+        "bytes": 239719
+      },
+      {
+        "file": "/tmp/policy-sisters-ply-final/scene-box_print.png",
+        "sha256": "9a30e3082d19dfc48991e737608301307dc845ed69299c3caf6ef8ea01b44ddc",
+        "bytes": 239671
+      },
+      {
+        "file": "/tmp/policy-sisters-ply-final/exhibit-1440.png",
+        "sha256": "0db44c704e58cbbe92a15cb8a53e94ac391693165985c24a87598913cecbd842",
+        "bytes": 648059
+      },
+      {
+        "file": "/tmp/policy-sisters-ply-final/exhibit-390.png",
+        "sha256": "9eb6fea5dec77e715640573262ab172cb30d7354fc3e6f5da744dcb32c2a69fe",
+        "bytes": 346747
+      }
+    ],
+    "spz": [
+      {
+        "file": "/tmp/policy-sisters-spz-final/scene-selected.png",
+        "sha256": "fe1ec320b8feb34bd9877b1b4c4b99833cd48ffd1a313ae1ff3df24b654d43ea",
+        "bytes": 242287
+      },
+      {
+        "file": "/tmp/policy-sisters-spz-final/scene-orbit.png",
+        "sha256": "5d8205d9421262d82e081bec57e2f84088370b2d032d4e03ab212bb6d9f3d403",
+        "bytes": 242601
+      },
+      {
+        "file": "/tmp/policy-sisters-spz-final/scene-box_cool.png",
+        "sha256": "3d84d3104db08a46bb1107bfc48a9835d6f67bcd9f6a9b53d26163d2c0bc82ea",
+        "bytes": 240918
+      },
+      {
+        "file": "/tmp/policy-sisters-spz-final/scene-box_fiber.png",
+        "sha256": "47361db721fbc6a9b8c15006952116cc3f3fc734e90d00c57d46d1fadd507e01",
+        "bytes": 240639
+      },
+      {
+        "file": "/tmp/policy-sisters-spz-final/scene-box_print.png",
+        "sha256": "8ce4151da8bf32aebe3b60ac252315c31eec30bfb9d2ecb27fa6337baa7b7002",
+        "bytes": 240594
+      },
+      {
+        "file": "/tmp/policy-sisters-spz-final/exhibit-1440.png",
+        "sha256": "8f7756ee6ae2db46a98b4682595773133dca7d2fec15337143d98234dbd023cd",
+        "bytes": 649141
+      },
+      {
+        "file": "/tmp/policy-sisters-spz-final/exhibit-390.png",
+        "sha256": "63175bf5e3b89147c8c2072f38d1ac304c4b500bf3c8f382e4132265ce3eb390",
+        "bytes": 347263
+      }
+    ]
+  }
+}

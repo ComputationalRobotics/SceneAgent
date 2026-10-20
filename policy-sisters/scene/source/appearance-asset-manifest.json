@@ -1,0 +1,385 @@
+{
+  "assets": {
+    "box_cool": {
+      "usd_path": "lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/box_cool/object.usda",
+      "dimensions_m": [
+        0.0762,
+        0.0508,
+        0.0508
+      ],
+      "source_usd_sha256": "005d640e90458a022d4e1bfc2d265de15069c58ef25e23012c020bee3bb946f5",
+      "usd_sha256": "1ce5dadf3789d5db6540d38bac15eb6807595fea99033fa254db26cadf98c96c",
+      "texture_sha256": "53f61e9fb52dfeecdcf60e4141108659351aa3374c1ce67e1dc0cdb0258d6bc5",
+      "object": "box",
+      "kind": "color",
+      "rgb_multiplier": [
+        0.86,
+        0.93,
+        1.0
+      ],
+      "source_texture_sha256": "614a7b8e02fa0ccf5ab9fa2aa0bb9babeb60e752b758ee158319ba2bd283b37d"
+    },
+    "box_warm": {
+      "usd_path": "lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/box_warm/object.usda",
+      "dimensions_m": [
+        0.0762,
+        0.0508,
+        0.0508
+      ],
+      "source_usd_sha256": "005d640e90458a022d4e1bfc2d265de15069c58ef25e23012c020bee3bb946f5",
+      "usd_sha256": "1ce5dadf3789d5db6540d38bac15eb6807595fea99033fa254db26cadf98c96c",
+      "texture_sha256": "bce1b5f0a582fdb22d8feebca9b45b660849cfc2afdf87e2cee089e7c54878ea",
+      "object": "box",
+      "kind": "color",
+      "rgb_multiplier": [
+        1.0,
+        0.93,
+        0.86
+      ],
+      "source_texture_sha256": "614a7b8e02fa0ccf5ab9fa2aa0bb9babeb60e752b758ee158319ba2bd283b37d"
+    },
+    "bowl_cool": {
+      "usd_path": "lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/bowl_cool/object.usda",
+      "dimensions_m": [
+        0.127,
+        0.127,
+        0.0508
+      ],
+      "source_usd_sha256": "f998ef3ead744b888e4794064fb1a93038a60b4e894727b889cd492cbe3d68a5",
+      "usd_sha256": "da69c347f9068cf51b0ee536b16eb2898e8c9a1ab1c69fe823400c488a72c494",
+      "texture_sha256": "c52eac2c838a588003d78695068d0b18bed97b381f2bbc652eb06ac560f0ac2c",
+      "object": "bowl",
+      "kind": "color",
+      "rgb_multiplier": [
+        0.86,
+        0.93,
+        1.0
+      ],
+      "source_texture_sha256": "b2d0de2db3b52c986dec897f992ef140d3ad41494913b4ef4281b64ab69e8693"
+    },
+    "bowl_warm": {
+      "usd_path": "lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/bowl_warm/object.usda",
+      "dimensions_m": [
+        0.127,
+        0.127,
+        0.0508
+      ],
+      "source_usd_sha256": "f998ef3ead744b888e4794064fb1a93038a60b4e894727b889cd492cbe3d68a5",
+      "usd_sha256": "da69c347f9068cf51b0ee536b16eb2898e8c9a1ab1c69fe823400c488a72c494",
+      "texture_sha256": "1705544bafbb9a994cab3388fb701b49c092f553d23761cef29de6385a2cfac6",
+      "object": "bowl",
+      "kind": "color",
+      "rgb_multiplier": [
+        1.0,
+        0.93,
+        0.86
+      ],
+      "source_texture_sha256": "b2d0de2db3b52c986dec897f992ef140d3ad41494913b4ef4281b64ab69e8693"
+    },
+    "box_fiber": {
+      "usd_path": "lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/box_fiber/object.usda",
+      "dimensions_m": [
+        0.0762,
+        0.0508,
+        0.0508
+      ],
+      "source_usd_sha256": "005d640e90458a022d4e1bfc2d265de15069c58ef25e23012c020bee3bb946f5",
+      "usd_sha256": "b7f968ed085522aa6cad3ecec3a204265e13255ed6ed666e3acb042e206aaf6b",
+      "texture_sha256": "d4742b3708b50c8bd8d1cfe5f270d1c199a8be11a59edada703300e634c92a9d",
+      "object": "box",
+      "kind": "texture",
+      "meshy_task_id": "01a0a639-e5fd-702e-9a07-05fb7092888f",
+      "uv_audit": {
+        "passed": true,
+        "max_bidirectional_position_uv_error": [
+          5.19298987623525e-08,
+          5.19298987623525e-08
+        ],
+        "tolerance": 2e-05,
+        "source_faces": 43720,
+        "generated_faces": 43720,
+        "source_longest_axis": 0.9955584704875946,
+        "generated_longest_axis": 1.9999999403953552,
+        "source_center": [
+          -0.001021161675453186,
+          -0.0007926076650619507,
+          -0.0008658319711685181
+        ],
+        "generated_center": [
+          -2.9802322387695312e-08,
+          0.0,
+          0.0
+        ],
+        "runtime_geometry": "original source USD; generated GLB is audit evidence only"
+      }
+    },
+    "box_print": {
+      "usd_path": "lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/box_print/object.usda",
+      "dimensions_m": [
+        0.0762,
+        0.0508,
+        0.0508
+      ],
+      "source_usd_sha256": "005d640e90458a022d4e1bfc2d265de15069c58ef25e23012c020bee3bb946f5",
+      "usd_sha256": "2cc984b80dbaf6bfee768302eeddd0e7178c97440b29ea19008ab22d2648041b",
+      "texture_sha256": "cbbc1d9d7a0883cce4b2f7dc01af4fca2a2c2dcfa2be4d7ba491f483f9ba3639",
+      "object": "box",
+      "kind": "texture",
+      "meshy_task_id": "01a0a639-eeb5-76b5-b24f-c6fd418442b8",
+      "uv_audit": {
+        "passed": true,
+        "max_bidirectional_position_uv_error": [
+          5.19298987623525e-08,
+          5.19298987623525e-08
+        ],
+        "tolerance": 2e-05,
+        "source_faces": 43720,
+        "generated_faces": 43720,
+        "source_longest_axis": 0.9955584704875946,
+        "generated_longest_axis": 1.9999999403953552,
+        "source_center": [
+          -0.001021161675453186,
+          -0.0007926076650619507,
+          -0.0008658319711685181
+        ],
+        "generated_center": [
+          -2.9802322387695312e-08,
+          0.0,
+          0.0
+        ],
+        "runtime_geometry": "original source USD; generated GLB is audit evidence only"
+      }
+    },
+    "box_crosshatch": {
+      "usd_path": "lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/box_crosshatch/object.usda",
+      "dimensions_m": [
+        0.0762,
+        0.0508,
+        0.0508
+      ],
+      "source_usd_sha256": "005d640e90458a022d4e1bfc2d265de15069c58ef25e23012c020bee3bb946f5",
+      "usd_sha256": "5c446cbd8889266d17d486ab9fc3c212c6feb6f6500bb09030db37c3a4f709ca",
+      "texture_sha256": "51dbd11e12fef062532dfd23fd596064d32e875645ea4932b9ec615e7a4ba7a8",
+      "object": "box",
+      "kind": "texture",
+      "meshy_task_id": "01a0a63a-925d-77c6-993b-836aa5f67190",
+      "uv_audit": {
+        "passed": true,
+        "max_bidirectional_position_uv_error": [
+          5.19298987623525e-08,
+          5.19298987623525e-08
+        ],
+        "tolerance": 2e-05,
+        "source_faces": 43720,
+        "generated_faces": 43720,
+        "source_longest_axis": 0.9955584704875946,
+        "generated_longest_axis": 1.9999999403953552,
+        "source_center": [
+          -0.001021161675453186,
+          -0.0007926076650619507,
+          -0.0008658319711685181
+        ],
+        "generated_center": [
+          -2.9802322387695312e-08,
+          0.0,
+          0.0
+        ],
+        "runtime_geometry": "original source USD; generated GLB is audit evidence only"
+      }
+    },
+    "box_scuffed": {
+      "usd_path": "lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/box_scuffed/object.usda",
+      "dimensions_m": [
+        0.0762,
+        0.0508,
+        0.0508
+      ],
+      "source_usd_sha256": "005d640e90458a022d4e1bfc2d265de15069c58ef25e23012c020bee3bb946f5",
+      "usd_sha256": "3089bf9083313bf84d00a7d32bf8345440a0796cbf328d9e1a9698c510862940",
+      "texture_sha256": "fd7883f0bbda84a3cb24a74dc747f5107e584a3a043cf62eff176b5b4f3d27e6",
+      "object": "box",
+      "kind": "texture",
+      "meshy_task_id": "01a0a63a-9a60-72a4-afc4-98c0845665cd",
+      "uv_audit": {
+        "passed": true,
+        "max_bidirectional_position_uv_error": [
+          5.19298987623525e-08,
+          5.19298987623525e-08
+        ],
+        "tolerance": 2e-05,
+        "source_faces": 43720,
+        "generated_faces": 43720,
+        "source_longest_axis": 0.9955584704875946,
+        "generated_longest_axis": 1.9999999403953552,
+        "source_center": [
+          -0.001021161675453186,
+          -0.0007926076650619507,
+          -0.0008658319711685181
+        ],
+        "generated_center": [
+          -2.9802322387695312e-08,
+          0.0,
+          0.0
+        ],
+        "runtime_geometry": "original source USD; generated GLB is audit evidence only"
+      }
+    },
+    "bowl_speckle": {
+      "usd_path": "lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/bowl_speckle/object.usda",
+      "dimensions_m": [
+        0.127,
+        0.127,
+        0.0508
+      ],
+      "source_usd_sha256": "f998ef3ead744b888e4794064fb1a93038a60b4e894727b889cd492cbe3d68a5",
+      "usd_sha256": "2430cdc352b450f7d4abce82b1287c689142a1133ae77501a90f1fb0c79a625c",
+      "texture_sha256": "173665d62fcb2845541ce6660def05790c31345a0d7e825a21d28fb6a0646efa",
+      "object": "bowl",
+      "kind": "texture",
+      "meshy_task_id": "01a0a63a-059b-710b-ab0e-576cf39cc3a3",
+      "uv_audit": {
+        "passed": true,
+        "max_bidirectional_position_uv_error": [
+          4.0640779168328375e-08,
+          4.0640779168328375e-08
+        ],
+        "tolerance": 2e-05,
+        "source_faces": 9410,
+        "generated_faces": 9410,
+        "source_longest_axis": 0.9996824264526367,
+        "generated_longest_axis": 2.0,
+        "source_center": [
+          -6.38812780380249e-05,
+          0.0032819807529449463,
+          -0.00019758939743041992
+        ],
+        "generated_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "runtime_geometry": "original source USD; generated GLB is audit evidence only"
+      }
+    },
+    "bowl_brushed": {
+      "usd_path": "lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/bowl_brushed/object.usda",
+      "dimensions_m": [
+        0.127,
+        0.127,
+        0.0508
+      ],
+      "source_usd_sha256": "f998ef3ead744b888e4794064fb1a93038a60b4e894727b889cd492cbe3d68a5",
+      "usd_sha256": "a2bbf8a4201a50447459ac5c027813991adf4ce149164144751070bc5903709f",
+      "texture_sha256": "d026e51947586f642493d371f3a7f26728a20a87e6937ec890f350cc782bc7a4",
+      "object": "bowl",
+      "kind": "texture",
+      "meshy_task_id": "01a0a63a-1d04-7786-ab58-3d0e783b7b17",
+      "uv_audit": {
+        "passed": true,
+        "max_bidirectional_position_uv_error": [
+          4.0640779168328375e-08,
+          4.0640779168328375e-08
+        ],
+        "tolerance": 2e-05,
+        "source_faces": 9410,
+        "generated_faces": 9410,
+        "source_longest_axis": 0.9996824264526367,
+        "generated_longest_axis": 2.0,
+        "source_center": [
+          -6.38812780380249e-05,
+          0.0032819807529449463,
+          -0.00019758939743041992
+        ],
+        "generated_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "runtime_geometry": "original source USD; generated GLB is audit evidence only"
+      }
+    },
+    "bowl_crackle": {
+      "usd_path": "lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/bowl_crackle/object.usda",
+      "dimensions_m": [
+        0.127,
+        0.127,
+        0.0508
+      ],
+      "source_usd_sha256": "f998ef3ead744b888e4794064fb1a93038a60b4e894727b889cd492cbe3d68a5",
+      "usd_sha256": "360543bf84fce8e39bae527f7946ddd601cbcf0c4789e4c05ddb15d09d39cb32",
+      "texture_sha256": "48c1051e428f7f2ac0fe1501b057751e52b43b8ac804ddc9bf209cd295a7bdc4",
+      "object": "bowl",
+      "kind": "texture",
+      "meshy_task_id": "01a0a63a-b0fd-72b3-87e2-e35d75ee74d5",
+      "uv_audit": {
+        "passed": true,
+        "max_bidirectional_position_uv_error": [
+          4.0640779168328375e-08,
+          4.0640779168328375e-08
+        ],
+        "tolerance": 2e-05,
+        "source_faces": 9410,
+        "generated_faces": 9410,
+        "source_longest_axis": 0.9996824264526367,
+        "generated_longest_axis": 2.0,
+        "source_center": [
+          -6.38812780380249e-05,
+          0.0032819807529449463,
+          -0.00019758939743041992
+        ],
+        "generated_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "runtime_geometry": "original source USD; generated GLB is audit evidence only"
+      }
+    },
+    "bowl_bands": {
+      "usd_path": "lerobot_agent_guide/runs/digital_sisters_nexigo_4k_v2/assets/bowl_bands/object.usda",
+      "dimensions_m": [
+        0.127,
+        0.127,
+        0.0508
+      ],
+      "source_usd_sha256": "f998ef3ead744b888e4794064fb1a93038a60b4e894727b889cd492cbe3d68a5",
+      "usd_sha256": "a020a4b1895393734074ee205c972deeac1c545caeba07d7f0aed6488ad34ff7",
+      "texture_sha256": "64749728d4025fd6ee34dcd9e1de72d5fbad2a0e31bb116e7eb87012292271ee",
+      "object": "bowl",
+      "kind": "texture",
+      "meshy_task_id": "01a0a63a-c66c-7412-bad3-249020decd13",
+      "uv_audit": {
+        "passed": true,
+        "max_bidirectional_position_uv_error": [
+          4.0640779168328375e-08,
+          4.0640779168328375e-08
+        ],
+        "tolerance": 2e-05,
+        "source_faces": 9410,
+        "generated_faces": 9410,
+        "source_longest_axis": 0.9996824264526367,
+        "generated_longest_axis": 2.0,
+        "source_center": [
+          -6.38812780380249e-05,
+          0.0032819807529449463,
+          -0.00019758939743041992
+        ],
+        "generated_center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "runtime_geometry": "original source USD; generated GLB is audit evidence only"
+      }
+    }
+  },
+  "visual_review": {
+    "accepted": true,
+    "source": "scene_review.json",
+    "views": 99
+  },
+  "original_geometry_and_collision_preserved": true,
+  "reused_from": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/digital_sisters_4k_v1",
+  "reused_at_utc": "2026-09-16T18:17:52.288614+00:00",
+  "reason": "Identical appearance interventions; fresh camera renders and rollouts"
+}

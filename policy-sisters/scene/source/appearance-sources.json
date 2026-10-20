@@ -1,0 +1,194 @@
+{
+  "sourceFiles": {
+    "source/appearance-asset-manifest.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/asset_manifest.json",
+      "sha256": "6d1f21880b8d1fef3c4f3f09f00f891ec447f3965376d1497d68409b50f185e7",
+      "bytes": 13532
+    },
+    "source/box_cool-config.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_cool.json",
+      "sha256": "3f19d79392b3e5421eef901eb57c1d43684fb72c6c6f0c6dd09a9a1d37ec93b2",
+      "bytes": 12041
+    },
+    "source/box_cool-mesh.json": {
+      "source": "/home/prime/Research/computational_robotics/scope/.scope-data/experiment-assets/objects/225125d425dde3a642a4b1b0f6f754f220ca2d6921caada5433ffcfa90c127bd/mesh.json",
+      "sha256": "5f2de509ca56fa103f336de33f850b084e059d94620d1c270460770a17e31751",
+      "bytes": 1498
+    },
+    "objects/box_cool.glb": {
+      "source": "/home/prime/Research/computational_robotics/scope/.scope-data/experiment-assets/objects/225125d425dde3a642a4b1b0f6f754f220ca2d6921caada5433ffcfa90c127bd/mesh.glb",
+      "sha256": "e38147b56b32f7259ee44612f6b49814b914ac66798b54104939141ed4bf20b5",
+      "bytes": 4056224
+    },
+    "source/box_fiber-config.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_fiber.json",
+      "sha256": "4f05e21cc467f68b9ef78b7365b226d8155435d1b130ddfa6fc370df82d00a63",
+      "bytes": 12042
+    },
+    "source/box_fiber-mesh.json": {
+      "source": "/home/prime/Research/computational_robotics/scope/.scope-data/experiment-assets/objects/26ed594a19aeab5cbfe97ef5dbdbcdb66f3a47db4e1bca6755240acd7545e8a1/mesh.json",
+      "sha256": "cc30267d74daaa95d79c7d774532845821209e93c3e39a8aa78224151e10a194",
+      "bytes": 1500
+    },
+    "objects/box_fiber.glb": {
+      "source": "/home/prime/Research/computational_robotics/scope/.scope-data/experiment-assets/objects/26ed594a19aeab5cbfe97ef5dbdbcdb66f3a47db4e1bca6755240acd7545e8a1/mesh.glb",
+      "sha256": "ac9f501de1d92b2eac46e09209839c35cecd05bf56c546bfde3942c16a8b893b",
+      "bytes": 6456432
+    },
+    "source/box_print-config.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_print.json",
+      "sha256": "4a99e4964da08e4bbe91fe72dbb2525ba95a08ad0a148dd1b1969d312f9ac3dc",
+      "bytes": 12042
+    },
+    "source/box_print-mesh.json": {
+      "source": "/home/prime/Research/computational_robotics/scope/.scope-data/experiment-assets/objects/1ec3318c048b12ae08463b8a2feb5d3961084f2ee0821ec9e9289c8515e1edba/mesh.json",
+      "sha256": "ef4a88aec146773beea59025bd8bc22a1dcd87c063c1d7fd833b396f7479f764",
+      "bytes": 1500
+    },
+    "objects/box_print.glb": {
+      "source": "/home/prime/Research/computational_robotics/scope/.scope-data/experiment-assets/objects/1ec3318c048b12ae08463b8a2feb5d3961084f2ee0821ec9e9289c8515e1edba/mesh.glb",
+      "sha256": "2da2b15cf04509748a7b07fd229e94c249d80b0ce1c3eeccd0d2fa4245ff8a90",
+      "bytes": 6121452
+    },
+    "source/appearance-configs/box_cool.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_cool.json",
+      "sha256": "3f19d79392b3e5421eef901eb57c1d43684fb72c6c6f0c6dd09a9a1d37ec93b2",
+      "bytes": 12041
+    },
+    "source/appearance-configs/box_cool__warm.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_cool__warm.json",
+      "sha256": "9d473634c16c80b29241c43a7d7f99415c2ab0e4a2eec760a19b1dfc742666d2",
+      "bytes": 12041
+    },
+    "source/appearance-configs/box_cool__cool.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_cool__cool.json",
+      "sha256": "909f71cf8cff52bbcdde63dfecea5107466484aebfd07cb5611d4f1358ad8985",
+      "bytes": 12055
+    },
+    "source/appearance-configs/box_cool__dim.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_cool__dim.json",
+      "sha256": "5df1f7d298f2e66ae0a6246a22858d854f418e8274c5ceda070cbfe3bd35b05a",
+      "bytes": 12042
+    },
+    "source/appearance-configs/box_cool__bright.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_cool__bright.json",
+      "sha256": "21e627398a326c5199b1552d12ec820e3f059ebf65536d802bc95adfc58666e7",
+      "bytes": 12041
+    },
+    "source/appearance-configs/box_cool__key_left.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_cool__key_left.json",
+      "sha256": "9e902fd61ef85b51c7d47fa3b6bf97ce50124293df77e5d8fbf4ce6feb08dd94",
+      "bytes": 12054
+    },
+    "source/appearance-configs/box_cool__key_right.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_cool__key_right.json",
+      "sha256": "b7427a079e48830f8b1744df0135475d6963c31d02fde0c832f8baeb84841dd5",
+      "bytes": 12053
+    },
+    "source/appearance-configs/box_cool__backlit.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_cool__backlit.json",
+      "sha256": "b2cebc9ce2c6694710b1a8ef88cce803a79d96c34667854e088c276cbbb67c90",
+      "bytes": 12044
+    },
+    "source/appearance-configs/box_cool__spotlight.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_cool__spotlight.json",
+      "sha256": "67cec24991acdb5af0c25f2ae43d5e11faa144e5b9db8ec541a08672f6d748f5",
+      "bytes": 12097
+    },
+    "source/appearance-configs/box_fiber.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_fiber.json",
+      "sha256": "4f05e21cc467f68b9ef78b7365b226d8155435d1b130ddfa6fc370df82d00a63",
+      "bytes": 12042
+    },
+    "source/appearance-configs/box_fiber__warm.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_fiber__warm.json",
+      "sha256": "7df8c4611e87807f1fcbc871f12a09bbce2aa60aa0adb8b16cd03b7ab673bc6c",
+      "bytes": 12042
+    },
+    "source/appearance-configs/box_fiber__cool.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_fiber__cool.json",
+      "sha256": "d78a610a3abce11a3c97efcdf153793aecb35b02fc7f933809b05d75289b8db6",
+      "bytes": 12056
+    },
+    "source/appearance-configs/box_fiber__dim.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_fiber__dim.json",
+      "sha256": "c04d6e3309ba55602417f8e37a3f64972f6d6aab10aeb45c102b0444196b248c",
+      "bytes": 12043
+    },
+    "source/appearance-configs/box_fiber__bright.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_fiber__bright.json",
+      "sha256": "9c3eb311a0e18c4fdfa0acc527e729909877a86050ce741042aff5ee407253c2",
+      "bytes": 12042
+    },
+    "source/appearance-configs/box_fiber__key_left.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_fiber__key_left.json",
+      "sha256": "2328f75a7c6b132d1d96f2f39b4d1e4d9947b4b3b83c5a67248013ca464204a8",
+      "bytes": 12055
+    },
+    "source/appearance-configs/box_fiber__key_right.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_fiber__key_right.json",
+      "sha256": "27b7910ebc505d0cf8611a26ac09ee130f00124e12dd51091d0ee267c5f93616",
+      "bytes": 12054
+    },
+    "source/appearance-configs/box_fiber__backlit.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_fiber__backlit.json",
+      "sha256": "51be747395e5575d93a0ac8aa563ee1db2e8b418425f7fe6e7dbd55c548c6d22",
+      "bytes": 12045
+    },
+    "source/appearance-configs/box_fiber__spotlight.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_fiber__spotlight.json",
+      "sha256": "d4f73c92dfe6dff2996582150314ec28c327c99862e2e8121ffd6df85c365ac3",
+      "bytes": 12098
+    },
+    "source/appearance-configs/box_print.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_print.json",
+      "sha256": "4a99e4964da08e4bbe91fe72dbb2525ba95a08ad0a148dd1b1969d312f9ac3dc",
+      "bytes": 12042
+    },
+    "source/appearance-configs/box_print__warm.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_print__warm.json",
+      "sha256": "8ee28c26a60d5d5c7e209d32c13a2d1954a508b81ec35ba1c18144541697c297",
+      "bytes": 12042
+    },
+    "source/appearance-configs/box_print__cool.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_print__cool.json",
+      "sha256": "39c612e6fdca1822ff60813efd13531e05f710198815bca82213d656ba76558b",
+      "bytes": 12056
+    },
+    "source/appearance-configs/box_print__dim.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_print__dim.json",
+      "sha256": "0dc22dfa3dd62a6729c813373978064874306ba835467dc5d2a2c4ea6d290a6c",
+      "bytes": 12043
+    },
+    "source/appearance-configs/box_print__bright.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_print__bright.json",
+      "sha256": "b83070db9575e02ac7d066b60e9096dd6aa9dd169b76776fa4a00eb1c7522e11",
+      "bytes": 12042
+    },
+    "source/appearance-configs/box_print__key_left.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_print__key_left.json",
+      "sha256": "31e5a42678cfc57f270ab026e64bf9bc2d786b03d8e78a06f2eaab31a975ebef",
+      "bytes": 12055
+    },
+    "source/appearance-configs/box_print__key_right.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_print__key_right.json",
+      "sha256": "d07f8832b18f997e318813a62ef109d552c1915e206b904aa6fec46694b3be80",
+      "bytes": 12054
+    },
+    "source/appearance-configs/box_print__backlit.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_print__backlit.json",
+      "sha256": "d6da1f6088111dc078828114d7609178b89cea2d54a77ffac6beebc2db30c310",
+      "bytes": 12045
+    },
+    "source/appearance-configs/box_print__spotlight.json": {
+      "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/pi05_raw_camera_sisters_20260925/scenes/box_print__spotlight.json",
+      "sha256": "3d5d7be6f150ca244e0c212a1a575f4f3fbc85ca66b7c280089bf3ee238c31d9",
+      "bytes": 12098
+    }
+  },
+  "variants": {
+    "box_cool": "225125d425dde3a642a4b1b0f6f754f220ca2d6921caada5433ffcfa90c127bd",
+    "box_fiber": "26ed594a19aeab5cbfe97ef5dbdbcdb66f3a47db4e1bca6755240acd7545e8a1",
+    "box_print": "1ec3318c048b12ae08463b8a2feb5d3961084f2ee0821ec9e9289c8515e1edba"
+  }
+}

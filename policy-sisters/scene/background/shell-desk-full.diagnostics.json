@@ -1,0 +1,86 @@
+{
+  "schema": "sceneagent.complete_gaussian_spz_export.v1",
+  "source": {
+    "path": "/Users/lrh/Research/computational_robotics/data/shell_desk/real2sim/background/scene_gaussians_full.ply",
+    "sha256": "f5bf73472796beffa5cf1775c8a6e208918c6907daeb28ff12f291f983075ab7",
+    "bytes": 95701209
+  },
+  "output": {
+    "file": "shell-desk-full.spz",
+    "format": "spz",
+    "version": 3,
+    "sha256": "bc0c1dadc44eaae0f6ee05951d5724df87d05ef4acad7ba8d42e1c19b207aec1",
+    "bytes": 17038111
+  },
+  "gaussianCount": 385885,
+  "shDegree": 3,
+  "shCoefficientsPerGaussian": 45,
+  "allGaussiansRetainedInOriginalOrder": true,
+  "crop": false,
+  "decimation": false,
+  "encoding": "SPZ v3; full SH3 with no optional 5/4-bit SH reduction; 16 fractional position bits. Numerical quantization is explicit; the original PLY is unchanged.",
+  "position": {
+    "fractionalBits": 16,
+    "sourceUnitsPerStep": 1.52587890625e-05,
+    "absoluteAxisError": {
+      "p50": 3.814697265625e-06,
+      "p95": 7.271766662597656e-06,
+      "p99": 7.569789886474609e-06,
+      "max": 7.62939453125e-06
+    }
+  },
+  "scale": {
+    "logStep": 0.0625,
+    "clippedComponents": 117007,
+    "affectedGaussians": 110347,
+    "sourceMinimumSigma": 5.0882892715854004e-15,
+    "decodedMinimumNonzeroSigma": 4.5399929762484854e-05,
+    "nonclippedRelativeError": {
+      "p50": 0.01561903956453381,
+      "p95": 0.02968145374027742,
+      "p99": 0.03110404001503486,
+      "max": 0.03174340749910276
+    }
+  },
+  "dcColor": {
+    "clippedComponents": 8934,
+    "affectedGaussians": 3968,
+    "coefficientAbsoluteError": {
+      "p50": 0.006589689675499388,
+      "p95": 0.012518450793098023,
+      "p99": 0.013040780339365695,
+      "max": 6.899349848429361
+    },
+    "decodedCoefficientRange": [
+      -3.3333333333333335,
+      3.3333333333333335
+    ]
+  },
+  "higherOrderSh": {
+    "clippedComponents": 2,
+    "affectedGaussians": 2,
+    "coefficientAbsoluteError": {
+      "p50": 0.001856580376625061,
+      "p95": 0.0037004612386226654,
+      "p99": 0.003865167498588562,
+      "max": 0.019314289093017578
+    }
+  },
+  "opacityAbsoluteError": {
+    "p50": 0.0005316727474248715,
+    "p95": 0.0018099873468542915,
+    "p99": 0.001930748585080465,
+    "max": 0.0019607831802001124
+  },
+  "orientationErrorDegrees": {
+    "p50": 0.08536988065707948,
+    "p95": 0.12802971853960468,
+    "p99": 0.15113413772314033,
+    "max": 0.2334732710690689
+  },
+  "validation": "Decoded all Gaussians and every SH coefficient; count, order, degree and finite values checked. Visual equivalence requires a same-view browser comparison before manifest promotion.",
+  "encoder": {
+    "scriptSha256": "7f84bc5c0f26cfe98a9a7dec27ab2560b6de256d99aab6bddd1655c96f93fe38",
+    "packingModuleSha256": "45e0cdc2946a05f85f53c3317eb676d6d5f3326333b21651f527293f2f60c979"
+  }
+}

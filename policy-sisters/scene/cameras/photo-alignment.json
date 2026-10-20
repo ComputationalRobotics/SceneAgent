@@ -1,0 +1,32 @@
+{
+  "schema": "sceneagent.photo_referenced_rig_alignment.v1",
+  "transform": {
+    "position_xyz": [
+      -0.0103273696,
+      -0.0382757595,
+      -0.027
+    ],
+    "rotation_wxyz": [
+      0.9962540985,
+      0.0,
+      0.0,
+      -0.0864741067
+    ],
+    "uniform_scale": 1
+  },
+  "robotBaseYawOffsetDeg": 8.9616,
+  "robotBaseOffsetXYZ": [
+    0,
+    0,
+    0
+  ],
+  "referencePhotos": [
+    "IMG_6974.HEIC",
+    "IMG_7035 (1).HEIC"
+  ],
+  "reason": "Both supplied photographs show both bases bolted to the black perforated plate, with the complete plate tucked toward the back/wall edge. Shift the entire displayed rig 85mm toward world -X; do not move the arms off their plate.",
+  "capturedRackBackEdgeXM": -0.108,
+  "estimatedPlateBackEdgeXM": -0.085,
+  "estimatedBackClearanceM": 0.023,
+  "status": "Presentation-only photo and Gaussian-capture estimate; source transforms, joint poses, camera records and evaluation scores remain unchanged."
+}

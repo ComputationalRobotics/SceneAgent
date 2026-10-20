@@ -1,0 +1,216 @@
+{
+  "schema": "sceneagent.photo_referenced_camera_mounts.v1",
+  "sourceBaselineSha256": "3ec6c49b1514d0fdab1c35fb19e8bf82587437ae77bd1964c37ba31cdd02b7c2",
+  "sourcePhotos": [
+    {
+      "name": "IMG_6974.HEIC",
+      "sha256": "9c8ee756bea5a45d74846c9e1d136bda4951c5fee6e30d59a8c63a8358a6a5ce",
+      "bytes": 2292069
+    },
+    {
+      "name": "IMG_7035 (1).HEIC",
+      "sha256": "9ea86490f4063b8d492d853a0a9b40cced451f9346270d57fc6c0676d9e878c0",
+      "bytes": 3059918
+    }
+  ],
+  "sourceCameraGeometry": "Exact policyCameras external_left and external_right optical centres and rotations from the archived baseline.",
+  "orientationConversion": "Source ROS wxyz [w,x,y,z] to Three/OpenGL wxyz [-x,w,z,-y], identical to Scope experiment_family.py.",
+  "visualApproximation": "Photo-referenced NexiGo-style black housings, front grille, lens and status LED, hinged monitor clip, ball head, telescopic articulated pole, screw clamp, adjustment knobs and cables. Dimensions and support placement are visual estimates; these are not manufacturer CAD or calibrated mount geometry.",
+  "displayAlignmentUsedForClampAnchors": {
+    "position_xyz": [
+      -0.0103273696,
+      -0.0382757595,
+      -0.027
+    ],
+    "rotation_wxyz": [
+      0.9962540985,
+      0.0,
+      0.0,
+      -0.0864741067
+    ]
+  },
+  "props": [
+    {
+      "id": "external_left",
+      "label": "External Left camera and support arm",
+      "mesh": "cameras/external_left-camera-mount.glb",
+      "sha256": "361ca5984299a61f02c7b43c0cc6dfad1bfbf1b25e2d536554c67425dfe42bce",
+      "bytes": 164416,
+      "meshParts": 146,
+      "triangles": 8550,
+      "transform": {
+        "position_xyz": [
+          0,
+          0,
+          0
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "uniform_scale": 1
+      },
+      "coordinateFrame": "Rig-local metres; apply the same presentation displayAlignment group once.",
+      "sourceEyeM": [
+        0.3582038639576451,
+        0.551183859843003,
+        0.2217583550384998
+      ],
+      "sourceQuaternionWxyz": [
+        -0.23050756015662158,
+        0.28538249506524604,
+        0.7832488278503639,
+        -0.5019406039483234
+      ],
+      "sourceCameraConvention": "ros",
+      "estimatedMount": {
+        "anchorWorldM": [
+          0.3,
+          0.326,
+          -0.04
+        ],
+        "anchorRigLocalM": [
+          0.24292140866086726,
+          0.41229733748397746,
+          -0.013000000000000001
+        ],
+        "postBottomRigLocalM": [
+          0.23982000206487666,
+          0.4300281377232883,
+          -0.0020000000000000018
+        ],
+        "elbowRigLocalM": [
+          0.23982000206487666,
+          0.4300281377232883,
+          0.103
+        ],
+        "headRigLocalM": [
+          0.39531762233968304,
+          0.5964252393929479,
+          0.17390664122198599
+        ],
+        "cameraFrameQuaternionWxyz": [
+          -0.28538249506524604,
+          -0.23050756015662158,
+          -0.5019406039483234,
+          -0.7832488278503639
+        ],
+        "cameraOpticalCenterRigLocalM": [
+          0.3582038639576451,
+          0.551183859843003,
+          0.2217583550384998
+        ],
+        "nominalHousingSizeM": [
+          0.077,
+          0.046,
+          0.039
+        ]
+      },
+      "boundsRigLocalM": [
+        [
+          0.19864646216761844,
+          0.3645243301329086,
+          -0.15306582657942094
+        ],
+        [
+          0.4360963946106573,
+          0.6329573392003474,
+          0.2618907257844299
+        ]
+      ]
+    },
+    {
+      "id": "external_right",
+      "label": "External Right camera and support arm",
+      "mesh": "cameras/external_right-camera-mount.glb",
+      "sha256": "4f40d0bccf2aab210ed5d97cce162fd36aab681800ea5974971618596af4cd74",
+      "bytes": 164568,
+      "meshParts": 146,
+      "triangles": 8550,
+      "transform": {
+        "position_xyz": [
+          0,
+          0,
+          0
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "uniform_scale": 1
+      },
+      "coordinateFrame": "Rig-local metres; apply the same presentation displayAlignment group once.",
+      "sourceEyeM": [
+        0.4338089710022948,
+        -0.16340822398066693,
+        0.3060954167631138
+      ],
+      "sourceQuaternionWxyz": [
+        -0.42718141082260286,
+        0.7786469332205398,
+        0.42989715209067253,
+        -0.16252210390647784
+      ],
+      "sourceCameraConvention": "ros",
+      "estimatedMount": {
+        "anchorWorldM": [
+          0.28,
+          -0.204,
+          -0.036
+        ],
+        "anchorRigLocalM": [
+          0.3145397137213558,
+          -0.11322223244683188,
+          -0.008999999999999998
+        ],
+        "postBottomRigLocalM": [
+          0.31764112031734637,
+          -0.13095303268614275,
+          0.0020000000000000018
+        ],
+        "elbowRigLocalM": [
+          0.31764112031734637,
+          -0.13095303268614275,
+          0.19753876712071233
+        ],
+        "headRigLocalM": [
+          0.4910741344599463,
+          -0.19958352382663336,
+          0.27253876712071234
+        ],
+        "cameraFrameQuaternionWxyz": [
+          -0.7786469332205398,
+          -0.42718141082260286,
+          -0.16252210390647784,
+          -0.42989715209067253
+        ],
+        "cameraOpticalCenterRigLocalM": [
+          0.4338089710022948,
+          -0.16340822398066693,
+          0.3060954167631138
+        ],
+        "nominalHousingSizeM": [
+          0.077,
+          0.046,
+          0.039
+        ]
+      },
+      "boundsRigLocalM": [
+        [
+          0.27910414024725283,
+          -0.237789821374871,
+          -0.1490646296866054
+        ],
+        [
+          0.5188764371203431,
+          -0.06544922509576298,
+          0.3531165031896349
+        ]
+      ]
+    }
+  ]
+}

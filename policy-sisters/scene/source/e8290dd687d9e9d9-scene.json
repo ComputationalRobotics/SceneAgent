@@ -1,0 +1,295 @@
+{
+  "schema": "computational_robotics.space_scene.v1",
+  "space": "Box & bowl rig",
+  "assets": {
+    "full_3dgs_ply": "/home/prime/Research/computational_robotics/data_processed/shell_desk/3dgs/shell_desk_full_scene.ply",
+    "background_3dgs_ply": "/home/prime/Research/computational_robotics/data_processed/shell_desk/3dgs/shell_desk_background_only.ply"
+  },
+  "objects": [
+    {
+      "object_id": "box",
+      "name": "White box",
+      "mesh_glb": "/home/prime/Research/computational_robotics/scope/.scope-data/experiment-assets/objects/14985fe09ea0d2b7ed4faf4f0014404ccd86c0a3e0978e7e51f3c0d527159377/mesh.glb",
+      "transform": {
+        "position_xyz": [
+          0.18669574297501898,
+          0.030589507634750275,
+          0.0073120028188533685
+        ],
+        "rotation_wxyz": [
+          0.32401762432432246,
+          0.0,
+          0.0,
+          0.9460510446731837
+        ],
+        "scale_xyz": [
+          0.9999999876410318,
+          0.8075066152811289,
+          0.9341623282700451
+        ]
+      },
+      "render_visible": true,
+      "source_usd": "/home/prime/Research/computational_robotics/lerobot_agent_guide/assets/small_white_box.usda"
+    },
+    {
+      "object_id": "bowl",
+      "name": "White bowl",
+      "mesh_glb": "/home/prime/Research/computational_robotics/scope/.scope-data/experiment-assets/objects/fb135cf27137ba52515afc3f1ebca02c0210e95589ac83c09e72737b2c1bfcaf/mesh.glb",
+      "transform": {
+        "position_xyz": [
+          0.16528542896548976,
+          0.20695575387662318,
+          0.010219738924456453
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "scale_xyz": [
+          0.999999968085703,
+          0.999999968085703,
+          1.048640129086724
+        ]
+      },
+      "render_visible": true,
+      "source_usd": "/home/prime/Research/computational_robotics/lerobot_agent_guide/assets/small_white_bowl.usda"
+    },
+    {
+      "object_id": "table",
+      "name": "Table",
+      "mesh_glb": "/home/prime/Research/computational_robotics/scope/.scope-data/experiment-assets/table.glb",
+      "transform": {
+        "position_xyz": [
+          0.07246144438938856,
+          0.1300139382248584,
+          -0.021415720032451648
+        ],
+        "rotation_wxyz": [
+          0.9999771431518393,
+          0.0,
+          0.0,
+          -0.006761151816518181
+        ],
+        "scale_xyz": [
+          0.5457813691533361,
+          0.6545519696484252,
+          0.5
+        ]
+      },
+      "render_visible": true
+    }
+  ],
+  "experiment_source": {
+    "experiment_id": "digital_sisters_lighting_10ep_4k_v4--6ae013dc1b",
+    "experiment_title": "Object sisters \u00d7 severe lighting \u00b7 10 trials",
+    "scene_id": "baseline",
+    "scene_label": "Original objects \u00b7 Neutral",
+    "protocol_sha256": "a7dc009e35fed95514675e147dbdc171fa3e47755723b33777fd24da605c7dc3",
+    "scene_sha256": "9cf00f3d144eab4a66229085c2e23432d60542d65c19a943c6d9bc807514c503",
+    "source_config": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/digital_sisters_lighting_10ep_4k_v4/scenes/baseline.json",
+    "start_pose_sha256": "a7e7143746747f67c46d4b97b2ae1917106ecc296cfce4381bf38bdc41dbc90d",
+    "editable_copy": true,
+    "version": 1,
+    "desk_capture": {
+      "scene_dir": "/home/prime/Research/computational_robotics/data_processed/shell_desk",
+      "manifest": "/home/prime/Research/computational_robotics/data_processed/shell_desk/scene.json.editor-original.json",
+      "manifest_sha256": "cd705a044bcacb226cbcdfeefcb3acf17977f5096e97c526e8daef7e197ed2f3",
+      "full_splat_sha256": "f5bf73472796beffa5cf1775c8a6e208918c6907daeb28ff12f291f983075ab7",
+      "transform": {
+        "position_xyz": [
+          -0.05,
+          -0.2,
+          -1.32
+        ],
+        "rotation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "uniform_scale": 1.206849951513535
+      },
+      "role": "Editor context from the desk capture; not part of recorded policy observations"
+    },
+    "rig_context": {
+      "profile": "/home/prime/Research/computational_robotics/lerobot_agent_guide/config/right_rig_context_20260917.json",
+      "sha256": "1faade114ed041adeea0616b94f5f864ddafde23c1d81d5f708ab6ed3dbd9933",
+      "registration_status": "estimated_unvalidated",
+      "policy_robot_id": "so101_left",
+      "policy_camera_roles": [
+        "external_left",
+        "external_right",
+        "left_wrist"
+      ],
+      "observer_camera_roles": [
+        "right_wrist"
+      ]
+    }
+  },
+  "experiment_lighting": {
+    "dome": {
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "temperature_kelvin": 6500,
+      "intensity": 1200,
+      "effective_color": [
+        1.0433334112167358,
+        0.9836244583129883,
+        1.0346132516860962
+      ]
+    },
+    "sources": [
+      {
+        "position_m": [
+          0.175,
+          -0.2,
+          0.6
+        ],
+        "target_m": [
+          0.175,
+          0.12,
+          0.025
+        ],
+        "width_m": 0.35,
+        "height_m": 0.35,
+        "intensity": 2400,
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "temperature_kelvin": 6500,
+        "effective_color": [
+          1.0433334112167358,
+          0.9836244583129883,
+          1.0346132516860962
+        ]
+      }
+    ]
+  },
+  "robots": {
+    "so101_left": {
+      "asset_id": "so101_experiment",
+      "name": "SO-101 left",
+      "joints": [
+        -0.36210787118299936,
+        -1.6095388003007047,
+        1.1806864698106696,
+        1.2719806152996036,
+        -1.5059698117208216,
+        0.7724241490630973
+      ],
+      "transform": {
+        "position_xyz": [
+          0,
+          0,
+          0
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "uniform_scale": 1
+      }
+    },
+    "so101_right": {
+      "asset_id": "so101_experiment",
+      "name": "SO-101 right",
+      "transform": {
+        "position_xyz": [
+          -0.00011197437581987786,
+          0.26399532236209733,
+          0.0
+        ],
+        "rotation_wxyz": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "uniform_scale": 1
+      },
+      "joints": [
+        -0.379174526127472,
+        -1.4223401412920231,
+        0.08614656645580157,
+        1.4940013964501362,
+        -1.133245643516435,
+        0.3
+      ]
+    }
+  },
+  "camera_views": [
+    {
+      "name": "Photo reference",
+      "position_xyz": [
+        0.557204216431428,
+        0.8536770507440701,
+        0.49843084420254
+      ],
+      "target_xyz": [
+        0.2647957200093063,
+        0.17018447071170828,
+        0.08632022281447238
+      ],
+      "up_xyz": [
+        -0.2009137594460605,
+        -0.44135499087384855,
+        0.8745509895346272
+      ],
+      "fov_deg": 56.27270737795928
+    },
+    {
+      "name": "Experiment overview",
+      "position_xyz": [
+        0.75,
+        -0.75,
+        0.55
+      ],
+      "target_xyz": [
+        0.13,
+        0.12,
+        0.11
+      ],
+      "fov_deg": 48
+    }
+  ],
+  "background": {
+    "position_xyz": [
+      0.2673775939635033,
+      0.2511386395016134,
+      -0.8402232538284636
+    ],
+    "rotation_wxyz": [
+      0.20369162630862078,
+      0.0,
+      0.0,
+      0.9790350971092656
+    ],
+    "uniform_scale": 0.7851333992074111
+  },
+  "scene_family": {
+    "name": "Box & bowl rig",
+    "sister_count": 210,
+    "experiments": [
+      {
+        "experiment_id": "digital_sisters_lighting_10ep_4k_v4--6ae013dc1b",
+        "title": "Object sisters \u00d7 severe lighting \u00b7 10 trials",
+        "sister_count": 210,
+        "manifest": "/home/prime/Research/computational_robotics/data_processed/box_bowl_rig/cousins/experiments/digital_sisters_lighting_10ep_4k_v4--6ae013dc1b.json"
+      }
+    ],
+    "camera_geometry_sha256": "436b7f48777766db523cb003ba3502e95e3f18d630332ba2608b2b6bdf348c51"
+  },
+  "display_registration": {
+    "source": "/home/prime/Research/computational_robotics/lerobot_agent_guide/runs/sceneagent_rig_photo_20260917/registration.json",
+    "status": "estimated_from_photo_not_hardware_calibration"
+  }
+}

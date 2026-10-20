@@ -1,0 +1,195 @@
+{
+  "schema": "sceneagent.policy_workflow_web_assets.v1",
+  "kind": "Source-derived schematic method illustrations; no empirical outcomes",
+  "rebuild": "python3 website/scripts/sync_policy_workflow.py",
+  "verify": "python3 website/scripts/sync_policy_workflow.py --check",
+  "renderer": "publication/rss2027/figures/build_figx_autoresearch.py:robot",
+  "format": "native SVG paths with transparent backgrounds",
+  "viewBox": [
+    0,
+    0,
+    356,
+    240
+  ],
+  "detail_viewBox": [
+    1460,
+    700,
+    660,
+    880
+  ],
+  "styling": {
+    "outer_stroke": 1.12,
+    "crease_stroke": 0.66,
+    "ink": "#111111",
+    "failure_accent": "#a51c30",
+    "rendered_text": false,
+    "flow_arrows": false
+  },
+  "source_sha256": {
+    "publication/rss2027/figures/autoresearch_flower_assets/attempt/provenance.json": "ab48037c9995992a759c2580f5b449b29bbd33a4b53cbc86f1396869f992d80c",
+    "publication/rss2027/figures/autoresearch_flower_assets/attempt.svg": "38e73d467401b6ac9a76413e579269928ad3a6190bc38f18e4fa551b1fb71aa1",
+    "publication/rss2027/figures/autoresearch_flower_assets/delivery_sha256.json": "9d4de43f610d251ab2805f97f56822c37c8d328aa638e7352c2f54ea3153f416",
+    "publication/rss2027/figures/autoresearch_flower_assets/failure/provenance.json": "529357d14ef7eda563434331fdd6fe2dec8279785d9264f4934f1f01ebfa8f0d",
+    "publication/rss2027/figures/autoresearch_flower_assets/failure.svg": "c9819effe6a9f88b6318c9c00d6e834c7d89a7f418ff6dc8dfbf2894e211c7d1",
+    "publication/rss2027/figures/autoresearch_flower_assets/sister_01/provenance.json": "0663a19b0140ee080ea15bf62325a1144383509f10f02a99063dbdf7f6ac05aa",
+    "publication/rss2027/figures/autoresearch_flower_assets/sister_01.svg": "13a0b03cefed7318eb7eaeb20123d28a1a54ebe2f0a207383317e955a5ef3748",
+    "publication/rss2027/figures/autoresearch_flower_assets/sister_03/provenance.json": "cf83a93b81d3a73d75456899f884aedeb1d88ba215b92132da27ad7c776547e1",
+    "publication/rss2027/figures/autoresearch_flower_assets/sister_03.svg": "43b7630e5cab08189ac050be9dc533817c5984f732c0439c409adf08e7f03363",
+    "publication/rss2027/figures/autoresearch_flower_assets/sister_04/provenance.json": "c80e964f543bff96851b354b47f797d2b14d57161bdef6fc5987ec362c077beb",
+    "publication/rss2027/figures/autoresearch_flower_assets/sister_04.svg": "c749f49699e5c9f1d80557a1809e6f0e6dbff9b6f24df71f18a79d91b67f3373",
+    "publication/rss2027/figures/autoresearch_flower_assets/sister_06/provenance.json": "d59910abca075980888a9aaf3b5ac40f55389a5ef452b435fa2ab22581f9c451",
+    "publication/rss2027/figures/autoresearch_flower_assets/sister_06.svg": "2cd24c25fa0fd13c16bc69f5c0554a6c355ad62395845cb6118254beaf5d19e1",
+    "publication/rss2027/figures/autoresearch_flower_assets/source_sha256.json": "5e77cce7088245eab171dd72c7d3cd2d42c37abb26871f9764a36c16b9d1fe1d",
+    "publication/rss2027/figures/autoresearch_flower_assets/success/provenance.json": "2e52bd3d67045e311b0cead68a9edbd10f93b80600581c1d0e2a8e336c532dc6",
+    "publication/rss2027/figures/autoresearch_flower_assets/success.svg": "80084e86b3a2893ea5388d3c74d2e839d59bf39d49740cc3438185b9ffca7e47",
+    "publication/rss2027/figures/autoresearch_flower_assets/task_detail_bounds.json": "d12fd2cd7148148bba84723943c1e07ebbea92498bfda4719b1e71e3daf43c83",
+    "publication/rss2027/figures/autoresearch_flower_assets/transport/provenance.json": "f57c85b105d9a8c0659af03caf875a596405d4fd795116d85ecb101db08be630",
+    "publication/rss2027/figures/autoresearch_flower_assets/transport.svg": "0ae5753e565783ab953355eda8da3b3a4507e55c779e6a1f4f4d15af1edf0a6a",
+    "publication/rss2027/figures/autoresearch_flower_assets/verification.json": "b0e9e73fb8c15509d4fa8c959c09819e9e3154451ac2429e1d847375de689767",
+    "publication/rss2027/figures/build_figx_autoresearch.py": "4ff61fafcae2bd31e3f740ad4236103195d8af76149fe1214b88d012364c4d60",
+    "website/scripts/sync_policy_workflow.py": "cc9e6fee986682770b5a06746fd2dbf4722aeaca05229e1b0b7f1bba0c5234cb"
+  },
+  "upstream_geometry_sha256": {
+    "3dmodels/robots/panda_sharpa/panda_sharpa.json": "a9cbe363df0b828fa17c28f0f4f95fee12066783026d94d5b59aab89730b0e8d",
+    "data_processed/botanical_house/assets/flower/flower_in_glass.glb": "400353f602cfc6f9bb38015f1a0ee48bb80d85b3c42f62956f5b3a6d825dbce8",
+    "data_processed/botanical_house/assets/flower/flower_manifest.json": "c0749c4eb569fba99bd09701c1434047611db5649400cdc2cbe6f9aad0e7fce0",
+    "isaac_lab_scenes/isaac_lab_scenes/sharpa.py": "7d77980840be81d71a0c60d200d027377ef960e10471272eddac61fb21edb4f8",
+    "isaac_lab_scenes/isaac_lab_scenes/panda.py": "eb1a6b6e635cb255a5243c770f8dc5e3d645840f68c079fa8d783b67994f5662",
+    "diagrams/concepts/redrawn/blender_npz.py": "87b5614767ca69fb97e3ed5a4335d0424d9ac18b4a1af43cdb83f75d5fd2d89b",
+    "diagrams/concepts/drawn/vectorise.py": "61af61028a3b770795015fa01d2a79723a723d94ecdcb805b877911b8e0e755e",
+    "publication/rss2027/figures/autoresearch_flower_assets/reference/palm_support_reference.png": "b0e6f6b4a9c3ee2f6399a1962cdebd5ace7ba884093272579f93a89d885e1c28",
+    "3dmodels/robots/franka_panda/franka_description/meshes/visual/link0.glb": "672626c2bbf38cd2ea28837e5dafdc2f264959761200177e9e256d532b9be4f9",
+    "3dmodels/robots/franka_panda/franka_description/meshes/visual/link1.glb": "8376fac9a80cd04767a3749a723a68809c5b85fe34110f056e83b9c984c1f052",
+    "3dmodels/robots/franka_panda/franka_description/meshes/visual/link2.glb": "bbab9909c2b0572d256cd60e6a9c1b63ca9b55047ac3da7124a99b8b1fe6b8fc",
+    "3dmodels/robots/franka_panda/franka_description/meshes/visual/link3.glb": "f904d2d91255086a5706ca9c039cac62de4b7877b4a91b8ef387f461b9fa915b",
+    "3dmodels/robots/franka_panda/franka_description/meshes/visual/link4.glb": "3e301a20f05f81d007741c2f8e199452a705ec4a489b729ff389ef14769c2283",
+    "3dmodels/robots/franka_panda/franka_description/meshes/visual/link5.glb": "80d620e7d92b38a90a9ff2536e2d278cf2d0fa665f6bf4982e7069589b5cbb02",
+    "3dmodels/robots/franka_panda/franka_description/meshes/visual/link6.glb": "20f04024218fdafdf41926143e9038b970e27f0c84f574d34c2dd05df6a7a74f",
+    "3dmodels/robots/franka_panda/franka_description/meshes/visual/link7.glb": "a207703b9d6d28c186949619e5c424072ee8331b8d51d6256ace975816a94a15",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/flange_B_cad1ee.glb": "e8db9d4ae442949e2a2d4ada0f1adafb0d69b445f33b81b8f2ce3e14900e1baf",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/wrist_B_cad1ee.glb": "3abc5c041100b97e2ec5d3ad9d6052dc52ae76c63e4d29db581c590289118c25",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/right_hand_C_MC_visual_cad1ee.glb": "65336ac16bb060583f4fa644ee7b3dbd282bf058f347513eeb434207cd414123",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/right_thumb_CMC_VL_visual_cad1ee.glb": "1f319d029cac916843abe6126990cbab37015c812ba06c514ca2b140e372f64a",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/right_thumb_MC_visual_cad1ee.glb": "d96a5dffca0b42eea0422ed0f2277925ea8dfed6ed4216012b6c4f575f154572",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/right_thumb_MCP_VL_visual_cad1ee.glb": "fb13379533a767a7370953b426ba3d5b38c63c293e160249965d00c2e251a0b6",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/right_thumb_PP_visual_cad1ee.glb": "8d20f2997ed627ee514a47855bac74131c027727e8d95f22b43109b924e67634",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/DP_Visual_HB1_TH_cad1ee.glb": "47992410c6acbdbb446c685987c3efd2d57f50c69d162e43b3d9c579e88950ae",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/elastomer_HB1_TH_33ff33.glb": "77df03a0a2e2e7760f8a4228cc0c1753d7d80bc08a01767ee994018810554e89",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/right_MCP_VL_visual_cad1ee.glb": "fe1396d44222498ae536e8cfd8a72e927f95416d84033114a25928f5b584e8a7",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/right_PP_visual_cad1ee.glb": "716fd2588741bfba22440fa6a0b7a4cdae518fb4f67674e33e7246066103b8f6",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/right_MP_visual_cad1ee.glb": "0130b7264a3246acbbeb8864fd78d1c402d36e5490c780434f87c7aa853d19cd",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/DP_visual_HB1_4F_cad1ee.glb": "39702768655a5449cf02b81bec43308a9ce037e1e9c3b5b432d866707f12a35c",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/elastomer_HB1_4F_33ff33.glb": "68876104a17b157388f7c5c826916b88954b80b6da102797183727da725ec57a",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/right_pinky_MC_visual_cad1ee.glb": "9366732fee2cfd69b123ce71c4bb2fb8fe6ab28c9f38bdf2f0b320da9b31d262",
+    "3dmodels/robots/sharpa_wave/right_sharpa_wave/glb/elastomer_HB1_4F_1aff33.glb": "f9d28b3776c7fb4da6d5d80b3181b12933aa9fcef71c0829e0dd5008490aacf5"
+  },
+  "stages": [
+    {
+      "id": "real-failure",
+      "url": "/policy-workflow/real-failure.svg",
+      "viewBox": [
+        0,
+        0,
+        356,
+        240
+      ],
+      "title": "Real-world evaluation",
+      "description": "A schematic failed thumb-and-index pinch leaves the flower in its glass.",
+      "source_scenes": [
+        "failure"
+      ],
+      "sha256": "964e7f87f036cc894f4c1f0ddf4ab3a96ee2fcd1e280b1a5098c8c7656f53d55",
+      "bytes": 32134
+    },
+    {
+      "id": "digital-sisters",
+      "url": "/policy-workflow/digital-sisters.svg",
+      "viewBox": [
+        0,
+        0,
+        356,
+        240
+      ],
+      "title": "Digital twin and sisters",
+      "description": "Four source-CAD task variants change flower and glass placement while keeping the same robot and camera scale.",
+      "source_scenes": [
+        "sister_01",
+        "sister_03",
+        "sister_04",
+        "sister_06"
+      ],
+      "sha256": "b2f794ab55578654648b1afbeb307e219524d3f6b9e671c0e8a421f9a0242cd6",
+      "bytes": 123340
+    },
+    {
+      "id": "simulation-evaluation",
+      "url": "/policy-workflow/simulation-evaluation.svg",
+      "viewBox": [
+        0,
+        0,
+        356,
+        240
+      ],
+      "title": "Policy evaluation in simulation",
+      "description": "The failed pinch is used as a schematic policy-evaluation example in simulation.",
+      "source_scenes": [
+        "failure"
+      ],
+      "sha256": "acf30925d81a8ee2d6544c4055423eedef09a01470518290d680ead8e8824a09",
+      "bytes": 32647
+    },
+    {
+      "id": "expert-revision",
+      "url": "/policy-workflow/expert-revision.svg",
+      "viewBox": [
+        0,
+        0,
+        356,
+        240
+      ],
+      "title": "Expert revision",
+      "description": "The corrected source-CAD hand supports the flower head from underneath, with the stem between the fingers.",
+      "source_scenes": [
+        "transport"
+      ],
+      "sha256": "1929132d5317de1f704a76a5269948067576b678cb99a5b34f09bb01bb59bf78",
+      "bytes": 31571
+    },
+    {
+      "id": "policy-training",
+      "url": "/policy-workflow/policy-training.svg",
+      "viewBox": [
+        0,
+        0,
+        356,
+        240
+      ],
+      "title": "Policy training",
+      "description": "Three fixed-scale hand details show approach, palm support, and full lift above the empty glass.",
+      "source_scenes": [
+        "attempt",
+        "transport",
+        "success"
+      ],
+      "sha256": "2f092a62837dbaa7061fb2bd2604a75ed3ed688a3533f71bb63142ada70568b5",
+      "bytes": 89235
+    },
+    {
+      "id": "real-improvement",
+      "url": "/policy-workflow/real-improvement.svg",
+      "viewBox": [
+        0,
+        0,
+        356,
+        240
+      ],
+      "title": "Real-world re-evaluation",
+      "description": "The intended palm-supported extraction is shown above the empty glass as a schematic method example, not a measured policy result.",
+      "source_scenes": [
+        "success"
+      ],
+      "sha256": "15a633510509e230ebb944136c661b1fb91e16d48dfc5e90c41dcc4f842094d8",
+      "bytes": 30875
+    }
+  ]
+}
