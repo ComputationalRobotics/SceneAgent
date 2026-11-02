@@ -1,5 +1,5 @@
 {
   "native_episode": "continuous_episode_r4",
-  "source": "reviewed film at 1.0s",
-  "image_sha256": "6ae59a8c47a2440626fb2b03b5ce1575ffc4697dd8165dbdac8d1f9d6e4310e9"
+  "source": "interactive viewer at stillTime 81 s, shot with scripts/shoot_pipeline_preview.mjs (REDUCED=1 GPU=1 observatory 4 20), cropped to the telescope and the Dexmate",
+  "image_sha256": "7982c6b13eb8fd36961e4c87cc7e7a2b42b83fbd84da41624b9e9abf11d79e2f"
 }
